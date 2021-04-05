@@ -64,7 +64,7 @@ async def _(event):
             await event.edit(animation_chars[i % 32])
 
 
-@register(outgoing=True, pattern='^.helikopter(?: |$)(.*)')
+@register(outgoing=True, pattern='^.heli(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("▬▬▬.◙.▬▬▬ \n"
@@ -79,10 +79,11 @@ async def typewriter(typew):
                      "╬═╬ \n"
                      "╬═╬ \n"
                      "╬═╬ \n"
-                     "╬═╬ Hallo Semuanya :) \n"
+                     "╬═╬ Hallo ANAK STRESS,AKU DATANG :) \n"
                      "╬═╬☻/ \n"
                      "╬═╬/▌ \n"
                      "╬═╬/ \\ \n")
+
 
 
 @register(outgoing=True, pattern='^.tembak(?: |$)(.*)')
@@ -98,7 +99,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.bundir(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Dadah Semuanya...`          \n　　　　　|"
+    await typew.edit("`DIDUGA BUNDIR KARNA DI GHOSTING...`          \n　　　　　|"
                      "\n　　　　　| \n"
                      "　　　　　| \n"
                      "　　　　　| \n"
@@ -112,16 +113,16 @@ async def typewriter(typew):
                      "＜ 、･　　|　　＼ \n"
                      "　＼＿＿／∪ _ ∪) \n"
                      "　　　　　 Ｕ Ｕ\n")
+                     
 
-
-@register(outgoing=True, pattern='^.awkwok(?: |$)(.*)')
+@register(outgoing=True, pattern='^.tawa(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("────██──────▀▀▀██\n"
                      "──▄▀█▄▄▄─────▄▀█▄▄▄\n"
                      "▄▀──█▄▄──────█─█▄▄\n"
                      "─▄▄▄▀──▀▄───▄▄▄▀──▀▄\n"
-                     "─▀───────▀▀─▀───────▀▀\n`Awkwokwokwok..`")
+                     "─▀───────▀▀─▀───────▀▀\n`Awkwokwokwok Dasar Stress..`")
 
 
 @register(outgoing=True, pattern='^.ular(?: |$)(.*)')
@@ -265,66 +266,89 @@ async def typewriter(typew):
                      "╨━━┗┛┗┛━━┗┛┗┛━━┻\n")
 
 
-@register(outgoing=True, pattern='^.bernyanyi(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gbn(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Ganteng Doang Gak Bernyanyi (ง˙o˙)ว**")
+    await typew.edit("`Memulai global banned...✅`")
     sleep(2)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("`Proses Global banned...✅`")
     sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
-    sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
-    sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
-    sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
-    sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
-    sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
-    sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
-    sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
-    sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
-    sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
-    sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
-    sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
-    sleep(1)
-    await typew.edit("**♪┏(・o･)┛♪┗ ( ･o･) ┓**")
-    sleep(1)
-    await typew.edit("**♪┗ ( ･o･) ┓♪┏ (・o･) ┛♪**")
+    await typew.edit("♛Perintah : `Tuan Ku`\n"
+                     "✣Pengguna :**Jamet Tolol!\n**"
+                     "✣Aksi     :`Global banned!`")
 
-
-@register(outgoing=True, pattern='^.foff(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gmt(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit(".                       /¯ )\n"
-                     "                      /¯  /\n"
-                     "                    /    /\n"
-                     "              /´¯/'   '/´¯¯`•¸\n"
-                     "          /'/   /    /       /¨¯\\ \n"
-                     "        ('(   (   (   (  ¯~/'  ')\n"
-                     "         \\                        /\n"
-                     "          \\                _.•´\n"
-                     "            \\              (\n"
-                     "              \\  ")
+    await typew.edit("`Memulai proses Global mute...`")
+    sleep(3)
+    await typew.edit("`Pengguna berhasil di Global mute bosss...!`")
 
+
+@register(outgoing=True, pattern='^.tolol(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`TOLOL...`")
+    sleep(2)
+    await typew.edit("`Pertama Kamu tolol....`")
+    sleep(1)
+    await typew.edit("`Kedua Kamu memang tolol...`")
+    sleep(1)
+    await typew.edit("`Ketiga Kamu benar benar tolol..`")
+    sleep(1)
+    await typew.edit("`Dan kamu di lahirkan Dalam keadaan tolol...`")
+    sleep(1)
+    await typew.edit("`Dasar kamu anak TOLOL...`")
+    sleep(1)
+    await typew.edit("`T`")
+    await typew.edit("`TO`")
+    await typew.edit("`TOL`")
+    await typew.edit("`TOLO`")
+    await typew.edit("`TOLOL`")
+    await typew.edit("`TOLOL!!!!`")
+
+@register(outgoing=True, pattern='^.uasu(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Memeriksa dyno heroku anda...`")
+    sleep(1)
+    await typew.edit("**STRESS USAGE:**\n"
+                     "╔════════════════════╗\n"
+                     "`✥Penggunaan dyno Anda:`\n"
+                     "**❉1000 Jam - 1000 Menit 100%**\n"
+                     " ✤⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉⑉✤\n"
+                     "✥ `Sisa dyno bulan ini:`\n"
+                     "**999999 jam - 999999 Menit 999%**\n"
+                     "╚════════════════════╝")
+
+@register(outgoing=True, pattern='^.oy(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Woi....**")
+    sleep(3)
+    await typew.edit("**Grup banyak anggota yakan**")
+    sleep(1)
+    await typew.edit("**Tapi ga ada yg nimbrung..**")
+    sleep(1)
+    await typew.edit("**Kan tolol bgt, Jadi sepi kan**")
+    sleep(1)
+    await typew.edit("**Nimbrung tololl, Nimbrung!!**")
+    sleep(1)
+    await typew.edit("**Sombong amat punya jempol,Gamau nimbrung**")
+    sleep(1)
+    await typew.edit("**Jempol lu kebas? Apa dah putus?**")
+    sleep(2)
+    await typew.edit("**NIMBRUNGGG GOBLOK!!!!**")
 CMD_HELP.update({
     "vip":
-    "`.bulan` ; `.hati` ; `.bernyanyi`\
-    \nPenjelasan: liat aja.\
-    \n\n`.helikopter` ; `.tank` ; `.tembak`\n`.bundir`\
-    \nPenjelasan: liat sendiri\
-    \n\n`.y`\
-    \nPenjelasan: jempol\
-    \n\n`.awkwok`\
-    \nPenjelasan: ketawa lari.\
-    \n\n`.ular` ; `.babi` ; `.foto` ; `.ajg`\
-    \nPenjelasan: liat sendiri."
+    "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
+    \nUsage: liat aja.\
+    \n\n`.heli` ; `.tank` ; `.tembak`\n`.bundir`\
+    \nUsage: liat sendiri.\
+    \n\n`.y` ; `.uasu`\
+    \nUsage: jempol & Cek dyno\
+    \n\n`.tawa` ; `.oy`\
+    \nUsage: ketawa lari & Nyuruh nimbrung.\
+    \n\n`.ular` ; `.babi` ; `.ajg`\
+    \nUsage: liat sendiri."
 })
