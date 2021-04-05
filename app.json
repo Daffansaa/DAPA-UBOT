@@ -1,6 +1,6 @@
 {
-  "name": "Lord-Userbot",
-  "description": "[Lord-Userbot] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "RAM-UBOT",
+  "description": "[RAM-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/62dc59b2013a48f9cc8f3.jpg",
   "keywords": [
     "telegram",
@@ -9,9 +9,9 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Zora24/Lord-Userbot",
-  "telegram": "https://t.me/liualvinas",
-  "success_url": "https://t.me/liualvinasmahaputra",
+  "repository": "https://github.com/ramadhani892/RAM-UBOT",
+  "telegram": "https://t.me/Ramadhaniiiiiii1",
+  "success_url": "https://t.me/teman_random",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -151,7 +151,7 @@
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
-      "value": "LORD-USERBOT",
+      "value": "@TEMAN_RANDOM",
       "required": false
     },
     "ALIVE_NAME": {
@@ -168,7 +168,7 @@
     },
     "G_BAN_LOGGER_GROUP": {
       "description": "Buatlah Sebuah Grup Private/Public Lalu Masukkan Bot Rose Lalu Ketik /id.",
-      "value": "Isi id grup mu",
+      "value": "Isi id grup lu tolol",
       "required": false
     },
     "G_DRIVE_DATA": {
@@ -198,7 +198,7 @@
     },
     "WEATHER_DEFCITY": {
       "description": "Set the default city for the userbot's weather module.",
-      "value": "Batam",
+      "value": "Lu tinggal dimana si? Kepo gua.",
       "required": false
     },
     "LOGSPAMMER": {
