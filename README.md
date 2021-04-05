@@ -1,4 +1,5 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/5501763.gif" width="473" height="82" alt="LORD USERBOT" /></a>
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/5511978.gif" width="516" height="211" alt="  STRESS
+USERBOT" /></a>
 
 
 <p align="center">
@@ -11,14 +12,14 @@
   </a>
 </p>  
 
-# Lord Userbot
-![Lord Userbot Logo](https://telegra.ph/file/62dc59b2013a48f9cc8f3.jpg)
+# STRESS Userbot
+![Lord Userbot Logo](https://telegra.ph/file/99fb8faa72c1de0d41ea2.jpg)
 
-<h3 align="center">Userbot Yang Digunakan Untuk Bersenang-Senang Di Telegram</h3>
+<h3 align="center">REPO STRESS-USERBOT DIBUAT KARNA RAMADHANI LAGI STRESS KARNA PERANG DUNIA DENGAN KEKASIH TERCINTANYA!!</h3>
 <p align="center">&nbsp;</p>
 
-### Repo Lord Userbot
-Repo Yang Dibuat [Alvin](https://t.me/liualvinas) Dari Berbagai Repo Userbot Github 
+### Repo STRESS Userbot
+Repo Yang Dibuat [Rama](https://t.me/Ramadhaniiiiiiiii1) Dari Berbagai Repo Userbot Github 
 
 
 ### CARA MENDAPATKAN STRING SESSON
@@ -41,10 +42,10 @@ Caranya Pergi Ke Grup Support Lord-Userbot Lalu Ketik #String [TEKAN DISINI](htt
   > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
 ```
 Atau Bisa Gabung Ke Grup Lord Userbot -> [TEKAN DISINI](https://t.me/LordUserbot_Group)
-## <p align="center">DEPLOY LORD-USERBOT</p>
+## <p align="center">DEPLOY STRESS-USERBOT</p>
 
 
-<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Zora24/Lord-Userbot/tree/Lord-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/ramadhani892/STRESS-Userbot/tree/Lord-Userbot"> <img src="https://img.shields.io/badge/Deploy%20Ke%20Heroku-magenta?style=flat&logo=heroku" width="210" height="34.45" /></a></p>
 
 <br>
 </p>
