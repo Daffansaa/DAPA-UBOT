@@ -14,7 +14,7 @@ import time
 from datetime import datetime
 import psutil
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, LORD_TEKS_KUSTOM, CMD_HELP, StartTime, UPSTREAM_REPO_BRANCH, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, LORD_TEKS_KUSTOM, StartTime, bot
 from userbot.events import register
 
 
@@ -225,7 +225,7 @@ async def amireallyalive(alive):
     await alive.edit("`Perkenalan diri...`")
     await alive.edit("⭐")
     output = (
-        f"**╔══════════╣❃ ♕ ❃╠══════════╗** \n" 
+        f"**╔══════════╣❃ ♕ ❃╠══════════╗** \n"
         f"**       ۩       ⬚⃝⃟    STRESS-USERBOT ⬚⃝⃟          ۩ ** \n"
         f"**╚══════════╣❃ ♕ ❃╠══════════╝** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
