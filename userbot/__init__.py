@@ -424,7 +424,7 @@ with bot:
                         [
                             custom.Button.url(
                                 "Repo Lord-Userbot",
-                                "https://github.com/ramadhani892/RAM-UBOT"),
+                                "https://github.com/ramadhani892/RAM-UBOT.git"),
                             custom.Button.url(
                                 "Pemilik Repo",
                                 "t.me/Ramadhaniiiiiii1")],
