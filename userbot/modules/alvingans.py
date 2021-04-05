@@ -85,7 +85,6 @@ async def typewriter(typew):
                      "╬═╬/ \\ \n")
 
 
-
 @register(outgoing=True, pattern='^.tembak(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -113,7 +112,7 @@ async def typewriter(typew):
                      "＜ 、･　　|　　＼ \n"
                      "　＼＿＿／∪ _ ∪) \n"
                      "　　　　　 Ｕ Ｕ\n")
-                     
+
 
 @register(outgoing=True, pattern='^.tawa(?: |$)(.*)')
 async def typewriter(typew):
@@ -277,6 +276,7 @@ async def typewriter(typew):
                      "✣Pengguna :**Jamet Tolol!\n**"
                      "✣Aksi     :`Global banned!`")
 
+
 @register(outgoing=True, pattern='^.gmt(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -307,6 +307,7 @@ async def typewriter(typew):
     await typew.edit("`TOLOL`")
     await typew.edit("`TOLOL!!!!`")
 
+
 @register(outgoing=True, pattern='^.uasu(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -320,6 +321,7 @@ async def typewriter(typew):
                      "✥ `Sisa dyno bulan ini:`\n"
                      "**999999 jam - 999999 Menit 999%**\n"
                      "╚════════════════════╝")
+
 
 @register(outgoing=True, pattern='^.oy(?: |$)(.*)')
 async def typewriter(typew):
