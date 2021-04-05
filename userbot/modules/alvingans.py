@@ -343,7 +343,6 @@ async def typewriter(typew):
     await typew.edit("**NIMBRUNGGG GOBLOK!!!!**")
 
 
-
 @register(outgoing=True, pattern='^.foff(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
