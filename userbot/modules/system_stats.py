@@ -1,8 +1,3 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.d (the "License");
-# you may not use this file except in compliance with the License.
-#
 # System Stats Lord-Userbot
 
 import asyncio
@@ -164,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**Lord-Userbot Versi:** \n "
+            "**☛**STRESS-Userbot Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -223,26 +218,28 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:lord|lordon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:stres|lordon)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`I'M ALIVE!`")
-    await alive.edit("⚡")
+    await alive.edit("`Perkenalan diri...`")
+    await alive.edit("⭐")
     output = (
-        f" **┗┓LORD USERBOT┏┛** \n"
+        f"**╔══════════╣❃ ♕ ❃╠══════════╗** \n" 
+        f"**       ۩       ⬚⃝⃟    STRESS-USERBOT ⬚⃝⃟          ۩ ** \n"
+        f"**╚══════════╣❃ ♕ ❃╠══════════╝** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
-        f"**♛ ʟᴏʀᴅ** \n"
+        f"**🤑 TUAN** \n"
         f" ➥ `{DEFAULTUSER}` \n"
-        f"**♛ ᴜsᴇʀɴᴀᴍᴇ** \n"
+        f"**😋 Username** \n"
         f" ➥ `@{user.username}` \n"
-        f"┏━━━━━━━━━━━━━━━━━━━\n"
-        f"┣[• `Telethon :`Ver {version.__version__} \n"
-        f"┣[• `Python   :`Ver {python_version()} \n"
-        f"┣[• `Bot Ver  :`{BOT_VER} \n"
-        f"┣[• `Modules  :`{len(modules)} Modules \n"
-        f"┗━━━━━━━━━━━━━━━━━━━")
+        f"╭━┯━━━━━━━━━━━━━━━━┯━╮\n"
+        f"┣[• `🙈 Telethon :`Ver {version.__version__} \n"
+        f"┣[• `🥴 Python   :`Ver {python_version()} \n"
+        f"┣[• `🤖 Bot Ver  :`{BOT_VER} \n"
+        f"┣[• `✨ Modules  :`{len(modules)} \n"
+        f"╰━┷━━━━━━━━━━━━━━━━┷━╯")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -268,16 +265,16 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**▬▬▬▬▬▬❙۩♛۩❙▬▬▬▬▬▬**\n"
-        f"     **♕ LORD USERBOT ♕** \n\n"
-        f"❃ **Lord**     \n   ➥ `{DEFAULTUSER}` \n"
+        f"**¥▬▬▬▬▬▬❙۩ᬉིུ֛ ⃝ ꦿꦶ ۩❙▬▬▬▬▬▬¥**\n"
+        f"           **♕ STRESS USERBOT ♕** \n\n"
+        f"❃ **Tuan**     \n   ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username** \n   ➥ `@{user.username}` \n"
         f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **Repo Userbot:** [Lord-Userbot](https://github.com/Zora24/Lord-Userbot)\n❃ **Grup Userbot: **[Tekan](t.me/LordUserbot_Group)\n❃ **Pemilik:** [Alvin](t.me/liualvinas)\n"
-        f"**▬▬▬▬▬▬❙۩★۩❙▬▬▬▬▬▬**")
+        f"❃ **REPO:** [STRESS-USERBOT](https://github.com/ramadhani892/STRESS-Userbot)\n❃ **GROUP: **[TEKAN](t.me/teman_random)\n❃ **CHANNEL: **[TEKAN](t.me/candu_musikk)\n❃ **PEMILIK:** [RAMA](t.me/Ramadhaniiiiiii1)\n"
+        f"**¥▬▬▬▬▬▬❙۩ᬉིུ֛ ⃝ ꦿꦶ ۩❙▬▬▬▬▬▬¥**")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -302,20 +299,20 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`I'M ALIVE!`")
-    await alive.edit("⚡")
     output = (
-        f"**♕ LORD USERBOT ♕** \n\n"
+        f"**╠╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╣** \n"
+        f"**      👿STRESS-USERBOT👿** \n"
+        f"**╠╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╣** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
-        f"┣|• `Lord     :`{DEFAULTUSER} \n"
-        f"┣|• `Username :`@{user.username} \n"
-        f"┣|• `Telethon :`Ver {version.__version__} \n"
-        f"┣|• `Python   :`Ver {python_version()} \n"
-        f"┣|• `Branch   :`{UPSTREAM_REPO_BRANCH} \n"
+        f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
+        f"┣|• `💳 Username :`@{user.username} \n"
+        f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
+        f"┣|• `🐉 Python   :`Ver {python_version()} \n"
+        f"┣|• `Branch   :`STRESS-USERBOT \n"
         f"┣|• `Bot Ver  :`{BOT_VER} \n"
         f"┣|• `Modules  :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[Repo](https://github.com/Zora24/Lord-Userbot) | [Grup Support](t.me/LordUserbot_Group) | [Owner](t.me/liualvinas)")
+        f"[REPO](https://github.com/ramadhani892/STRESS-Userbot) | [GROUP](t.me/teman_random) | [CHANNEL](t.me/candu_musikk) | [OWNER](t.me/Ramadhaniiiiiii1)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -336,16 +333,15 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern="^.aliveu")
+@register(outgoing=True, pattern=r"^\.aliveu")
 async def amireallyaliveuser(username):
-    """ For .aliveu command, change the username in the .alive command. """
     message = username.text
-    output = ".aliveu [username] tidak boleh kosong"
-    if not (message == ".aliveu" or message[7:8] != " "):
+    output = ".aliveu [new user without brackets] nor can it be empty"
+    if message != ".aliveu" and message[7:8] == " ":
         newuser = message[8:]
         global DEFAULTUSER
         DEFAULTUSER = newuser
-        output = "Berhasil mengubah pengguna pada .alive ke " + newuser + "!"
+        output = "Successfully changed user to " + newuser + "!"
     await username.edit("`" f"{output}" "`")
 
 
@@ -353,24 +349,25 @@ async def amireallyaliveuser(username):
 async def amireallyalivereset(ureset):
     global DEFAULTUSER
     DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-    await ureset.edit("`" "Berhasil mereset pengguna Alive!" "`")
+    await ureset.edit("`" "Successfully reset user for alive!" "`")
 
 
-CMD_HELP.update({"sysd": "`.sysd`\
-    \nPenjelasan: Menampilkan informasi sistem menggunakan neofetch.\
-    \n\n.spc\
-    \nPenjelasan: Tampilkan spesifikasi sistem.\
-    \n\n`.db`\
-    \nPenjelasan: Menampilkan info database."})
-CMD_HELP.update({"botver": "`.botver`\
-    \nPenjelasan: Menampilkan versi userbot."})
-
-CMD_HELP.update({"pip": "`.pip <module(s)>`\
-    \nPenjelasan: Melakukan pencarian modul pip."})
-
-CMD_HELP.update({"alive": "`.alive` | `.on`\
-    \nPenjelasan: Ketik .alive/.on untuk melihat apakah bot Anda berfungsi atau tidak.\
-    \n\n`.aliveu <text>`\
-    \nPenjelasan: Mengubah 'pengguna' menjadi teks yang Anda inginkan.\
-    \n\n`.resetalive`\
-    \nPenjelasan: Mengatur ulang pengguna ke default."})
+CMD_HELP.update({
+    "system":
+    "`.sysd`\
+\nUsage: Shows system information using neofetch.\
+\n\n`.botver`\
+\nUsage: Shows the userbot version.\
+\n\n`.pip` <module(s)>\
+\nUsage: Does a search of pip modules(s).\
+\n\n`.start`\
+\nUsage: Type .start to see whether your bot is working or not.\
+\n\n`.aliveu` <text>\
+\nUsage: Changes the 'user' in alive to the text you want.\
+\n\n`.resetalive`\
+\nUsage: Resets the user to default.\
+\n\n`.db`\
+\nUsage:Shows database related info.\
+\n\n.`.spc`\
+\nUsage:Show system specification."
+})
