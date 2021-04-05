@@ -77,6 +77,7 @@ async def pingme(pong):
                     f"**PEMILIK** "
                     f"\n  ➥ `{ALIVE_NAME}` \n" % (duration))
 
+
 @register(outgoing=True, pattern="^.ping$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
@@ -85,7 +86,6 @@ async def pingme(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit("`Pong!\n%sms`" % (duration))
-
 
 
 @register(outgoing=True, pattern="^Lping$")
@@ -138,7 +138,7 @@ async def pingme(pong):
 @register(outgoing=True, pattern="^Ping$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
-    uptime = await get_readable_time((time.time() - StartTime))
+    await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("**P̤̈Ï̤N̤̈G̤̈**")
     await pong.edit("**p̲̅o̲̅n̲̅g̲̅**")
@@ -153,14 +153,13 @@ async def pingme(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**⿴⃟۪۪⃕᎒⃟ꕤ╌╌╌╌╌╼⃘۪۪❁⃘̸۪۪⃗╾╌╌╌╌╌▩⃟❁⃟݄ࣾ݃⊣** \n"
                     f"**                 ➪PONG!➪** \n"
-                    f"**⿴⃟۪۪⃕᎒⃟ꕤ╌╌╌╌╌╼⃘۪۪❁⃘̸۪۪⃗╾╌╌╌╌╌▩⃟❁⃟݄ࣾ݃⊣** \n"          
+                    f"**⿴⃟۪۪⃕᎒⃟ꕤ╌╌╌╌╌╼⃘۪۪❁⃘̸۪۪⃗╾╌╌╌╌╌▩⃟❁⃟݄ࣾ݃⊣** \n"
                     f"**♛ Sinyal  :** `%sms` \n"
                     f"**♛ Tuanku   :** `{ALIVE_NAME}` \n"
-                    f"**╼═════════════════╾** \n" % (duration)) 
-          
-    
+                    f"**╼═════════════════╾** \n" % (duration))
 
-@register (outgoing=True, pattern="^Speed$")
+
+@register(outgoing=True, pattern="^Speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
     await spd.edit("**......................................🏍️**")
