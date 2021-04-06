@@ -53,7 +53,7 @@ Atau Bisa Gabung Ke Grup Lord Userbot -> [TEKAN DISINI](https://t.me/LordUserbot
 ## Credit
 TERIMAKASIH UNTUK
 
-*   [Alvin](https://githun.com/Zora24) - Lord-usebot
+*   [Alvin](https://github.com/Zora24) - Lord-usebot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
 *   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
