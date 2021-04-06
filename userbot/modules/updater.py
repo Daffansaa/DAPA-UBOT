@@ -208,7 +208,7 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update RAM UBOT**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari Lord Userbot.__')
+        return await event.respond('**Perintah Untuk Update RAM UBOT**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari RAM-UBOT.__')
 
     if force_update:
         await event.edit(
@@ -219,7 +219,7 @@ async def upstream(event):
         await event.edit('`✲ Proses Update RAM-UBOT, Loading....35%`')
         await event.edit('`✲ Proses Update RAM-UBOT, Loading....77%`')
         await event.edit('`✲ Proses Update RAM-UBOT, Updating...90%`')
-        await event.edit('`✲ Proses Update RAM-UBOT, Mohon Menunggu Lord....100%`')
+        await event.edit('`✲ Proses Update RAM-UBOT, Mohon Menunggu....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
@@ -234,9 +234,9 @@ async def upstream(event):
 CMD_HELP.update({
     'update':
     ".update"
-    "\nUsage: Untuk Melihat Pembaruan Terbaru Lord-Userbot."
+    "\nUsage: Untuk Melihat Pembaruan Terbaru RAM-UBOT."
     "\n\n.update now"
-    "\nUsage: Memperbarui Lord-Userbot."
+    "\nUsage: Memperbarui RAM-UBOT."
     "\n\n.update deploy"
-    "\nUsage: Memperbarui Lord-Userbot Dengan Cara Deploy Ulang."
+    "\nUsage: Memperbarui RAM-UBOT Dengan Cara Deploy Ulang."
 })
