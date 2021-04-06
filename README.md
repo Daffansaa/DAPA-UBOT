@@ -1,6 +1,3 @@
-<a href="https://cooltext.com"><img src="https://cooltext.com/3809279939.gif" width="516" height="211" alt="  RAM
-UBOT" /></a>
-
 
 <p align="center">
   <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
