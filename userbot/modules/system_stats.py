@@ -226,7 +226,7 @@ async def amireallyalive(alive):
     await alive.edit("⭐")
     output = (
         f"**╔══════════╣❃ ♕ ❃╠══════════╗** \n"
-        f"**       ۩       ⬚⃝⃟       RAM-USERBOT ⬚⃝⃟          ۩ ** \n"
+        f"**       ۩          ⬚⃝⃟       RAM-UBOT ⬚⃝⃟          ۩ ** \n"
         f"**╚══════════╣❃ ♕ ❃╠══════════╝** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
@@ -266,7 +266,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**¥▬▬▬▬▬▬❙۩ᬉིུ֛ ⃝ ꦿꦶ ۩❙▬▬▬▬▬▬¥**\n"
-        f"           **♕ RAM USERBOT ♕** \n\n"
+        f"           **♕ RAM UBOT ♕** \n\n"
         f"❃ **Tuan**     \n   ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username** \n   ➥ `@{user.username}` \n"
         f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
@@ -301,7 +301,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╠╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╣** \n"
-        f"**         👿RAM-USERBOT👿** \n"
+        f"**            👿RAM-UBOT👿** \n"
         f"**╠╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╣** \n"
         f"┏━━━━━━━━━━━━━━━━━━━ \n"
         f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
