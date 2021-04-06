@@ -1,4 +1,4 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/3809279939.gif" width="516" height="211" alt="  RAM
+<a href="https://cooltext.com"><img src="https://images.cooltext.com/3809290133.gif" width="516" height="211" alt="  RAM
 UBOT" /></a>
 
 
