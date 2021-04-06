@@ -93,7 +93,7 @@ async def killdabot(event):
 async def reedme(e):
     await e.edit(
         "Here's something for you to read:\n"
-        "\n[Lord-Userbot Repo](https://github.com/Zora24/Lord-Userbot/blob/Lord-Userbot/README.md)"
+        "\n[Lord-Userbot Repo](https://github.com/ramadhani892/RAM-UBOT/blob/RAM-UBOT/README.md)"
         "\n[Setup Guide - Basic](https://telegra.ph/How-to-host-a-Telegram-Userbot-11-02)"
         "\n[Setup Guide - Google Drive](https://telegra.ph/How-To-Setup-GDrive-11-02)"
         "\n[Setup Guide - LastFM Module](https://telegra.ph/How-to-set-up-LastFM-module-for-Paperplane-userbot-11-02)"
@@ -120,7 +120,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "㊗️ **Repo:** [STRESS-Userbot](https://github.com/ramadhani892/STRESS-Userbot)\n㊗️ **Pemilik:** [RAMA](t.me/Ramadhaniiiiiii1)\n㊗️ **CHANNEL:** [CANDU MUSIK](t.me/candu_musikk)\n㊗️ **GROUP:** [TEMAN RANDOM](t.me/teman_random)"
+        "㊗️ **Repo:** [STRESS-Userbot](https://github.com/ramadhani892/RAM-UBOT)\n㊗️ **Pemilik:** [RAMA](t.me/Ramadhaniiiiiii1)\n㊗️ **CHANNEL:** [CANDU MUSIK](t.me/candu_musikk)\n㊗️ **GROUP:** [TEMAN RANDOM](t.me/teman_random)"
     )
 
 
