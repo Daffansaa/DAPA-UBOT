@@ -10,7 +10,7 @@
 </p>  
 
 # RAM UBOT
-![Lord Userbot Logo](https://telegra.ph/file/99fb8faa72c1de0d41ea2.jpg)
+![Lord Userbot Logo](https://telegra.ph/file/083183326a3a15905f43a.jpg)
 
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
 <p align="center">&nbsp;</p>
