@@ -1,4 +1,4 @@
-<a href="https://cooltext.com"><img src="https://images.cooltext.com/3809290133.gif" width="516" height="211" alt="  RAM
+<a href="https://cooltext.com"><img src="https://cooltext.com/3809279939.gif" width="516" height="211" alt="  RAM
 UBOT" /></a>
 
 
@@ -12,7 +12,7 @@ UBOT" /></a>
   </a>
 </p>  
 
-# STRESS Userbot
+# RAM UBOT
 ![Lord Userbot Logo](https://telegra.ph/file/99fb8faa72c1de0d41ea2.jpg)
 
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA GABUT LAGI GABUT AJA SI HAHA.</h3>
