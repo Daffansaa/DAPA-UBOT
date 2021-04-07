@@ -32,5 +32,5 @@ async def gcast(event):
 CMD_HELP.update(
     {
         "gcast": "`.gcast <pesan>`\
-    \nPenjelasan: Global Broadcast mengirim pesan ke Seluruh Grup yang Lord Masuki."
+    \nPenjelasan: Global Broadcast mengirim pesan ke Seluruh Grup yang kamu Masuki."
     })
