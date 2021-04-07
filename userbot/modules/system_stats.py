@@ -308,9 +308,9 @@ async def amireallyalive(alive):
         f"┣|• `💳 Username :`@{user.username} \n"
         f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
         f"┣|• `🐉 Python   :`Ver {python_version()} \n"
-        f"┣|• `Branch   :`STRESS-USERBOT \n"
-        f"┣|• `Bot Ver  :`{BOT_VER} \n"
-        f"┣|• `Modules  :`{len(modules)} Modules \n"
+        f"┣|• `Branch      :`RAM-UBOT \n"
+        f"┣|• `Bot Ver     :`{BOT_VER} \n"
+        f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[REPO](https://github.com/ramadhani892/RAM-UBOT) | [GROUP](t.me/teman_random) | [CHANNEL](t.me/candu_musikk) | [OWNER](t.me/Ramadhaniiiiiii1)")
     if ALIVE_LOGO:
