@@ -30,7 +30,7 @@ async def mim(event):
         return
     else:
         await event.edit(
-            "```Mengubah Gambar Ini Mwahaha Saatnya Menulis ツ ```"
+            "```Gua edit dulu bentar, emmm... ```"
         )
         await asyncio.sleep(5)
         text = event.pattern_match.group(1)
