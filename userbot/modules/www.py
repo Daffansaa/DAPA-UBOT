@@ -112,23 +112,18 @@ async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("**S**")
-    await pong.edit("**ST**")
-    await pong.edit("**STR**")
-    await pong.edit("**STRE**")
-    await pong.edit("**STRES**")
-    await pong.edit("**STRESS**")
-    await pong.edit("**STRESS U**")
-    await pong.edit("**STRESS US**")
-    await pong.edit("**STRESS USE**")
-    await pong.edit("**STRESS USER**")
-    await pong.edit("**STRESS USERB**")
-    await pong.edit("**STRESS USERBO**")
-    await pong.edit("**STRESS USERBOT**")
+    await pong.edit("**R**")
+    await pong.edit("**RA**")
+    await pong.edit("**RAM**")
+    await pong.edit("**RAM -**")
+    await pong.edit("**RAM - U**")
+    await pong.edit("**RAM - UB**")
+    await pong.edit("**RAM - UBO**")
+    await pong.edit("**RAM - UBOT**")
     await pong.edit("STRESS!")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**😝 PONG!**\n"
+    await pong.edit(f"** PING!**\n"
                     f"↪️ __Gawaras:__ "
                     f"`%sms` \n"
                     f"↪️ __STRESS:__ "
@@ -142,13 +137,13 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("**P̤̈Ï̤N̤̈G̤̈**")
     await pong.edit("**p̲̅o̲̅n̲̅g̲̅**")
-    await pong.edit("**ᎦᎿᖇᏋᎦᎦ**")
-    await pong.edit("**UྂSྂEྂRྂBྂOྂTྂ**")
+    await pong.edit("**RAM**")
+    await pong.edit("**U•BྂOྂTྂ**")
     await pong.edit("**P̥ͦI̥ͦN̥ͦG̥ͦ**")
     await pong.edit("**P̥ͦO̥ͦN̥ͦG̥ͦ**")
     await pong.edit("**P̆ĬN̆Ğ**")
     await pong.edit("**P̆ŎN̆Ğ**")
-    await pong.edit("**S͟͟T͟͟R͟͟E͟͟S͟͟S͟͟ U͟͟S͟͟E͟͟R͟͟B͟͟O͟͟T͟͟**")
+    await pong.edit("**PONG**")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**⿴⃟۪۪⃕᎒⃟ꕤ╌╌╌╌╌╼⃘۪۪❁⃘̸۪۪⃗╾╌╌╌╌╌▩⃟❁⃟݄ࣾ݃⊣** \n"
