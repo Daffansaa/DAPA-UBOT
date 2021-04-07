@@ -343,7 +343,7 @@ async def typewriter(typew):
     await typew.edit("**NIMBRUNGGG GOBLOK!!!!**")
 
 
-@register(outgoing=True, pattern='^.foff(?: |$)(.*)')
+@register(outgoing=True, pattern='^.fck(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(".                       /¯ )\n"
@@ -364,8 +364,8 @@ CMD_HELP.update({
     \nUsage: liat sendiri.\
     \n\n`.y` ; `.uasu`\
     \nUsage: jempol & Cek dyno\
-    \n\n`.tawa` ; `.oy`\
-    \nUsage: ketawa lari & Nyuruh nimbrung.\
+    \n\n`.tawa` ; `.oy` ; .fck\
+    \nUsage: ketawa lari , Nyuruh nimbrung & fvck.\
     \n\n`.ular` ; `.babi` ; `.ajg`\
     \nUsage: liat sendiri."
 })
