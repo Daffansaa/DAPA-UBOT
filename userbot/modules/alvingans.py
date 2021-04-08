@@ -356,6 +356,44 @@ async def typewriter(typew):
                      "          \\                _.•´\n"
                      "            \\              (\n"
                      "              \\  ")
+
+@register(outgoing=True, pattern='^.tr(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**INTINYA JANGAN LUPA MASUK!!**\n\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM\n"
+                     "@TEMAN_RANDOM")
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
