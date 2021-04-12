@@ -394,6 +394,15 @@ async def typewriter(typew):
                      "@TEMAN_RANDOM\n"
                      "@TEMAN_RANDOM\n"
                      "@TEMAN_RANDOM")
+
+
+
+@register(outgoing=True, pattern='^.gi(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Mutualan Yukkk!...**")
+    sleep(2)
+    await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
