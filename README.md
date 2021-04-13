@@ -11,7 +11,8 @@
 </p>  
 
 # RAM UBOT
-![Lord Userbot Logo](https://telegra.ph/file/083183326a3a15905f43a.jpg)
+[![Deploy](https://telegra.ph/file/f19e417246a191cb311c9.jpg)](https://heroku.com/deploy?template=https://github.com/ramadhani892/GeezMusic.git)
+# DEPLOY
 
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
 <p align="center">&nbsp;</p>
