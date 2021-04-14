@@ -36,7 +36,7 @@ async def tmeme(e):
             "WSpam was executed successfully")
 
 
-@register(outgoing=True, pattern="^.spam (.*)")
+@register(outgoing=True, pattern="^spam (.*)")
 async def spammer(e):
     counter = int(e.pattern_match.group(1).split(' ', 1)[0])
     spam_message = str(e.pattern_match.group(1).split(' ', 1)[1])
@@ -62,7 +62,7 @@ async def tiny_pic_spam(e):
             "PicSpam was executed successfully")
 
 
-@register(outgoing=True, pattern="^.delayspam (.*)")
+@register(outgoing=True, pattern="^delayspam (.*)")
 async def spammer(e):
     spamDelay = float(e.pattern_match.group(1).split(' ', 2)[0])
     counter = int(e.pattern_match.group(1).split(' ', 2)[1])
