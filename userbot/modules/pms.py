@@ -30,7 +30,7 @@ DEF_UNAPPROVED_MSG = (
     f"__**ROOM CHAT || {DEFAULTUSER}**__\n"
     "━━━━━━━━━━━━━━━━━━━━\n"
     f"__SELAMAT DATANG KONTOL,KALO NGECHAT ORANG ITU SALA,HABIS ITU SABAR TUNGGU DIA BALES,KALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, KALO NYEPAMTAR GUA BLOKIR!!!! TUNGGU SI {DEFAULTUSER} NERIMA PESAN LU__\n"
-    "┏━━━━━━━━━━━━━━━━━━
+    "┏━━━━━━━━━━━━━━━━━━\n"
     "┣[• `PESAN OTOMAMPUS`\n"
     "┣[• `BY RAM UBOT`\n"
     "┗━━━━━━━━━━━━━━━━━━━")
