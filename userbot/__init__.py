@@ -429,12 +429,6 @@ with bot:
                                 "㊙️OWNER㊙️",
                                 "t.me/Ramadhaniiiiiii1"),
                             custom.Button.url(
-                                "㊙️CHANNEL㊙️",
-                                "t.me/candu_musikk"),
-                            custom.Button.url(
-                                "㊙️GROUP㊙️",
-                                "t.me/teman_random")
-                            custom.Button.url(
                                 "㊙️STRING㊙️",
                                 "https://replit.com/@AL241/String-Sesson-Lord#pyproject.toml")],
                     ],
