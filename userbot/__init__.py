@@ -403,7 +403,7 @@ with bot:
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
-                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**❃ Daftar Modul RAM-UBOT:** \n".format(
+                    text="{}\n\n**❃ Jumlah Modul Yang Tersedia:** `{}`\n               \n**㊙️ Daftar Modul RAM-UBOT:** \n".format(
                         "**㊙️ RAM-UBOT**",
                         len(dugmeler),
                     ),
@@ -419,22 +419,24 @@ with bot:
             else:
                 result = builder.article(
                     "**RAM-UBOT**",
-                    text="""**Anda Bisa Membuat RAM-UBOT Anda Sendiri Dengan Cara:** [Tekan Disini](https://github.com/ramadhani892/RAM-UBOT)""",
+                    text="""**Anda Bisa Membuat RAM-UBOT Anda Sendiri Dengan Cara:** Tekan Tombol repo di bawah ini!!""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "REPO",
+                                "㊙️REPO㊙️",
                                 "https://github.com/ramadhani892/RAM-UBOT.git"),
                             custom.Button.url(
-                                "OWNER",
+                                "㊙️OWNER㊙️",
                                 "t.me/Ramadhaniiiiiii1"),
                             custom.Button.url(
-                                "CHANNEL",
+                                "㊙️CHANNEL㊙️",
                                 "t.me/candu_musikk"),
                             custom.Button.url(
-                                "GROUP",
-                                "t.me/teman_random")],
-
+                                "㊙️GROUP㊙️",
+                                "t.me/teman_random")
+                            custom.Button.url(
+                                "㊙️STRING㊙️",
+                                "https://replit.com/@AL241/String-Sesson-Lord#pyproject.toml")],
                     ],
                     link_preview=False,
                 )
