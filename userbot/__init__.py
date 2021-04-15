@@ -432,7 +432,7 @@ with bot:
                                 "CHANNEL",
                                 "t.me/candu_musikk"),
                             custom.Button.url(
-                                "GROUP"
+                                "GROUP",
                                 "t.me/teman_random")],
 
                     ],
