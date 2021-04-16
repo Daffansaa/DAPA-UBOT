@@ -59,7 +59,7 @@ async def typewriter(typew):
     await typew.edit("`Assala`")
     await typew.edit("`Assalam`")
     await typew.edit("`Assalamu`")
-    await typew.edit("`Assalamu'`")
+    await typew.edit("`Assalamu' `")
     await typew.edit("`Assalamu'a`")
     await typew.edit("`Assalamu'al`")
     await typew.edit("`Assalamu'ala`")
@@ -68,7 +68,7 @@ async def typewriter(typew):
     await typew.edit("`Assalamu'alaiku`")
     await typew.edit("`Assalamu'alaikum`")
     sleep(2)
-    await typew.edit("`YANG GAK JAWAB,FIX ATHEIS!!`")
+    await typew.edit("**YANG GAK JAWAB,FIX ATHEIS!!**")
 
 
 # Create by myself @localheart
