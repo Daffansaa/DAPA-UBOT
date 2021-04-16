@@ -441,12 +441,11 @@ async def _(event):
 @register(outgoing=True, pattern='^.ass(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    sleep(1)
     await typew.edit("`Salam dulu biar sopan....`")
     sleep(2)
     await typew.edit("`A`")
     await typew.edit("`As`")
-    await typew.edit("'Ass`")
+    await typew.edit("`Ass`")
     await typew.edit("`Assa`")
     await typew.edit("`Assal`")
     await typew.edit("`Assala`")
