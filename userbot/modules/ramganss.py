@@ -406,7 +406,9 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
 
-@register(outgoing=True, pattern='^As(?: |$(.*)')
+
+
+@register(outgoing=True, pattern='^.as(?: |$(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Salam dulu biar sopan...`")
