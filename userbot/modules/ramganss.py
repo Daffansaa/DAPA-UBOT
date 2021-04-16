@@ -407,31 +407,6 @@ async def typewriter(typew):
     await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
 
 
-
-@register(outgoing=True, pattern='^.as(?: |$(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("`Salam dulu biar sopan...`")
-    sleep(1)
-    await typew.edit("`A`")
-    await typew.edit("`As`")
-    await typew.edit("`Ass`")
-    await typew.edit("`Assa`")
-    await typew.edit("`Assal`")
-    await typew.edit("`Assala`")
-    await typew.edit("`Assalam`")
-    await typew.edit("`Assalamu`")
-    await typew.edit("`Assalamu'`")
-    await typew.edit("`Assalamu'a`")
-    await typew.edit("`Assalamu'al`")
-    await typew.edit("`Assalamu'ala`")
-    await typew.edit("`Assalamu'alai`")
-    await typew.edit("`Assalamu'alaik`")
-    await typew.edit("`Assalamu'alaiku`")
-    await typew.edit("`Assalamu'alaikum`")
-    sleep(2)
-    await typew.edit("**YANG GAK JAWAB,FIX ATHEIS!!**")
-
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
