@@ -431,6 +431,7 @@ async def typewriter(typew):
     await typew.edit("`Assalamu'alaikum`")
     sleep(2)
     await typew.edit("**YANG GAK JAWAB,FIX ATHEIS!!**")
+
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
