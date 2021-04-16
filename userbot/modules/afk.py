@@ -64,13 +64,13 @@ async def set_afk(afk_e):
         AFKREASON = string
         await afk_e.edit(f"𝙋𝙀𝙎𝘼𝙉 𝙊𝙏𝙊𝙈𝘼𝙏𝙄𝙎\n╭╼═══╾╼═══╾╼═══╾╼═══╾ \n┣ Si {ALIVE_NAME} ᴀꜰᴋ ᴅᴜʟᴜ\n┣ ᴀʟᴀꜱᴀɴ : {AFKREASON}\n╰╼═══╾╼═══╾╼═══╾")
     else:
-        await afk_e.edit(" 𝘼 𝙁 𝙆\n╭╼═══╾╼═══╾╼═══╾ \n┣ ᴊᴀɴɢᴀɴ ᴅɪᴄᴀʀɪ ✨\n╰╼═══╾╼═══╾")
+        await afk_e.edit(" 𝘼 𝙁 𝙆\n╭╼═══╾╼═══╾╼═══╾ \n┣ ᴊᴀɴɢᴀɴ ᴅɪᴄᴀʀɪ 😊\n╰╼═══╾╼═══╾")
     if user.last_name:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name))
     else:
         await afk_e.client(UpdateProfileRequest(first_name=user.first_name, last_name=user.last_name))
     if BOTLOG:
-        await afk_e.client.send_message(BOTLOG_CHATID, "#AFK\n**ʟᴀɢɪ ᴀꜰᴋ ɢᴜʏꜱ**")
+        await afk_e.client.send_message(BOTLOG_CHATID, "#BACOT\n**ʟᴀɢɪ ᴀꜰᴋ ɢᴜʏꜱ**")
     ISAFK = True
     afk_time = datetime.now()  # pylint:disable=E0602
     raise StopPropagation
@@ -89,7 +89,7 @@ async def type_afk_is_not_true(notafk):
     global afk_end
     user = await bot.get_me()  # pylint:disable=E0602
     last = user.last_name
-    if last and last.endswith(" 𝘼 𝙁 𝙆"):
+    if last and last.endswith("**A᷉᷈ F᷉᷈ K᷉᷈**"):
         last1 = last[:-12]
     else:
         last1 = ""
@@ -97,7 +97,7 @@ async def type_afk_is_not_true(notafk):
     afk_end = back_alive.replace(microsecond=0)
     if ISAFK:
         ISAFK = False
-        msg = await notafk.respond("𝙊𝙉𝙇𝙄𝙉𝙀")
+        msg = await notafk.respond("**O̺͆N̺͆L̺͆I̺͆N̺͆E̺͆**")
         time.sleep(3)
         await msg.delete()
         await notafk.client(UpdateProfileRequest(first_name=user.first_name, last_name=last1))
