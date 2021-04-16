@@ -438,37 +438,35 @@ async def _(event):
             await event.edit(animation_chars[i % 11])
 
 
-@register(outgoing=True, pattern='^.goblok(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ass(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     sleep(1)
-    await typew.edit("`Hai,KAMU GOBLOK YAH`")
-    sleep(1)
-    await typew.edit("`SUMPAH DEMI APAPUN KAMU GOBLOK!`")
-    sleep(1)
-    await typew.edit("`GOBLOK BANGET!`")
-    sleep(1)
-    await typew.edit("`BENER BENER GOBLOK SERIUS!`")
-    sleep(1)
-    await typew.edit("`UDAH DI SAKITIN MASIH AJA DI KEJAR`")
-    sleep(1)
-    await typew.edit("`LAIN KALI JANGAN GITU AH GOBLOK`")
-    sleep(1)
-    await typew.edit("`KASIAN HATI LU TERSAKITI MULU`")
-    sleep(1)
-    await typew.edit("`SATU KATA BUAT LU`")
-    sleep(1)
-    await typew.edit("`LU GOBLOK BANGEET ANJING`")
-    sleep(1)
-    await typew.edit("`DASAR GOBLOK!!!!`")
+    await typew.edit("`Salam dulu biar sopan....`")
+    sleep(2)
+    await typew.edit("`A`")
+    await typew.edit("`As`")
+    await typew.edit("'Ass`")
+    await typew.edit("`Assa`")
+    await typew.edit("`Assal`")
+    await typew.edit("`Assala`")
+    await typew.edit("`Assalam`")
+    await typew.edit("`Assalamu`")
+    await typew.edit("`Assalamu'a`")
+    await typew.edit("`Assalamu'al`")
+    await typew.edit("`Assalamu'ala`")
+    await typew.edit("`Assalamu'alai`")
+    await typew.edit("`Assalamu'alaik`")
+    await typew.edit("`Assalamu'alaiku`")
+    await typew.edit("`Assalamu'alaikum`")
 # Create by myself @localheart
 
 CMD_HELP.update({
     "gabut":
     "`.gabut` ; `.orgil`\
     \nUsage: ntahlah gabut doang.\
-    \n\n`.goblok`\
-    \nUsage: buat ngatain orang\
+    \n\n`.as`\
+    \nUsage: Salam duls biar sopan\
     \n\n`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`.sange`\
