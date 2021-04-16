@@ -268,10 +268,12 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gbn(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
+    await typew.edit("`Kita Gban Jamet duls!!...`")
+    sleep(1)
     await typew.edit("`Memulai global banned...✅`")
     sleep(2)
     await typew.edit("`Proses Global banned...✅`")
-    sleep(1)
+    sleep(3)
     await typew.edit("♛Perintah : `Tuan Ku`\n"
                      "✣Pengguna :**Jamet Tolol!\n**"
                      "✣Aksi     :`Global banned!`")
@@ -403,6 +405,30 @@ async def typewriter(typew):
     await typew.edit("**Mutualan Yukkk!...**")
     sleep(2)
     await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
+
+@register(outgoing=True, pattern='^As(?: |$(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Salam dulu biar sopan...`")
+    sleep(1)
+    await typew.edit("`A`"
+    await typew.edit("`As`")
+    await typew.edit("`Ass`")
+    await typew.edit("`Assa`")
+    await typew.edit("`Assal`")
+    await typew.edit("`Assala`")
+    await typew.edit("`Assalam`")
+    await typew.edit("`Assalamu`")
+    await typew.edit("`Assalamu'`")
+    await typew.edit("`Assalamu'a`")
+    await typew.edit("`Assalamu'al`")
+    await typew.edit("`Assalamu'ala`")
+    await typew.edit("`Assalamu'alai`")
+    await typew.edit("`Assalamu'alaik`")
+    await typew.edit("`Assalamu'alaiku`")
+    await typew.edit("`Assalamu'alaikum`")
+    sleep(2)
+    await typew.edit("**YANG GAK JAWAB,FIX ATHEIS!!**")
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
@@ -411,7 +437,7 @@ CMD_HELP.update({
     \nUsage: liat sendiri.\
     \n\n`.y` ; `.uasu`\
     \nUsage: jempol & Cek dyno\
-    \n\n`.tawa` ; `.oy` ; `.fck` ; `.tp`\
+    \n\n`.tawa` ; `.oy` ; `.fck` ; `.tp`\n`As`\
     \nUsage: ketawa lari , Nyuruh nimbrung , fvck & Coba sendiri.\
     \n\n`.ular` ; `.babi` ; `.ajg`\
     \nUsage: liat sendiri."
