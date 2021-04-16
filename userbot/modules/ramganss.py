@@ -405,8 +405,6 @@ async def typewriter(typew):
     await typew.edit("**Mutualan Yukkk!...**")
     sleep(2)
     await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
-
-
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
