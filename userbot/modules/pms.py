@@ -29,7 +29,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 DEF_UNAPPROVED_MSG = (
     f"__**ROOM CHAT || {DEFAULTUSER}**__\n"
     "━━━━━━━━━━━━━━━━━━━━\n"
-    f"__SELAMAT DATANG KONTOL,KALO NGECHAT ORANG ITU SALA,HABIS ITU SABAR TUNGGU DIA BALES,KALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, KALO NYEPAMTAR GUA BLOKIR!!!! TUNGGU SI {DEFAULTUSER} NERIMA PESAN LU__\n"
+    f"__SELAMAT DATANG KONTOL,KALO NGECHAT ORANG ITU SALAM,HABIS ITU SABAR TUNGGU DIA BALES,KALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, KALO NYEPAM TAR GUA BLOKIR!!!! TUNGGU SI {DEFAULTUSER} NERIMA PESAN LU__\n"
     "┏━━━━━━━━━━━━━━━━━━\n"
     "┣[• `PESAN OTOMAMPUS`\n"
     "┣[• `BY RAM UBOT`\n"
@@ -195,7 +195,7 @@ async def notifon(non_event):
     await non_event.edit("`Notifikasi Dari Pesan Pribadi Tidak Disetujui, Tidak Lagi Dibisukan!`")
 
 
-@register(outgoing=True, pattern=r"^\.(?:setuju|ok)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:setuju|ok|y)\s?(.)?")
 async def approvepm(apprvpm):
     """For .ok command, give someone the permissions to PM you."""
     try:
@@ -233,7 +233,7 @@ async def approvepm(apprvpm):
     except IntegrityError:
         return await apprvpm.edit("`Oke Pesan Anda Sudah Diterima ツ`")
 
-    await apprvpm.edit(f"`Hai` [{name0}](tg://user?id={uid}) `Ada apasi tot?`")
+    await apprvpm.edit(f"`WOI` [{name0}](tg://user?id={uid}) `ADA APASI TOD NGECHAT GUA?`")
     await apprvpm.delete(getmsg)
     await message.delete()
 
@@ -404,7 +404,7 @@ async def permitpm(event):
 
 CMD_HELP.update(
     {
-        "pm": ">`.setuju | .ok`"
+        "pm": ">`.setuju | .ok | .y`"
         "\nPenjelasan: Menerima pesan seseorang dengan cara balas pesannya atau tag dan juga untuk dilakukan di pm."
         "\n\n>`.tolak | .nopm`"
         "\nPenjelasan: Menolak pesan seseorang dengan cara balas pesannya atau tag dan juga untuk dilakukan di pm."
