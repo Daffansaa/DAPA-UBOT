@@ -45,32 +45,6 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**Kalian Semua stress,Kecuali rama😋**")
 
-
-@register(outgoing=True, pattern='^.as(?: |$(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("`Salam dulu biar sopan...`")
-    sleep(1)
-    await typew.edit("`A`")
-    await typew.edit("`As`")
-    await typew.edit("`Ass`")
-    await typew.edit("`Assa`")
-    await typew.edit("`Assal`")
-    await typew.edit("`Assala`")
-    await typew.edit("`Assalam`")
-    await typew.edit("`Assalamu`")
-    await typew.edit("`Assalamu`")
-    await typew.edit("`Assalamu'a`")
-    await typew.edit("`Assalamu'al`")
-    await typew.edit("`Assalamu'ala`")
-    await typew.edit("`Assalamu'alai`")
-    await typew.edit("`Assalamu'alaik`")
-    await typew.edit("`Assalamu'alaiku`")
-    await typew.edit("`Assalamu'alaikum`")
-    sleep(2)
-    await typew.edit("**YANG GAK JAWAB,FIX ATHEIS!!**")
-
-
 # Create by myself @localheart
 
 CMD_HELP.update({
@@ -79,6 +53,6 @@ CMD_HELP.update({
     \nUsage: alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
-    \n\n`.punten` ; `.rama` ; `.as`\
+    \n\n`.punten` ; `.rama`\
     \nUsage: coba aja & salam."
 })
