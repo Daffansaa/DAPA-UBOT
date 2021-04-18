@@ -112,7 +112,7 @@ async def gben(userbot):
         return await dark.edit(f"`Terjadi Kesalahan ヅ`")
     if user:
         if user.id == 1496707243:
-        if user.id ==  702937519:
+        if user.id == 702937519 :
         if user.id == 1779447750:
         if user.id == 1520814493:
             return await dark.edit(
