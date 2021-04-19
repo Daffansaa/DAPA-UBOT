@@ -345,20 +345,6 @@ async def typewriter(typew):
     await typew.edit("**NIMBRUNGGG GOBLOK!!!!**")
 
 
-@register(outgoing=True, pattern='^.fck(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit(".                       /¯ )\n"
-                     "                      /¯  /\n"
-                     "                    /    /\n"
-                     "              /´¯/'   '/´¯¯`•¸\n"
-                     "          /'/   /    /       /¨¯\\ \n"
-                     "        ('(   (   (   (  ¯~/'  ')\n"
-                     "         \\                        /\n"
-                     "          \\                _.•´\n"
-                     "            \\              (\n"
-                     "              \\  ")
-
 @register(outgoing=True, pattern='^.tp(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -407,7 +393,7 @@ async def typewriter(typew):
     await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
 
 
-@register(outgoing=True, pattern='^.of(?: |$)(.*)')
+@register(outgoing=True, pattern='^.fck(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit(".                       /¯ )")
