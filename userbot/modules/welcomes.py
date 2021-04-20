@@ -145,7 +145,7 @@ async def show_welcome(event):
         return await event.edit("`Running on Non-SQL mode!`")
     cws = get_current_welcome_settings(event.chat_id)
     if not cws:
-        return await event.edit("`Disini Tidak Ada Pesan Welcome Yang Anda Simpan Lord ツ`")
+        return await event.edit("`Disini Tidak Ada Pesan Welcome Yang Anda Simpan.`")
     elif cws and cws.f_mesg_id:
         msg_o = await event.client.get_messages(entity=BOTLOG_CHATID,
                                                 ids=int(cws.f_mesg_id))
@@ -167,7 +167,7 @@ async def del_welcome(event):
     if rm_welcome_setting(event.chat_id) is True:
         await event.edit("`Menghapus Pesan Welcome Berhasil Dilakukan ツ`")
     else:
-        await event.edit("`Anda Tidak Menyimpan Pesan Welcome Apapun Disini Lord ツ`")
+        await event.edit("`Anda Tidak Menyimpan Pesan Welcome Apapun Disini.`")
 
 
 CMD_HELP.update({
