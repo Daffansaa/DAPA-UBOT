@@ -407,6 +407,56 @@ async def typewriter(typew):
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
 
+@register(outgoing=True, pattern='^Pmt(?: |$(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Jangan lupa ya Masuk!!`")
+    sleep(2)
+    await typew.edit("Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O")
+
 CMD_HELP.update({
     "vip":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
@@ -417,6 +467,6 @@ CMD_HELP.update({
     \nUsage: jempol & Cek dyno\
     \n\n`.tawa` ; `.oy` ; `.fck` ; `.tp`\
     \nUsage: ketawa lari , Nyuruh nimbrung , fvck & Coba sendiri.\
-    \n\n`.ular` ; `.babi` ; `.ajg`\
+    \n\n`.ular` ; `.babi` ; `.ajg` ; `Pmt`\
     \nUsage: liat sendiri."
 })
