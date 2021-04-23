@@ -345,69 +345,6 @@ async def typewriter(typew):
     await typew.edit("**NIMBRUNGGG GOBLOK!!!!**")
 
 
-@register(outgoing=True, pattern='^.tp(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**INTINYA JANGAN LUPA MASUK!!**\n\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM\n"
-                     "@TEMAN_RANDOM")
-
-
-
-@register(outgoing=True, pattern='^.gi(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**Mutualan Yukkk!...**")
-    sleep(2)
-    await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
-
-
-@register(outgoing=True, pattern='^.fck(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit(".                       /¯ )")
-    await typew.edit(".                       /¯ )\n                      /¯  /")
-    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /")
-    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸")
-    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ ")
-    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')")
-    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /")
-    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´")
-    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
-    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
-
-
 @register(outgoing=True, pattern='^Pmt(?: |$(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -457,6 +394,30 @@ async def typewriter(typew):
                      "Masuk G.C Di B.I.O\n"
                      "Masuk G.C Di B.I.O\n"
                      "Masuk G.C Di B.I.O")
+
+
+
+@register(outgoing=True, pattern='^.gi(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Mutualan Yukkk!...**")
+    sleep(2)
+    await typew.edit("INSTAGRAM= [TEKAN](https://www.instagram.com/ramadh20?r=nametag)")
+
+
+@register(outgoing=True, pattern='^.fck(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit(".                       /¯ )")
+    await typew.edit(".                       /¯ )\n                      /¯  /")
+    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /")
+    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸")
+    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ ")
+    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')")
+    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /")
+    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´")
+    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
+    await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
 
 CMD_HELP.update({
     "vip":
