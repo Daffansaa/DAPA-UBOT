@@ -345,7 +345,7 @@ async def typewriter(typew):
     await typew.edit("**NIMBRUNGGG GOBLOK!!!!**")
 
 
-@register(outgoing=True, pattern='^Pmt(?: |$(.*)')
+@register(outgoing=True, pattern='^.pmt(?: |$(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Jangan lupa ya Masuk!!`")
