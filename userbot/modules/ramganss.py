@@ -345,57 +345,6 @@ async def typewriter(typew):
     await typew.edit("**NIMBRUNGGG GOBLOK!!!!**")
 
 
-@register(outgoing=True, pattern='^.pmt(?: |$(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("`Jangan lupa ya Masuk`")
-    sleep(2)
-    await typew.edit("Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O")
-
-
 @register(outgoing=True, pattern='^.gi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
