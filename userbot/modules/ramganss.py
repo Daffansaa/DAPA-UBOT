@@ -396,7 +396,6 @@ async def typewriter(typew):
                      "Masuk G.C Di B.I.O")
 
 
-
 @register(outgoing=True, pattern='^.gi(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
