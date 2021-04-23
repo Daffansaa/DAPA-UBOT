@@ -378,58 +378,6 @@ async def koc(e):
         await e.edit("`NGAPAIN DI LIAT?😒😡`")
 
 
-@register(outgoing=True, pattern='^.pmt(?: |$(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("Jangan lupa ya Masuk!!")
-    sleep(2)
-    await typew.edit("Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O\n"
-                     "Masuk G.C Di B.I.O")
-# Create by myself @localheart
-
-
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
