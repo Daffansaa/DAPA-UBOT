@@ -454,7 +454,5 @@ CMD_HELP.update({
     \n\n`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`.sange`\
-    \nUsage: untuk jadi buaya.\
-    \n\n`.terkadang`\
-    \nUsage: Auk dah iseng doang."
+    \nUsage: untuk jadi buaya."
 })
