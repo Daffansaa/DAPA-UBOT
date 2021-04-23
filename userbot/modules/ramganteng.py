@@ -378,20 +378,55 @@ async def koc(e):
         await e.edit("`NGAPAIN DI LIAT?😒😡`")
 
 
-@register(outgoing=True, pattern='^.terkadang(?: |$)(.*)')
+@register(outgoing=True, pattern='^.pmt(?: |$(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`Terkadang`")
-    sleep(1)
-    await typew.edit("`Mencintai Seseorang yang ga pasti`")
-    sleep(1)
-    await typew.edit("`Hanya Akan Menyakiti hatimu`")
-    sleep(1)
-    await typew.edit("`Ketika dia sudah menemukan yang baru`")
-    sleep(1)
-    await typew.edit("`KAMU DI GHOSTING`")
-    sleep(1)
-    await typew.edit("`MAMPUS`")
+    await typew.edit("`Jangan lupa ya Masuk`")
+    sleep(2)
+    await typew.edit("Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O\n"
+                     "Masuk G.C Di B.I.O")
 # Create by myself @localheart
 
 
