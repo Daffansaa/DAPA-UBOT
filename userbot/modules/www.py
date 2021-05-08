@@ -43,7 +43,7 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(outgoing=True, pattern="^.sping$")
+@register(outgoing=True, pattern="^Sping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     await get_readable_time((time.time() - StartTime))
@@ -59,14 +59,14 @@ async def redis(pong):
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
-                    f"**          - 𝐍 𝐄 𝐓 𝐖 𝐎 𝐑 𝐊 -** \n"
+                    f"**         - 𝗥 𝗔 𝗠 - 𝗨 𝗕 𝗢 𝗧 -** \n"
                     f"**   ▰▱▰▱▰▱▰▱▰▱▰▱** \n"
                     f"**        • ꜱɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
                     f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
 
 
-@register(outgoing=True, pattern="^.lping$")
+@register(outgoing=True, pattern="^Lping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
@@ -81,7 +81,7 @@ async def redis(pong):
                     f"`{uptime}` \n" % (duration))
 
 
-@register(outgoing=True, pattern="^.xping$")
+@register(outgoing=True, pattern="^Xping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
@@ -97,14 +97,14 @@ async def redis(pong):
     await pong.edit("__Connecting to data center...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**\n"
+    await pong.edit(f"** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n"
                     f"➾ __Signal__    __:__ "
                     f"`%sms` \n"
                     f"➾ __Uptime__ __:__ "
                     f"`{uptime}` \n" % (duration))
 
 
-@register(outgoing=True, pattern="^.pings$")
+@register(outgoing=True, pattern="^Ping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
@@ -117,11 +117,11 @@ async def redis(pong):
     await pong.edit("__Connecting..__")
     await pong.edit("__Connecting...__")
     await pong.edit("__Connecting....__")
-    await pong.edit("⚡")
+    await pong.edit("⭐")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡**\n\n"
+    await pong.edit(f"** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n\n"
                     f"** ▹  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
                     f"** ▹  Uᴘᴛɪᴍᴇ  :** "
@@ -138,14 +138,14 @@ async def redis(pong):
     await pong.edit("__Pinging..__")
     await pong.edit("__Pinging...__")
     await pong.edit("__Pinging....__")
-    await pong.edit("⚡")
+    await pong.edit("⭐")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**Geez - Project!!🎈**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
+    await pong.edit(f"**RAM - UBOT!!🎈**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
 
 
-@register(outgoing=True, pattern="^.speed$")
+@register(outgoing=True, pattern="^Speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
     await spd.edit("`Menjalankan Tes Kecepatan Jaringan, Mohon Tunggu...⚡`")
@@ -169,7 +169,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡")
+                   "✧ **BOT:** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐")
 
 
 def speed_convert(size):
@@ -185,7 +185,7 @@ def speed_convert(size):
     return f"{round(size, 2)} {units[zero]}"
 
 
-@register(outgoing=True, pattern="^.pong$")
+@register(outgoing=True, pattern="^Pong$")
 async def pingme(pong):
     """ For .ping command, ping the userbot from any chat.  """
     start = datetime.now()
@@ -198,9 +198,9 @@ async def pingme(pong):
 
 
 CMD_HELP.update({
-    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` | `.lping` | `.xping` | `.pings` | `.sping`\
+    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Ping` | `Lping` | `Xping` | `.ping` | `Sping`\
          \n↳ : Untuk Menunjukkan Ping Bot Anda.\
-         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.speed`\
+         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Speed`\
          \n↳ : Untuk Menunjukkan Kecepatan Jaringan Anda.\
-         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.pong`\
+         \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Pong`\
          \n↳ : Sama Seperti Perintah Ping."})
