@@ -73,7 +73,7 @@ async def handler(tele):
                                 tele.chat_id, guser.id, view_messages=False
                             )
                             await tele.reply(
-                                f"**Lord, Pengguna Gban Telah Bergabung** \n"
+                                f"**Selamat, Pengguna Gban Telah Bergabung** \n"
                                 f"**Pengguna**: [{guser.id}](tg://user?id={guser.id})\n"
                                 f"**Aksi**  : `Banned`"
                             )
@@ -111,7 +111,7 @@ async def gben(userbot):
     except BaseException:
         return await dark.edit(f"`Terjadi Kesalahan ヅ`")
     if user:
-        if user.id == 702937519:
+        if user.id == 1779447750:
             return await dark.edit(
                 f"`LU GABISA GBAN DIA TOLOL,BOSS RAMA YG UDH BIKIN GUA ANJEEENGG!!!😡`"
             )
