@@ -267,7 +267,7 @@ async def amireallyalive(alive):
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
         f"           **♕ RAM UBOT ♕** \n\n"
-        f"**╰✠╼━━━━━━❖━━━━━━━✠╯
+        f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ **Tuan**     \n   ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username** \n   ➥ `@{user.username}` \n"
         f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
