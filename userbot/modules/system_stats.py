@@ -1,4 +1,4 @@
-# System Stats Lord-Userbot
+# System Stats RAM-UBOT
 
 import asyncio
 from asyncio import create_subprocess_exec as asyncrunapp
@@ -226,7 +226,7 @@ async def amireallyalive(alive):
     await alive.edit("⭐")
     output = (
         f"**╔══════════╣❃ ♕ ❃╠══════════╗** \n"
-        f"**       ۩          ⬚⃝⃟       RAM-UBOT ⬚⃝⃟          ۩ ** \n"
+        f"**       ۩          ⬚⃝⃟       RAM-UBOT  ⬚⃝⃟          ۩ ** \n"
         f"**╚══════════╣❃ ♕ ❃╠══════════╝** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**━━━━━━━━━━━━━━━━━━━━**\n"
@@ -265,16 +265,17 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**¥▬▬▬▬▬▬❙۩ᬉིུ֛ ⃝ ꦿꦶ ۩❙▬▬▬▬▬▬¥**\n"
+        f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
         f"           **♕ RAM UBOT ♕** \n\n"
+        f"**╰✠╼━━━━━━❖━━━━━━━✠╯
         f"❃ **Tuan**     \n   ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username** \n   ➥ `@{user.username}` \n"
         f"❃ **Telethon** \n   ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**   \n   ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**\n   ➥ `{BOT_VER}` \n"
         f"❃ **Modul**    \n   ➥ `{len(modules)}` \n\n"
-        f"❃ **REPO:** [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT)\n❃ **GROUP: **[TEKAN](t.me/teman_random)\n❃ **CHANNEL: **[CANDU MUSIK](t.me/candu_musikk)\n❃ **PEMILIK:** [RAMA](t.me/Ramadhaniiiiiii1)\n"
-        f"**¥▬▬▬▬▬▬❙۩ᬉིུ֛ ⃝ ꦿꦶ ۩❙▬▬▬▬▬▬¥**")
+        f"❃ **REPO:** [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT) || **GROUP: **[TEKAN](t.me/teman_random) || **CHANNEL: **[CANDU MUSIK](t.me/candu_musikk) || **PEMILIK:** [RAMA](t.me/Ramadhaniiiiiii1)\n"
+        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
