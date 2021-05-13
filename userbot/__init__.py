@@ -319,7 +319,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```║RAM-UBOT TELAH AKTIF!║\n\n Jika Tidak Bisa Di .ping Silahkan Anda Cek Viewlogs Pada heroku Anda.```")
+    await bot.send_message(BOTLOG_CHATID, "```║RAM-UBOT TELAH AKTIF!║\n\n ▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping Silahkan Anda Cek Viewlogs Pada heroku Anda. \n\n▰▰▰▰▰▰▰▰▰▰▰```")
     return
 
 with bot:
