@@ -35,11 +35,11 @@ PP_CHANGED = "```Lord, Foto Profil Anda Telah Berhasil Diubah.```"
 PP_TOO_SMOL = "```Gambar Terlalu Kecil Lord, Mohon Gunakan Yang Lebih Besar.```"
 PP_ERROR = "```Kegagalan Terjadi Saat Proses Gambar, Foto Profil Gagal Diubah.```"
 
-BIO_SUCCESS = "```Lord, Bio Anda Telah Berhasil Diubah.```"
+BIO_SUCCESS = "```Mas, Bio Anda Telah Berhasil Diubah.```"
 
 NAME_OK = "```Lord, Nama Anda Telah Berhasil Diubah.```"
 USERNAME_SUCCESS = "```Username Anda Sudah Diubah.```"
-USERNAME_TAKEN = "```Mohon Maaf Lord, Username Itu Sudah Ada Yang Menggunakannya.```"
+USERNAME_TAKEN = "```Mohon Maaf Mas, Username Itu Sudah Ada Yang Menggunakannya.```"
 # ===============================================================
 
 
