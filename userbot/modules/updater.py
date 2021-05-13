@@ -67,7 +67,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             )
             return repo.__del__()
         await event.edit('`[HEROKU]:'
-                         '\nDyno RAM-USERBOT Sedang Dalam Proses, Mohon Menunggu 7-8 Menit`'
+                         '\nSedang Dalam proses Update RAM-USERBOT, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
         repo.git.reset("--hard", "FETCH_HEAD")
