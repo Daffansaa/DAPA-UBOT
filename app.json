@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Dapatkan String Session di termux caranya ada di repo, jika tidak tau reponya tanya @liualvinas di telegram",
+      "description": "Ambil String Session di @geezsupportgroup dengan cara ketik #string.",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -89,7 +89,7 @@
     },
     "PM_AUTO_BAN": {
       "description": "PM Auto-Ban Feature Switch. Also known as the 'bleep blop, this is a bot...' module.",
-      "value": "False",
+      "value": "Tru",
       "required": true
     },
     "YOUTUBE_API_KEY": {
