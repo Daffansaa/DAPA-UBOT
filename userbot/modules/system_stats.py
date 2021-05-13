@@ -268,12 +268,12 @@ async def amireallyalive(alive):
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
         f"             **♕ RAM-UBOT ♕** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
-        f"❃ **Tuan**        ➥ `{DEFAULTUSER}` \n"
+        f"❃ **Tuan**             ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
-        f"❃ **Telethon**    ➥ `Versi {version.__version__}` \n"
-        f"❃ **Python**      ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**   ➥ `{BOT_VER}` \n"
-        f"❃ **Modul**       ➥ `{len(modules)}` \n\n"
+        f"❃ **Telethon**      ➥ `Versi {version.__version__}` \n"
+        f"❃ **Python**         ➥ `Versi {python_version()}` \n"
+        f"❃ **Versi Bot**     ➥ `{BOT_VER}` \n"
+        f"❃ **Modul**          ➥ `{len(modules)}` \n\n"
         f" **REPO:** [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT) || **GROUP: **[TEKAN](t.me/teman_random) || **CHANNEL: **[CHANNEL](t.me/candu_musikk) || **PEMILIK:** [TEKAN](t.me/Ramadhaniiiiiii1)\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**")
     if ALIVE_LOGO:
