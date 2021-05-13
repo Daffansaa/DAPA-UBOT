@@ -88,8 +88,8 @@
       "required": false
     },
     "PM_AUTO_BAN": {
-      "description": "PM Auto-Ban Feature Switch. Also known as the 'bleep blop, this is a bot...' module.",
-      "value": "Tru",
+      "description": "Ini berguna Untuk Mengaktifkan pesan otomatis di room chat anda.",
+      "value": "True",
       "required": true
     },
     "YOUTUBE_API_KEY": {
