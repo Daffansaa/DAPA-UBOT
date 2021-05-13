@@ -27,13 +27,14 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 DEF_UNAPPROVED_MSG = (
-    f"__**ROOM CHAT || {DEFAULTUSER}**__\n"
-    "━━━━━━━━━━━━━━━━━━━━\n"
-    f"__SELAMAT DATANG KONTOL,KALO NGECHAT ORANG ITU SALAM,HABIS ITU SABAR TUNGGU DIA BALES,KALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, KALO NYEPAM TAR GUA BLOKIR!!!! TUNGGU SI {DEFAULTUSER} NERIMA PESAN LU__\n"
-    "┏━━━━━━━━━━━━━━━━━━\n"
-    "┣[• `PESAN OTOMAMPUS`\n"
-    "┣[• `BY RAM UBOT`\n"
-    "┗━━━━━━━━━━━━━━━━━━━")
+    f"__**SELAMAT DATANG DI ROOM CHAT || {DEFAULTUSER}**__\n"
+    "═════════════════\n"
+    f"**ANAK KONTOL ANAK NGENTOT,KALO NGECHAT MAJIKAN {DEFAULTUSER} ITU SALAM,HABIS ITU SABAR TUNGGU MAJIKAN GUA BALES,KALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, APA LAGI LU NGECHAT NYA CUMA MINTA PAP TETE SAMA VCS BISA GUA BLOKIR!! KALO NYEPAM JUGA TAR GUA BLOKIR!!!! TUNGGU SI {DEFAULTUSER} NERIMA PESAN LU**\n"
+    "▰▰▰▰▰▰▰▰▰▰▰\n"
+    "┣[• MASUK AJA KE @TEMAN_RANDOM\n"
+    "┣[• `PESAN OTOMATIS`\n
+    "┣[• `BY RAM-UBOT`\n"
+    "▰▰▰▰▰▰▰▰▰▰▰")
 # =================================================================
 
 
@@ -91,7 +92,7 @@ async def permitpm(event):
 
             if COUNT_PM[event.chat_id] > 5:
                 await event.respond(
-                    "`Lu Bandel su anjing,Dah lah gua blok aja!!`\n"
+                    "`Lu Bandel si anjing,Dah lah gua blok aja!!`\n"
                     "`Ke Room Chat Anda ツ`"
                 )
 
@@ -327,7 +328,7 @@ async def unblockpm(unblock):
 async def add_pmsg(cust_msg):
     """Set your own Unapproved message"""
     if not PM_AUTO_BAN:
-        return await cust_msg.edit("**Mas Anda Harus Menyetel** `PM_AUTO_BAN` **Ke** `True`")
+        return await cust_msg.edit("**Mas, Anda Harus Menyetel** `PM_AUTO_BAN` **Ke** `True`")
     try:
         import userbot.modules.sql_helper.globals as sql
     except AttributeError:
@@ -355,7 +356,7 @@ async def add_pmsg(cust_msg):
             msg = message.message  # get the plain text
             sql.addgvar("unapproved_msg", msg)
         else:
-            return await cust_msg.edit("`Mohon Balas Ke Pesan`")
+            return await cust_msg.edit("`Mohon Balas Ke Pesan mas`")
 
         await cust_msg.edit("`Pesan Berhasil Disimpan Ke Room Chat`")
 
