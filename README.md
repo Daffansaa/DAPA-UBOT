@@ -49,8 +49,8 @@ Atau Bisa Gabung Ke Grup  -> [TEKAN DISINI](https://t.me/teman_random)
 
 ## Credit
 TERIMAKASIH UNTUK
+
 *   [VICKY](https://github.com/vckyou) - ⚡Geez-Userbot⚡
-*   [Alvin](https://github.com/Zora24) - Lord-usebot
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
 *   [Mkaraniya](https://github.com/mkaraniya) & [Dev73](https://github.com/Devp73) - OpenUserBot
