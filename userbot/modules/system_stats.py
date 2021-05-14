@@ -229,7 +229,7 @@ async def amireallyalive(alive):
         f"**        ۩  ⬚⃝⃟    RAM-UBOT ⬚⃝⃟     ۩ ** \n"
         f"**╚══════╣❃ ♕ ❃╠══════╝** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
-        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
+        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
         f"**🤑 TUAN** \n"
         f" ➥ `{DEFAULTUSER}` \n"
         f"**😋 Username** \n"
