@@ -28,20 +28,22 @@ async def typewriter(typew):
                      "\n**Permisi Aku mau nimbrung Kk..**")
 
 
-@register(outgoing=True, pattern='^.rama(?: |$)(.*)')
+@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Rama ganteng☑️**")
-    await typew.edit("**Rama Ganteng✅**")
+    await typew.edit("**Vicky Peler☑️**")
+    await typew.edit("**Vicky Peler✅**")
     sleep(1)
-    await typew.edit("**Rama baik☑️**")
-    await typew.edit("**Rama baik✅**")
+    await typew.edit("**Toni Gilaa☑️**")
+    await typew.edit("**Toni Gilaa✅**")
     sleep(2)
-    await typew.edit("**Rama setia☑️**")
-    await typew.edit("**Rama setia✅**")
-    sleep(3)
-    await typew.edit("**Rama Ga galak☑️**")
-    await typew.edit("**Rama Ga galak✅**")
+    await typew.edit("**Karina Depresi☑️**")
+    await typew.edit("**Karina Depresi✅**")
+    sleep(2)
+    await typew.edit("**Yunus Gajelas☑️**")
+    await typew.edit("**Yunus Gajelas✅**")
+    sleep(2)
+    await typew.edit("**Adel Jia Ime, GJM!
     sleep(3)
     await typew.edit("**Kalian Semua stress,Kecuali rama😋**")
 
@@ -53,6 +55,6 @@ CMD_HELP.update({
     \nUsage: alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
-    \n\n`.punten` ; `.rama`\
+    \n\n`.punten` ; `.geez`\
     \nUsage: coba aja & salam."
 })
