@@ -48,8 +48,8 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 CMD_HELP.update({
-    "stres":
-    "`.stres`\
+    "ram-ubot":
+    "`.ram`\
     \nUsage: alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
