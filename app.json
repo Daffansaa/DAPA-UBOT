@@ -158,7 +158,7 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "LORD_TEKS_KUSTOM": {
+    "RAM_TEKS_KOSTUM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .ram (Isi Terserah)",
       "value": "ㅤ",
       "required": false
