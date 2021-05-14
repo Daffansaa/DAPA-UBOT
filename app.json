@@ -42,7 +42,7 @@
     },
     "BOTLOG_CHATID": {
       "description": "Buatlah sebuah grup private/public masukan bot rose lalu ketik /id.",
-      "value": "Isi id grup mu",
+      "value": "Isi id grup lu tot",
       "required": true
     },
     "CONSOLE_LOGGER_VERBOSE": {
@@ -158,8 +158,9 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": false
     },
-    "RAM_TEKS_KUSTOM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .lord (Isi Terserah)",
+    "LORD_TEKS_KUSTOM": {
+      "description": "Kustom Pesan Alive Mu Untuk Perintah .ram (Isi Terserah)",
+      "value": "ㅤ",
       "required": false
     },
     "S_PACK_NAME": {
