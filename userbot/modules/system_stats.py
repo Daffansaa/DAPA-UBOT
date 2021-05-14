@@ -14,7 +14,7 @@ import time
 from datetime import datetime
 import psutil
 
-from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, LORD_TEKS_KUSTOM, StartTime, bot
+from userbot import ALIVE_LOGO, ALIVE_NAME, BOT_VER, CMD_HELP, RAM_TEKS_KUSTOM, StartTime, bot
 from userbot.events import register
 
 
@@ -228,7 +228,7 @@ async def amireallyalive(alive):
         f"**╔══════╣❃ ♕ ❃╠══════╗** \n"
         f"**        ۩  ⬚⃝⃟    RAM-UBOT ⬚⃝⃟     ۩ ** \n"
         f"**╚══════╣❃ ♕ ❃╠══════╝** \n"
-        f"\n__**{LORD_TEKS_KUSTOM}**__\n"
+        f"\n__**{RAM_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
         f"**🤑 TUAN** \n"
         f" ➥ `{DEFAULTUSER}` \n"
