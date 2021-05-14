@@ -226,7 +226,7 @@ async def amireallyalive(alive):
     await alive.edit("⭐")
     output = (
         f"**╔══════════╣❃ ♕ ❃╠══════════╗** \n"
-        f"**       ۩          ⬚⃝⃟       RAM-UBOT  ⬚⃝⃟          ۩ ** \n"
+        f"**       ۩          ⬚⃝⃟       RAM-UBOT   ⬚⃝⃟          ۩ ** \n"
         f"**╚══════════╣❃ ♕ ❃╠══════════╝** \n"
         f"\n__**{LORD_TEKS_KUSTOM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
