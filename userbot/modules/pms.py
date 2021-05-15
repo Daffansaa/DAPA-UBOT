@@ -43,7 +43,7 @@ DEF_UNAPPROVED_MSG = (
     f"╔══════╣❃ ♕ ❃╠══════╗\n         **SELAMAT DATANG**\n"
     "╚══════╣❃ ♕ ❃╠══════╝\n"
     "╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤\n"
-    " {CUSTOM_MIDDLE_PMP}
+    " {CUSTOM_MIDDLE_PMP}\n"
     f"╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
     "┣[• SILAHKAN JOIN @TEMAN_RANDOM\n"
