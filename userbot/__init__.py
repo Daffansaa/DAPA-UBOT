@@ -68,9 +68,6 @@ if CONFIG_CHECK:
 API_KEY = os.environ.get("API_KEY", "")
 API_HASH = os.environ.get("API_HASH", "")
 
-# Custom Module
-CUSTOM_PMPERMIT_TEXT = os.environ.get("CUSTOM_PMPERMIT_TEXT", None)
-
 # Userbot Session String
 STRING_SESSION = os.environ.get("STRING_SESSION", "")
 
