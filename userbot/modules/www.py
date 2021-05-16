@@ -62,7 +62,7 @@ async def redis(pong):
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
                     f"**         - 𝗥 𝗔 𝗠 - 𝗨 𝗕 𝗢 𝗧 -** \n"
                     f"**   ▰▱▰▱▰▱▰▱▰▱▰▱** \n"
-                    f"**        • ꜱɪɢɴᴀʟ  :** `%sms` \n"
+                    f"**        • sɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
                     f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
 
@@ -98,10 +98,10 @@ async def redis(pong):
     await pong.edit("__Mohon menunggu...__")
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n"
-                    f"➾ __Signal__    __:__ "
+    await pong.edit(f"**PONG!!**\n"
+                    f" __Signal__    __:__ "
                     f"`%sms` \n"
-                    f"➾ __Uptime__ __:__ "
+                    f" __Uptime__ __:__ "
                     f"`{uptime}` \n" % (duration))
 
 
@@ -118,16 +118,18 @@ async def redis(pong):
     await pong.edit("__Pong..__")
     await pong.edit("__Ping...__")
     await pong.edit("__Pong....__")
-    await pong.edit("⭐")
+    await pong.edit("🌟")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n\n"
-                    f"** ▹  Sɪɢɴᴀʟ   :** "
+    await pong.edit(f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
+                    f"**                   ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n"
+                    f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
+                    f"** •  Sɪɢɴᴀʟ   :** "
                     f"`%sms` \n"
-                    f"** ▹  Uᴘᴛɪᴍᴇ  :** "
+                    f"** •  Uᴘᴛɪᴍᴇ  :** "
                     f"`{uptime}` \n"
-                    f"** ▹  Oᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" % (duration))
+                    f"** •  Oᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.ping$")
@@ -140,13 +142,13 @@ async def redis(pong):
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**RAM - UBOT!!🎈**\n**Pinger** : %sms\n**Bot Uptime** : {uptime}🕛" % (duration))
+    await pong.edit(f"**KONTOOLLLL!!**\n**KEKUATAN KONTOL** : %sms\n**DURASI KONTOL** : {uptime}🕛" % (duration))
 
 
 @register(outgoing=True, pattern="^Speed$")
 async def speedtst(spd):
     """ For .speed command, use SpeedTest to check server speeds. """
-    await spd.edit("`Menjalankan Tes Kecepatan Jaringan, Mohon Tunggu...⚡`")
+    await spd.edit("`Menjalankan Tes Kecepatan Jaringan, Mohon Tunggu...✨`")
     test = Speedtest()
 
     test.get_best_server()
