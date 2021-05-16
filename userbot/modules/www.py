@@ -61,7 +61,7 @@ async def redis(pong):
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
                     f"**        ✨ 𝗥 𝗔 𝗠 - 𝗨 𝗕 𝗢 𝗧 ✨** \n"
-                    f"**   ✠╼━━━━━━❖━━━━━━━✠** \n"
+                    f"**  ✠╼━━━━━━❖━━━━━━━✠** \n"
                     f"**        • sɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
                     f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
@@ -138,7 +138,7 @@ async def redis(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("Ping")
-    await pong.edit("⭐")
+    await pong.edit("🌕")
     await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
@@ -191,7 +191,7 @@ async def pingme(pong):
     start = datetime.now()
     await pong.edit("PONG")
     await asyncio.sleep(1)
-    await pong.edit("⚡")
+    await pong.edit("✨")
     end = datetime.now()
     duration = (end - start).microseconds / 9000
     await pong.edit(f"**Oᴡɴᴇʀ : {ALIVE_NAME}**\n`%sms`" % (duration))
