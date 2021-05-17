@@ -50,7 +50,7 @@ async def _(event):
 # Ported For Lord-Userbot By liualvinas/Alvin
 
 CMD_HELP.update({
-    "lordfun": "\
+    "ramfun": "\
 `.xogame`\
 \nUsage: Mainkan game XO bersama temanmu.\
 \n\n`.mod <nama app>`\
