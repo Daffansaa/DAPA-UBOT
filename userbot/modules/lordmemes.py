@@ -133,7 +133,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "Click your Gift [🎁](http://porhub.com/stepmom"]
+            "Click your Gift [🎁](http://164.68.127.15/)"]
 
         for i in animation_ttl:
 
