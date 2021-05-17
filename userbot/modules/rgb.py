@@ -52,7 +52,7 @@ async def sticklet(event):
 
     await event.client.send_file(event.chat_id, image_stream)
 
-#Cape Cape Aku port Jgn hapus credits Ya Bgst
+# Cape Cape Aku port Jgn hapus credits Ya Bgst
 
 CMD_HELP.update({
     'rgb':
