@@ -75,6 +75,8 @@ async def redis(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("`Connecting to server...`")
+    await pong.edit("☠️")
+    await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**`{ALIVE_NAME}`**\n"
@@ -98,13 +100,17 @@ async def redis(pong):
     await pong.edit("__Mohon menunggu.__")
     await pong.edit("__Mohon menunggu..__")
     await pong.edit("__Mohon menunggu...__")
+    await pong.edit("💀")
+    await asyncio.sleep(2)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
-    await pong.edit(f"**PONG!!**\n"
-                    f" __Signal__    __:__ "
+    await pong.edit(f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
+                    f"┣[•**PONG!!**\n"
+                    f"┣[•__Signal__    __:__ "
                     f"`%sms` \n"
-                    f" __Uptime__ __:__ "
-                    f"`{uptime}` \n" % (duration))
+                    f"┣[•__Uptime__ __:__ "
+                    f"`{uptime}` \n" % (duration)
+                    f"╰✠╼━━━━━━❖━━━━━━━✠╯")
 
 
 @register(outgoing=True, pattern="^Ping$")
