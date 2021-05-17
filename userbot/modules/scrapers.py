@@ -169,7 +169,7 @@ async def carbon_api(e):
 @register(outgoing=True, pattern="^.img (.*)")
 async def img_sampler(event):
     """ For .img command, search and return images matching the query. """
-    await event.edit("`Mohon Menunggu Lord, Sedang Mencari Gambar Yang Anda Cari...`")
+    await event.edit("`Sabar yaa... Bukan nyari foto bugil kan?`")
     query = event.pattern_match.group(1)
     lim = findall(r"lim=\d+", query)
     try:
