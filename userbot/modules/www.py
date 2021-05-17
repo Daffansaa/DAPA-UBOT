@@ -58,7 +58,7 @@ async def redis(pong):
     await pong.edit("__Bentar....__")
     await pong.edit("__Nah!!__")
     await pong.edit("💫")
-    await asyncio.sleep(2)
+    await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
@@ -76,7 +76,7 @@ async def redis(pong):
     start = datetime.now()
     await pong.edit("`Connecting to server...`")
     await pong.edit("☠️")
-    await asyncio.sleep(2)
+    await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**`{ALIVE_NAME}`**\n"
