@@ -7,7 +7,7 @@
 # Keredit
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
-# Lord Userbot - From Lord To Lord
+# Rama ganteng banget asli
 # Yang Gbs Basa Enggres bisa Terjemahkan di atas
 # Ngefork Doang Gak Bintang Anjg
 # Kalo Clone Ini Jangan dihapus ya anjg nanti Koala Ngamuk, Ok Mksh Sma Sma
@@ -17,8 +17,6 @@ from telethon.errors.rpcerrorlist import YouBlockedUserError
 from userbot.events import register
 from userbot import bot, CMD_HELP, ALIVE_NAME
 
-# Alvin Gans
-# Apin Gansssss Anjjjayy Yahahaha
 
 
 # Rama ganteng mks sm sm
@@ -32,7 +30,7 @@ async def insta(event):
     if event.fwd_from:
         return
     if not event.reply_to_msg_id:
-        await event.edit("`Lord, Mohon Balas Ke Link Instagram`")
+        await event.edit("`Mohon Balas Ke Link Instagram`")
         return
     reply_message = await event.get_reply_message()
     if not reply_message.text:
