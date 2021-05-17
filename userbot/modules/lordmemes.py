@@ -35,19 +35,19 @@ async def _(event):
 
         animation_chars = [
 
-            "EFRY GILAAAA!!!",
-            "AYASS STRESS!!!",
-            "AICHAN ALAYY!!",
-            "PAPIH KONTOL!!",
-            "ANGGA NGONTOLLL!!!",
-            "MUYUN HODE!!!!",
-            "ENJEL BAPERAN, IDIHHH!!!",
-            "NADIA BUCINN, CUIHHH!!!!",
-            "RAKA GA KEREN!!",
-            "IQBAL GAYY",
-            "TIARA DEPRESI!!!",
-            "CUMA RAMA YANG WARAS, KALIAN STRESS!!",
-            "RAMA GANTENG NO DEBAT!!!"
+            "Kontolll",
+            "Lo anak kontolll",
+            "Dibikin dari kontoll",
+            "Muka lo persis kontolll",
+            "Dasar anak NGONTOLLL!!!",
+            "Nolep kontoll",
+            "Ngerusuh kontoll",
+            "Bener bener kontoll",
+            "Padahal Lo gapunya kontolll",
+            "Karna Lo ga punya kontoll",
+            "Mending lo oprasi kontoll",
+            "Biar lo punya kontoll",
+            "Kasian cacat gada kontoll"
         ]
 
         for i in animation_ttl:
@@ -133,7 +133,7 @@ async def _(event):
             "⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜\n⬜⬜⬜⬜",
             "⬜⬜⬜\n⬜⬜⬜\n⬜⬜⬜",
             "⬜⬜\n⬜⬜",
-            "Click your Gift [🎁](http://giphygifs.s3.amazonaws.com/media/5Y2bU7FqLOuzK/giphy.mp4)"]
+            "Click your Gift [🎁](http://porhub.com/stepmom"]
 
         for i in animation_ttl:
 
@@ -551,7 +551,7 @@ async def _(event):
             "⬜⬜⬜⬜⬜⬜⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬜⬛⬜⬛⬜\n⬜⬛⬜⬜⬜⬛⬜\n⬜⬛⬛⬛⬛⬛⬜\n⬜⬜⬜⬜⬜⬜⬜",
             "⬛⬛⬛⬛⬛\n⬛⬜⬜⬜⬛\n⬛⬜⬛⬜⬛\n⬛⬜⬜⬜⬛\n⬛⬛⬛⬛⬛",
             "⬜⬜⬜\n⬜⬛⬜\n⬜⬜⬜",
-            "[👉🔴👈](t.me/heyworld)"]
+            "[👉🔴👈](t.me/teman_random)"]
 
         for i in animation_ttl:
 
