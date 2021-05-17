@@ -109,8 +109,8 @@ async def redis(pong):
                     f"┣[•__Signal__    __:__ "
                     f"`%sms` \n"
                     f"┣[•__Uptime__ __:__ "
-                    f"`{uptime}` \n" % (duration)
-                    f"╰✠╼━━━━━━❖━━━━━━━✠╯")
+                    f"`{uptime}` \n"
+                    f"╰✠╼━━━━━━❖━━━━━━━✠╯\n" % (duration))
 
 
 @register(outgoing=True, pattern="^Ping$")
