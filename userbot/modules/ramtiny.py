@@ -23,7 +23,7 @@ async def ultiny(event):
         return
     xx = await event.edit("`Kecilin tikel!!....`")
     ik = await bot.download_media(reply)
-    im1 = Image.open("LordUserbot/lorduserbot.png")
+    im1 = Image.open("RAMUBOT/RAMUBOT.png")
     if ik.endswith(".tgs"):
         await event.client.download_media(reply, "ult.tgs")
         os.system("lottie_convert.py ult.tgs json.json")
