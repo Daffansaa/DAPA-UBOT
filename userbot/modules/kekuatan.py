@@ -7,7 +7,7 @@ from userbot import bot, TEMP_DOWNLOAD_DIRECTORY, CMD_HELP
 
 @register(outgoing=True, pattern=r'^.jurus(:? |$)([1-8])?')
 async def _(fry):
-    await fry.edit("**SI GOBLOK MULAI MENGELUARKAN JURUS TELEGRAM...☠️**")
+    await fry.edit("`SI GOBLOK MULAI MENGELUARKAN JURUS TELEGRAM...☠️`")
     level = fry.pattern_match.group(2)
     if fry.fwd_from:
         return
@@ -38,7 +38,7 @@ async def _(fry):
             """ - don't spam notif - """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await fry.reply("`Lord Mohon Unblock` @image_deepfrybot`...`")
+            await fry.reply("`Mohon Unblock` @image_deepfrybot`...`")
             return
         if response.text.startswith("Forward"):
             await fry.edit("`Lord Mohon Matikan Setelan Forward Privasi...`")
@@ -78,10 +78,10 @@ async def _(fry):
         return
     reply_message = await fry.get_reply_message()
     if not reply_message.media:
-        await fry.edit("`Mohon Balas Di Sticker Lord`")
+        await fry.edit("`Mohon Balas Di Sticker Sayang`")
         return
     if reply_message.sender.bot:
-        await fry.edit("`Mohon Balas Di Sticker Lord`")
+        await fry.edit("`Mohon Balas Di Sticker Sayang`")
         return
     chat = "@image_deepfrybot"
     message_id_to_reply = fry.message.reply_to_msg_id
@@ -100,10 +100,10 @@ async def _(fry):
             """ - don't spam notif - """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await fry.reply("`Lord Mohon Unblock` @image_deepfrybot`...`")
+            await fry.reply("`Mohon Unblock` @image_deepfrybot`...`")
             return
         if response.text.startswith("Forward"):
-            await fry.edit("`Lord Mohon Matikan Setelan Privasi Forward...`")
+            await fry.edit("`Mohon Matikan Setelan Privasi Forward...`")
         else:
             downloaded_file_name = await fry.client.download_media(
                 response.media,
