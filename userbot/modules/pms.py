@@ -95,7 +95,7 @@ async def permitpm(event):
             if COUNT_PM[event.chat_id] > 5:
                 await event.respond(
                     "`Udah Gua bilang, Sabaran napa si ah,Gua blok kan luh!`\n"
-                    "`Menunggu Pesan si terima.`"
+                    "`Menunggu Pesan di terima.`"
                 )
 
                 try:
