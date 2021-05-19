@@ -541,7 +541,7 @@ async def _(event):
     await event.delete()
     await bot.send_message(
         event.chat_id,
-        "`Clone Berhasil Dilakukan ツ`",
+        "`Berhasil Menyamar..`",
         reply_to=reply_message
     )
 
