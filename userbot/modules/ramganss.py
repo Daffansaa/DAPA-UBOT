@@ -315,7 +315,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Memeriksa dyno heroku anda...`")
     sleep(1)
-    await typew.edit("**RAM USAGE:**\n\n"
+    await typew.edit("**INFO DYNO:**\n\n"
                      "╔════════════════════╗\n"
                      "`✥Penggunaan dyno Anda:`\n"
                      "**❉1000 Jam - 1000 Menit 100%**\n"
