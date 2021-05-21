@@ -266,7 +266,7 @@ async def disapprovepm(disapprvpm):
         name0 = str(aname.first_name)
 
     await disapprvpm.edit(
-        f"`Maaf` [{name0}](tg://user?id={disapprvpm.chat_id}) `Pesan Anda Telah Ditolak, Mohon Jangan Melakukan Spam Ke Room Chat!`"
+        f"`Maaf` [{name0}](tg://user?id={disapprvpm.chat_id}) `Pesan Anda Telah Ditolak, Mohon Jangan Melakukan Spam Ke Room Chat!\nBaru Chat aja di tolak, Jelek banget si lu!`"
     )
 
     if BOTLOG:
@@ -286,12 +286,12 @@ async def blockpm(block):
         aname = replied_user.id
         name0 = str(replied_user.first_name)
         await block.client(BlockRequest(aname))
-        await block.edit("`Anda Telah Diblokir!`")
+        await block.edit("`Lu jamet, Maaf Gua Blok!`")
         uid = replied_user.id
     else:
         await block.client(BlockRequest(block.chat_id))
         aname = await block.client.get_entity(block.chat_id)
-        await block.edit("`Anda Telah Diblokir!`")
+        await block.edit("`Lu jamet, Maaf Gua Blok!`")
         name0 = str(aname.first_name)
         uid = block.chat_id
 
@@ -317,7 +317,7 @@ async def unblockpm(unblock):
         replied_user = await unblock.client.get_entity(reply.from_id)
         name0 = str(replied_user.first_name)
         await unblock.client(UnblockRequest(replied_user.id))
-        await unblock.edit("`Anda Sudah Tidak Diblokir Lagi.`")
+        await unblock.edit("`Udah Gua Unblok, Jangan Ngejamet lagi!`")
 
     if BOTLOG:
         await unblock.client.send_message(
