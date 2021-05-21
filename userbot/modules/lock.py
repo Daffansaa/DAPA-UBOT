@@ -69,7 +69,7 @@ async def locks(event):
         what = "Semuanya"
     else:
         if not input_str:
-            await event.edit("`Mohon Maaf, Apa Yang Harus Saya Kunci? ヅ`")
+            await event.edit("`Mohon Maaf,Apa Yang mau Gua kunci Tot!`")
             return
         else:
             await event.edit(f"`Jenis Yang Mau Anda Kunci Tidak Valid` `{input_str}`")
@@ -92,10 +92,10 @@ async def locks(event):
         await event.client(
             EditChatDefaultBannedRightsRequest(peer=peer_id,
                                                banned_rights=lock_rights))
-        await event.edit(f"`Lord Telah Mengunci {what} Untuk Obrolan Ini ヅ`")
+        await event.edit(f"`Si Ngentot Telah Mengunci {what} Untuk Obrolan Ini`")
     except BaseException as e:
         await event.edit(
-            f"`Apakah Anda Mempunyai Izin Melakukan Itu Disini?`\n**Kesalahan:** {str(e)}")
+            f"`Emang Lu Admin Disini Tot?`\n**Kesalahan:** {str(e)}")
         return
 
 
@@ -157,7 +157,7 @@ async def rem_locks(event):
         what = "Semuanya"
     else:
         if not input_str:
-            await event.edit("`Apa Yang Harus Saya Buka? ヅ`")
+            await event.edit("`Apa Yang harus Gua buka?\nBaju owner kah?`")
             return
         else:
             await event.edit(f"`Jenis Kunci Yang Mau Anda Buka Tidak Valid` `{input_str}`")
@@ -180,10 +180,10 @@ async def rem_locks(event):
         await event.client(
             EditChatDefaultBannedRightsRequest(peer=peer_id,
                                                banned_rights=unlock_rights))
-        await event.edit(f"`Anda Telah Membuka Kunci {what} Untuk Obrolan Ini ヅ`")
+        await event.edit(f"`Member Anjing, Gua Udah buka {what} Jangan Spam ya Tot!`")
     except BaseException as e:
         await event.edit(
-            f"`Apakah Anda Mempunyai Izin Melakukan Itu Disini?`\n**Kesalahan:** {str(e)}")
+            f"`Emang Lu Admin Disini Tot?`\n**Kesalahan:** {str(e)}")
         return
 
 
