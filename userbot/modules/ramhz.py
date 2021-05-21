@@ -15,11 +15,11 @@ async def _(hazmat):
     if hazmat.fwd_from:
         return
     if not hazmat.reply_to_msg_id:
-        await hazmat.edit("`Lord, Mohon Balas Ke Sticker/Gambar ヅ`")
+        await hazmat.edit("`Mohon Balas Ke Sticker/Gambar Tot!`")
         return
     reply_message = await hazmat.get_reply_message()
     if not reply_message.media:
-        await hazmat.edit("`Kata Bisa Menghancurkan Apapun Lord ヅ`")
+        await hazmat.edit("`Kata Bisa Menghancurkan Apapun Tot!`")
         return
     chat = "@hazmat_suit_bot"
     await hazmat.edit("```Perintah Hazmat Diaktifkan, Sedang Memproses.... ヅ```")
@@ -40,10 +40,10 @@ async def _(hazmat):
             """ - don't spam notif - """
             await bot.send_read_acknowledge(conv.chat_id)
         except YouBlockedUserError:
-            await hazmat.reply("`Lord, Mohon Buka Blokir` @hazmat_suit_bot `Lalu Coba Lagi`")
+            await hazmat.reply("` Mohon Buka Blokir` @hazmat_suit_bot `Lalu Coba Lagi Tot!`")
             return
         if response.text.startswith("I can't"):
-            await hazmat.edit("`Mohon Maaf Lord, GIF Tidak Bisa...`")
+            await hazmat.edit("`Sorry Tot, GIF Tidak Bisa...`")
             await hazmat.client.delete_messages(
                 conv.chat_id, [msg.id, response.id, r.id, msg_reply.id]
             )
