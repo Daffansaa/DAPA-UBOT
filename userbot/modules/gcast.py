@@ -46,7 +46,7 @@ async def gucast(event):
 
 CMD_HELP.update(
     {
-        "broadcast": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gcast`\
+        "cast": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gcast`\
          \n↳ : Mengirim Pesan Group Secara Global.\
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gucast`\
          \n↳ : Mengirim Pesan Pribadi Secara Global"
