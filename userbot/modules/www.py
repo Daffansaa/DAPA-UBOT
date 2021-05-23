@@ -66,6 +66,7 @@ async def redis(pong):
                     f"**  ✠╼━━━━━━❖━━━━━━━✠** \n"
                     f"**        • sɪɢɴᴀʟ  :** `%sms` \n"
                     f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
+                    f"**        • ʙᴏᴛ ᴠᴇʀ  :** `7.0` \n"
                     f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
 
 
@@ -137,7 +138,8 @@ async def redis(pong):
                     f"`%sms` \n"
                     f"** •  Uᴘᴛɪᴍᴇ  :** "
                     f"`{uptime}` \n"
-                    f"** •  Oᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" % (duration))
+                    f"** •  Oᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" 
+                    f"** •  ʙᴏᴛ ᴠᴇʀ  :** `7.0` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^.ping$")
