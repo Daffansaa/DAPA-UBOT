@@ -237,7 +237,7 @@ async def amireallyalive(alive):
         f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
         f"┣[• `🙈 Telethon :`Ver {version.__version__} \n"
         f"┣[• `🥴 Python   :`Ver {python_version()} \n"
-        f"┣[• `🤖 Bot Ver  :`{BOT_VER} \n"
+        f"┣[• `🤖 Bot Ver  :`7.0 \n"
         f"┣[• `✨ Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯")
     if ALIVE_LOGO:
@@ -272,7 +272,7 @@ async def amireallyalive(alive):
         f"❃ **Username**    ➥ `@{user.username}` \n"
         f"❃ **Telethon**       ➥ `Versi {version.__version__}` \n"
         f"❃ **Python**          ➥ `Versi {python_version()}` \n"
-        f"❃ **Versi Bot**      ➥ `{BOT_VER}` \n"
+        f"❃ **Versi Bot**      ➥ `7.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f" **REPO:** [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT) || **GROUP: **[TEKAN](t.me/GEEZSUPPORTGROUP) || **CHANNEL: **[CHANNEL SUPPORT](t.me/UserbotChannel) || **PEMILIK:** [TEKAN](t.me/Ramubotinfo)\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**")
@@ -310,7 +310,7 @@ async def amireallyalive(alive):
         f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
         f"┣|• `🐉 Python   :`Ver {python_version()} \n"
         f"┣|• `Branch      :`RAM-UBOT \n"
-        f"┣|• `Bot Ver     :`{BOT_VER} \n"
+        f"┣|• `Bot Ver     :`7.0 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
         f"[REPO](https://github.com/ramadhani892/RAM-UBOT) | [GROUP](t.me/GEEZSUPPORTGROUP) | [CHANNEL SUPPORT](t.me/UserbotChannel) | [OWNER](t.me/Ramubotinfo)")
