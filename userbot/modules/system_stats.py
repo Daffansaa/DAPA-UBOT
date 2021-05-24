@@ -224,6 +224,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`Perkenalan diri...`")
     await alive.edit("⭐")
+    await asyncio.sleep(3)
     output = (
         f"**╔══════╣❃ ♕ ❃╠══════╗** \n"
         f"**        ۩  ⬚⃝⃟    RAM-UBOT ⬚⃝⃟     ۩ ** \n"
