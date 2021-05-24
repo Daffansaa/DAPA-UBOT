@@ -377,7 +377,7 @@ CMD_HELP.update({
     \nUsage: liat sendiri.\
     \n\n`.y` ; `.uasu`\
     \nUsage: jempol & Cek dyno\
-    \n\n`.tawa` ; `.oy` ; `.fck` ; `Pmt`\
+    \n\n`.tawa` ; `.oy` ; `.fck`\
     \nUsage: ketawa lari , Nyuruh nimbrung , fvck & Coba sendiri.\
     \n\n`.ular` ; `.babi` ; `.ajg`\
     \nUsage: liat sendiri."
