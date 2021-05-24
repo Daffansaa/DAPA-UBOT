@@ -30,16 +30,16 @@ from userbot import bot, CMD_HELP, TEMP_DOWNLOAD_DIRECTORY
 from userbot.events import register
 
 # ====================== CONSTANT ===============================
-INVALID_MEDIA = "```Maaf Lord Media Tidak Valid.```"
-PP_CHANGED = "```Lord, Foto Profil Anda Telah Berhasil Diubah.```"
-PP_TOO_SMOL = "```Gambar Terlalu Kecil Lord, Mohon Gunakan Yang Lebih Besar.```"
+INVALID_MEDIA = "```Maaf Media Tidak Valid.```"
+PP_CHANGED = "```Foto Profil Telah Berubah Jadi Foto Bugil```"
+PP_TOO_SMOL = "```Gambar Terlalu Kecil, Mohon Gunakan Yang Lebih Besar.```"
 PP_ERROR = "```Kegagalan Terjadi Saat Proses Gambar, Foto Profil Gagal Diubah.```"
 
-BIO_SUCCESS = "```Mas, Bio Anda Telah Berhasil Diubah.```"
+BIO_SUCCESS = "```Bio Anda Telah Berhasil Diubah.```"
 
-NAME_OK = "```Lord, Nama Anda Telah Berhasil Diubah.```"
+NAME_OK = "```Nama Anda Telah Berhasil Diubah.```"
 USERNAME_SUCCESS = "```Username Anda Sudah Diubah.```"
-USERNAME_TAKEN = "```Mohon Maaf Mas, Username Itu Sudah Ada Yang Menggunakannya.```"
+USERNAME_TAKEN = "```Mohon Maaf, Username Itu Sudah Ada Yang Menggunakannya.```"
 # ===============================================================
 
 
@@ -53,7 +53,7 @@ async def mine(event):
     await event.edit(output_str)
 
 
-@register(outgoing=True, pattern="^.name")
+@register(outgoing=True, pattern="^.cname")
 async def update_name(name):
     """ For .name command, change your name in Telegram. """
     newname = name.text[6:]
