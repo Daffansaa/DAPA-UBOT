@@ -16,16 +16,16 @@ async def lastname(steal):
     if steal.fwd_from:
         return
     if not steal.reply_to_msg_id:
-        await steal.edit("```Balas Ke Pesan Pengguna, Tolol.```")
+        await steal.edit("```Mohon Reply Ke Pesan Pengguna Yang Ingin Anda Scan.```")
         return
     message = await steal.get_reply_message()
     chat = "@SangMataInfo_bot"
     user_id = message.sender.id
     id = f"/search_id {user_id}"
     if message.sender.bot:
-        await steal.edit("```Balas Ke Pesan Pengguna Yang Sebenarnya.```")
+        await steal.edit("```Reply Ke Pesan Pengguna Yang Ingin Di Scan.```")
         return
-    await steal.edit("```LU SIAPA SI KENTOT,GUA KEPO. GAK SENENG PC!!```")
+    await steal.edit("LU SIAPA SI KENTOT,GUA KEPO, GA SENENG PC!!.")
     try:
         async with bot.conversation(chat) as conv:
             try:
@@ -34,7 +34,7 @@ async def lastname(steal):
                 response = await conv.get_response()
             except YouBlockedUserError:
                 await steal.reply(
-                    "```Mohon Unblock @sangmatainfo_bot Dan Coba Lagi```"
+                    "```Mohon Unblock @sangmatainfo_bot Dan Coba Scan Kembali.```"
                 )
                 return
             if r.text.startswith("Name"):
@@ -47,7 +47,7 @@ async def lastname(steal):
             if response.text.startswith("No records") or r.text.startswith(
                 "No records"
             ):
-                await steal.edit("```MASA GUA GAK NEMU NAMA AWALAN DIA SI AJG,KAYANYA SI BGST EMG BLM PERNAH GANTI NAMA!!!```")
+                await steal.edit("```Saya Tidak Menemukan Informasi Pergantian Nama Ini, Orang Ini Belum Pernah Mengganti Nama Sebelumnya```")
                 await steal.client.delete_messages(
                     conv.chat_id, [msg.id, r.id, response.id]
                 )
@@ -59,11 +59,11 @@ async def lastname(steal):
                 conv.chat_id, [msg.id, r.id, response.id, respond.id]
             )
     except TimeoutError:
-        return await steal.edit("`Saya Sedang Sakit Goblok Maaf`")
+        return await steal.edit("`Saya Sedang Sakit, Mohon Maaf`")
 
 
 CMD_HELP.update({
     "sangmata":
-        "`.sa`\
-          \nUsage: Mendapatkan Riwayat Nama Pengguna."
+        "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.sa`\
+          \n↳ : Mendapatkan Riwayat Nama Pengguna Yang Di Scan."
 })
