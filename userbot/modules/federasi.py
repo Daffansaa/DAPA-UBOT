@@ -1,4 +1,5 @@
 # Copyright (C) 2020 KenHV
+# Asal gengs
 
 from sqlalchemy.exc import IntegrityError
 
