@@ -402,7 +402,7 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⋖╯↩️", data="{}_prev({})".format(prefix, modulo_page)
+                    "↩️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
                     "↪️", data="{}_next({})".format(prefix, modulo_page)
@@ -459,7 +459,7 @@ with bot:
             else:
                 result = builder.article(
                     " ╡⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐╞ ",
-                    text="""╭✠╼━━━━━━❖━━━━━━━✠╮\n**Anda Bisa Membuat ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇\n╰✠╼━━━━━━❖━━━━━━━✠╯""",
+                    text="""╭✠╼━━━━━━❖━━━━━━━✠╮\n**Anda Bisa Membuat \n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n Anda Sendiri Dengan Cara :**\n __Tekan Dibawah Ini__ 👇\n╰✠╼━━━━━━❖━━━━━━━✠╯""",
                     buttons=[
                         [
                             custom.Button.url(
