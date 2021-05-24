@@ -2,7 +2,7 @@
 # Jangan Dihapuss!!!
 # Thanks Ultroid
 # Full Love From Vicky For All Lord
-# @LORDUSERBOT_GROUP
+# kontol
 
 
 import json
