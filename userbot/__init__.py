@@ -192,10 +192,10 @@ ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY", "./zips")
 BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 
 # Bot Name
-TERM_ALIAS = os.environ.get("TERM_ALIAS", "Geez-UserBot")
+TERM_ALIAS = os.environ.get("TERM_ALIAS", "RAM-UBOT")
 
 # Bot Version
-BOT_VER = os.environ.get("BOT_VER", "5.0")
+BOT_VER = os.environ.get("BOT_VER", "7.0")
 
 # Default .alive Username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -205,7 +205,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/c92925807ed5a1c68ebff.png"
+    "ALIVE_LOGO") or "https://telegra.ph/file/8379436998b815ba50ea3.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -351,7 +351,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```║RAM-UBOT TELAH AKTIF!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda Cek Viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```")
+    await bot.send_message(BOTLOG_CHATID, "```║RAM-UBOT TELAH AKTIF!║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda Cek Viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```")
     return
 
 with bot:
@@ -402,10 +402,10 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⋖╯", data="{}_prev({})".format(prefix, modulo_page)
+                    "⋖╯↩️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "╰⋗", data="{}_next({})".format(prefix, modulo_page)
+                    "↪️", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
@@ -428,7 +428,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐, Buat Userbot Mu Sendiri [Tekan Disini](https://ramadhani892.github.io/RAM-UBOT)")
+                await event.reply("\n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐, Buat Userbot Mu Sendiri [Tekan Disini](https://ramadhani892.github.io/RAM-UBOT)")
             else:
                 await event.reply(f"`Hai {DEFAULTUSER}\n\nApa Kabarmu ? 😊`")
 
@@ -459,7 +459,7 @@ with bot:
             else:
                 result = builder.article(
                     " ╡⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐╞ ",
-                    text="""**Anda Bisa Membuat ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
+                    text="""╭✠╼━━━━━━❖━━━━━━━✠╮\n**Anda Bisa Membuat ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇\n╰✠╼━━━━━━❖━━━━━━━✠╯""",
                     buttons=[
                         [
                             custom.Button.url(
