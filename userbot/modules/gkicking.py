@@ -66,9 +66,9 @@ async def gspide(rk):
     if not sender.id == me.id:
         rkp = await lazy.reply("`Proses global kick jamet tolol!!!`")
     else:
-        rkp = await lazy.edit("`Bentar Bentar...`")
+        rkp = await lazy.edit("`Proses Global Kick si ngentot...!`")
     me = await rk.client.get_me()
-    await rkp.edit(f"`{ALIVE_NAME}:` **Requesting to global kick user!**")
+    await rkp.edit(f"`{ALIVE_NAME}:` **Melakukan Aksi Global Kick..**")
     my_mention = "[{}](tg://user?id={})".format(me.first_name, me.id)
     f"@{me.username}" if me.username else my_mention
     await rk.get_chat()
@@ -101,14 +101,14 @@ async def gspide(rk):
                 await rk.client.edit_permissions(i, user, view_messages=False)
                 await rk.client.edit_permissions(i, user, send_messages=True)
                 a += 1
-                await rkp.edit(f"`{ALIVE_NAME} :` **Requesting to kicking user!\nGkicked {a} chats.....**")
+                await rkp.edit(f"`{ALIVE_NAME} :` **Melakukan Aksi\nGlobal Kick {a} chats.....**")
 
             except BaseException:
                 b += 1
     else:
         await rkp.edit(f"`{ALIVE_NAME}:` **Balas ke pengguna !! **")
 
-    return await rkp.edit(f"`{ALIVE_NAME}:` **GKicked [{user.first_name}](tg://user?id={user.id}) in {a} chat(s) **")
+    return await rkp.edit(f"`{ALIVE_NAME}:` **Melakukan Aksi Global Kick [{user.first_name}](tg://user?id={user.id}) in {a} chat(s) **")
 
 CMD_HELP.update({
     "gkick": "\
