@@ -15,13 +15,13 @@ async def corona(event):
     covid = Covid(source="worldometers")
     country_data = covid.get_status_by_country_name(country)
     if country_data:
-        output_text = f"`⚠️Terkonfirmasi : {country_data['confirmed']} (+{country_data['new_cases']})`\n"
+        output_text = f"`⚠️Terdeteksi : {country_data['confirmed']} (+{country_data['new_cases']})`\n"
         output_text += f"`☢️Aktif         : {country_data['active']}`\n"
-        output_text += f"`🤕Kritis        : {country_data['critical']}`\n"
-        output_text += f"`😟Kematian Baru : {country_data['new_deaths']}`\n\n"
-        output_text += f"`⚰️Meninggal     : {country_data['deaths']} (+{country_data['new_deaths']})`\n"
-        output_text += f"`😔Kasus Baru    : {country_data['new_cases']}`\n"
-        output_text += f"`😇Sembuh        : {country_data['recovered']}`\n"
+        output_text += f"`🤕mau mati        : {country_data['critical']}`\n"
+        output_text += f"`😟baru banget mati : {country_data['new_deaths']}`\n\n"
+        output_text += f"`⚰️dah tewas tot     : {country_data['deaths']} (+{country_data['new_deaths']})`\n"
+        output_text += f"`😔kasus baru    : {country_data['new_cases']}`\n"
+        output_text += f"`😇 Alhamdulillah        : {country_data['recovered']}`\n"
         output_text += "`📍Total Tes     : N/A`\n\n"
         output_text += f"Data disediakan oleh [Worldometer](https://www.worldometers.info/coronavirus/country/{country})"
     else:
