@@ -1,9 +1,8 @@
 # Using Python Slim-Buster
 FROM xluxz/geezproject:buster
-# Lah U cp Atur atur
+# ramubot minta wkwk
 # Geez-UserBot
-# RAM-UBOT minta ya
-
+#
 RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
