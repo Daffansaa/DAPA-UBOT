@@ -105,7 +105,7 @@ async def log(log_text):
     await log_text.delete()
 
 
-@register(outgoing=True, pattern="^.kickme$")
+@register(outgoing=True, pattern="^.exit$")
 async def kickme(leave):
     """ Basically it's .kickme command """
     await leave.edit(f"`Gua Keluar Ajalah Ngentot!!...`")
