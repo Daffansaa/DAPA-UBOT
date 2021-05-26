@@ -32,7 +32,7 @@ async def help(event):
         string = ""
         for i in CMD_HELP:
             string += "`" + str(i)
-            string += "`\t ⊖  "
+            string += "`\t 💀  "
         await event.edit("**⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n\n"
                          f"**💀 Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**💀 Mᴏᴅᴜʟᴇꜱ : {len(modules)}**\n\n"
                          "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
