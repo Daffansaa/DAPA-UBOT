@@ -36,7 +36,7 @@ async def help(event):
         await event.edit("**⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n\n"
                          f"**💀 Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**💀 Mᴏᴅᴜʟᴇꜱ : {len(modules)}**\n\n"
                          "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
-                         f"💀 {string}💀\n\n")
+                         f"💀 {string}\nNGETIK YANG BENER YA NGENTOOOOT!!\n\n")
         await event.reply(f"\n**Contoh** : Ketik <`.help ping`> Untuk Informasi Pengunaan.\nJangan Lupa [TEKAN](https://t.me/teman_random) Untuk Parming Wahahah..")
-        await asyncio.sleep(1000)
+        await asyncio.sleep(50)
         await event.delete()
