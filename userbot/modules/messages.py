@@ -65,7 +65,7 @@ async def purgeme(delme):
     if BOTLOG:
         await delme.client.send_message(
             BOTLOG_CHATID,
-            "`Anda Telah Menghapus Pesan,` " + str(count) + " Pesan Telah Dihapus ツ`")
+            "`Berhasil Menghapus Jejak,` " + str(count) + " Jejak dihilangkan!`")
     """
     await sleep(2)
     i = 1
