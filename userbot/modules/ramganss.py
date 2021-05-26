@@ -317,7 +317,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("`Memeriksa dyno heroku anda...`")
     sleep(1)
-    await typew.edit(✨)
+    await typew.edit("✨")
     sleep(2)
     await typew.edit("𝗜𝗡𝗙𝗢 𝗞𝗘𝗞𝗨𝗔𝗧𝗔𝗡!!\n\n"
                      "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
