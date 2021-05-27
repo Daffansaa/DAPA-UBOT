@@ -12,7 +12,7 @@ from userbot import CMD_HELP
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r"^\.purge$")
+@register(outgoing=True, pattern=r"^Purge$")
 async def fastpurger(purg):
     chat = await purg.get_input_chat()
     msgs = []
@@ -33,7 +33,7 @@ async def fastpurger(purg):
     if msgs:
         await purg.client.delete_messages(chat, msgs)
     done = await purg.client.send_message(
-        purg.chat_id, f"`Berhasil Menghapus Pesan Lord`\
+        purg.chat_id, f"`Berhasil Menghapus Jejak TOT`\
         \nJumlah Pesan Yang Dihapus {str(count)} Pesan")
     """
     if BOTLOG:
@@ -45,7 +45,7 @@ async def fastpurger(purg):
     await done.delete()
 
 
-@register(outgoing=True, pattern=r"^\.purgeme$")
+@register(outgoing=True, pattern=r"^Purgeme")
 async def purgeme(delme):
     message = delme.text
     count = int(message[9:])
