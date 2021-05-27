@@ -45,7 +45,7 @@ async def fastpurger(purg):
     await done.delete()
 
 
-@register(outgoing=True, pattern=r"^Purgeme")
+@register(outgoing=True, pattern=r"^Purgeme$")
 async def purgeme(delme):
     message = delme.text
     count = int(message[9:])
@@ -59,7 +59,7 @@ async def purgeme(delme):
 
     smsg = await delme.client.send_message(
         delme.chat_id,
-        "`Berhasil Menghapus Jejak,` " + str(count) + " `Pesan Telah Dihapus ツ`",
+        "`Berhasil Menghapus Jejak,` " + str(count) + " `Jejak dihilangkan!`",
     )
     """
     if BOTLOG:
