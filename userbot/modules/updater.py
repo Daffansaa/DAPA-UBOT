@@ -115,9 +115,9 @@ async def update(event, repo, ups_rem, ac_br):
     except GitCommandError:
         repo.git.reset("--hard", "FETCH_HEAD")
     await update_requirements()
-    await event.edit('**✥ RAM-UBOT** `Berhasil Di Update!`')
+    await event.edit('**⭐RAM-UBOT⭐** `Berhasil Di Update!`')
     await asyncio.sleep(1)
-    await event.edit('**✥ RAM-UBOT** `Di Restart....`')
+    await event.edit('**⭐RAM-UBOT⭐** `Di Restart....`')
     await asyncio.sleep(1)
     await event.edit('`Mohon Menunggu Beberapa Detik...ツ`')
     await asyncio.sleep(10)
@@ -194,7 +194,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**✣ Pembaruan Untuk RAM-UBOT [{ac_br}]:\n\n✣ Pembaruan:**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk ⭐RAM-UBOT⭐ [{ac_br}]:\n\n✨Pembaruan:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
