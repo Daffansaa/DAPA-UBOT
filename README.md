@@ -12,8 +12,8 @@
 
 # KALO FORK TUH KASIH BINTANG YA TOLOL!
 
-<a href="https://t.me/GeezSupportGroup"><img src="https://img.shields.io/badge/Join-Group1%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
-<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-Group2%20Support-blue.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/GeezSupportGroup"><img src="https://img.shields.io/badge/Join-Geez%20Support%20Group-green.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
 
 # RAM UBOT
 [![Deploy](https://telegra.ph/file/62adc50a87f4019476177.jpg)](https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git)
