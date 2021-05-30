@@ -8,13 +8,13 @@ from userbot.events import register
 
 
 @register(outgoing=True, pattern=r"^\.gencc(?: |$)(.*)")
-async def gencc(ramevent):
+async def gencc(geezevent):
     if geezevent.fwd_from:
         return
-    ramcc = Faker()
-    ramname = ramcc.name()
-    ramadre = ramcc.address()
-    ramcard = ramcc.credit_card_full()
+    geezcc = Faker()
+    geezname = geezcc.name()
+    geezadre = geezcc.address()
+    geezcard = geezcc.credit_card_full()
 
     await edit_or_reply(ramevent, f"__**👤 NAME :- **__\n`{geezname}`\n\n__**🏡 ADDRESS :- **__\n`{geezadre}`\n\n__**💸 CARD :- **__\n`{geezcard}`")
 
