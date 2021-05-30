@@ -40,7 +40,7 @@ Repo Yang Dibuat [Rama](https://t.me/Ramadhaniiiiiiiii1) Dari Berbagai Repo User
 * **VIDEO TUTORIAL DEPLOY!** 🔧
 [<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
 
-## DEPLOY DISINI!!
+##      DEPLOY DISINI!!
 
 <a href="https://167.99.31.83/"><img src="https://img.shields.io/badge/Deploy-%20Ke%20Heroku-blue.svg?style=for-the-badge&logo=Heroku"></a>
 
