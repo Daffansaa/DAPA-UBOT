@@ -12,20 +12,21 @@
 
 # KALO FORK TUH KASIH BINTANG YA TOLOL!
 
+
 ## JOIN DULU TOT!!:
 
 <a href="https://t.me/GeezSupportGroup"><img src="https://img.shields.io/badge/Join-Geez%20Support%20Group-green.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
 ##
 
-# RAM UBOT
+# JANGAN BINGUNG BUAT DEPLOY!
 [![Deploy](https://telegra.ph/file/62adc50a87f4019476177.jpg)](https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git)
 # KLIK FOTO NYA KALO MAU DEPLOY
 
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
 <p align="center">&nbsp;</p>
 
-### Repo RAM-UBOT
+### RAM-UBOT
 Repo Yang Dibuat [Rama](https://t.me/Ramadhaniiiiiiiii1) Dari Berbagai Repo Userbot Github 
 
 
@@ -39,6 +40,9 @@ Repo Yang Dibuat [Rama](https://t.me/Ramadhaniiiiiiiii1) Dari Berbagai Repo User
 * **VIDEO TUTORIAL DEPLOY!** 🔧
 [<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
 
+## DEPLOY DISINI!!
+
+<a href="https://167.99.31.83/"><img src="https://img.shields.io/badge/Deploy-%20Ke%20Heroku-blue.svg?style=for-the-badge&logo=Heroku"></a>
 
 <br>
 </p>
