@@ -10,6 +10,10 @@
   </a>
 </p>  
 
+## Pemilik Repo: Rama
+[<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/maafgausahsokap)
+
+
 # KALO FORK TUH KASIH BINTANG YA TOLOL!
 
 
@@ -26,8 +30,6 @@
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
 <p align="center">&nbsp;</p>
 
-### RAM-UBOT
-Repo Yang Dibuat [Rama](https://t.me/Ramadhaniiiiiiiii1) Dari Berbagai Repo Userbot Github 
 
 
 ### AMBIL STRING DI BAWAH INI:
