@@ -38,18 +38,6 @@ Caranya Pergi Ke Grup Support Lalu Ketik #String [TEKAN DISINI](https://t.me/GEE
 ```
 * **CARA DEPLOY** 🔧
 
-  > Pertama Dapatkan API_KE & API_HASH Di my.telegram.org (Wajib)
-
-  > Dapatkan String Session Di Termux (Wajib)
-
-  > Next Tekan Tombol Deploy Dibawah
-
-  > Isi Datanya Lalu Tekan Deploy Lagi
-
-  > Terakhir Hidupkan Dyno Lalu Check Logs (settings -> view logs) Jika Berhasil Enjoy :)
-```
-Atau Bisa Gabung Ke Grup  -> [TEKAN DISINI](https://t.me/teman_random)
-## <p align="center">BURUAN DEPLOY!</p>
 
 
 <br>
