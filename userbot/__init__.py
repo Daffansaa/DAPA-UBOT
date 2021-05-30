@@ -428,7 +428,7 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("\n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐, Buat Userbot Mu Sendiri [Tekan Disini](https://ramadhani892.github.io/RAM-UBOT)")
+                await event.reply("\n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐, Buat Userbot Mu Sendiri [Tekan Disini](https://github.com/Ramadhani892)")
             else:
                 await event.reply(f"`Hai {DEFAULTUSER}\n\nApa Kabarmu ? 😊`")
 
