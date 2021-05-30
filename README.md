@@ -35,7 +35,7 @@ Caranya Pergi Ke Grup Support Lalu Ketik #String [TEKAN DISINI](https://t.me/GEE
 
 ## Bagaimana Cara Deploy?
 
-```
+
 * **CARA DEPLOY** 🔧
 
 
