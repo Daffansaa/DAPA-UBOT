@@ -16,7 +16,7 @@ async def gencc(geezevent):
     geezadre = geezcc.address()
     geezcard = geezcc.credit_card_full()
 
-    await edit_or_reply(ramevent, f"__**👤 NAME :- **__\n`{geezname}`\n\n__**🏡 ADDRESS :- **__\n`{geezadre}`\n\n__**💸 CARD :- **__\n`{geezcard}`")
+    await edit_or_reply(geezevent, f"__**👤 NAME :- **__\n`{geezname}`\n\n__**🏡 ADDRESS :- **__\n`{geezadre}`\n\n__**💸 CARD :- **__\n`{geezcard}`")
 
 
 @register(outgoing=True, pattern=r"^\.bin(?: |$)(.*)")
