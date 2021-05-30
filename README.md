@@ -31,8 +31,8 @@ Repo Yang Dibuat [Rama](https://t.me/Ramadhaniiiiiiiii1) Dari Berbagai Repo User
 
 ### CARA MENDAPATKAN STRING SESSON
 
-Caranya Pergi Ke Grup Support Lalu Ketik #String [TEKAN DISINI](https://t.me/GEEZSUPPORTGROUP) Untuk Masuk Ke Grup Support
 
+<a href="https://replit.com/@Vckyou/Geez-String-Session#main.py"><img src="https://img.shields.io/badge/STRING-%20SESSION-black.svg?style=for-the-badge&logo="></a>
 ## Bagaimana Cara Deploy?
 
 
