@@ -36,8 +36,8 @@ Caranya Pergi Ke Grup Support Lalu Ketik #String [TEKAN DISINI](https://t.me/GEE
 ## Bagaimana Cara Deploy?
 
 
-* **CARA DEPLOY** 🔧
-
+* **VIDEO TUTORIAL DEPLOY!** 🔧
+[<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
 
 
 <br>
