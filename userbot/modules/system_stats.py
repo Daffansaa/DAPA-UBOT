@@ -280,7 +280,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**      ➥ `7.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[✨𝗥𝗔𝗠-𝗨𝗕𝗢𝗧✨](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/GEEZSUPPORTGROUP) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌](https://www.instagram.com/ramadh20?r=nametag)\n"
+        f"[✨𝗥𝗔𝗠-𝗨𝗕𝗢𝗧✨](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/GEEZSUPPORTGROUP) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠](https://www.instagram.com/ramadh20?r=nametag)\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
