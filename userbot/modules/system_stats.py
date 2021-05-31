@@ -236,13 +236,14 @@ async def amireallyalive(alive):
         f"**😋 Username** \n"
         f" ➥ `@{user.username}` \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-        f"┣[• `🙈 Telethon :`Ver {version.__version__} \n"
-        f"┣[• `🥴 Python   :`Ver {python_version()} \n"
-        f"┣[• `🤖 Bot Ver  :`7.0 \n"
-        f"┣[• `✨ Modules  :`{len(modules)} \n"
+        f"┣• `🙈 Telethon :`Ver {version.__version__} \n"
+        f"┣• `🥴 Python   :`Ver {python_version()} \n"
+        f"┣• `🤖 Bot Ver  :`7.0 \n"
+        f"┣• `✨ Modules  :`{len(modules)} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌](https://www.instagram.com/ramadh20?r=nametag) || [𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT)")
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
+        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌](https://www.instagram.com/ramadh20?r=nametag) || [𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/teman_random) \n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
