@@ -19,7 +19,7 @@
 
 ## JOIN DULU TOT!!:
 
-<a href="https://t.me/GeezSupportGroup"><img src="https://img.shields.io/badge/Join-Geez%20Support%20Group-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel-%20RAM UBOT-black.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/teman_random"><img src="https://img.shields.io/badge/Join-TEMAN%20RANDOM-purple.svg?style=for-the-badge&logo=Telegram"></a>
 ##
 
