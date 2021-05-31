@@ -280,7 +280,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**      ➥ `7.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[✨𝗥𝗔𝗠-𝗨𝗕𝗢𝗧✨](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/GEEZSUPPORTGROUP) || [𝗢𝗪𝗡𝗘𝗥](t.me/Ramubotinfo)\n"
+        f"[✨𝗥𝗔𝗠-𝗨𝗕𝗢𝗧✨](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/GEEZSUPPORTGROUP) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌](https://www.instagram.com/ramadh20?r=nametag)\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -326,7 +326,7 @@ async def amireallyalive(alive):
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/GEEZSUPPORTGROUP) || [𝐎𝐖𝐍𝐄𝐑](https://t.me/ramubotinfo) \n"
+        f"[𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/GEEZSUPPORTGROUP) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌](https://www.instagram.com/ramadh20?r=nametag) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
