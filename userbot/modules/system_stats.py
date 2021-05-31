@@ -265,7 +265,7 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:xalive|xon)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:ralive|ron)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -279,8 +279,9 @@ async def amireallyalive(alive):
         f"❃ **Python**          ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**      ➥ `7.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
+        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
         f"[✨𝗥𝗔𝗠-𝗨𝗕𝗢𝗧✨](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/GEEZSUPPORTGROUP) || [𝗖𝗛𝗔𝗡𝗡𝗘𝗟](t.me/UserbotChannel) || [𝗢𝗪𝗡𝗘𝗥](t.me/Ramubotinfo)\n"
-        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**")
+        f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -324,8 +325,9 @@ async def amireallyalive(alive):
         f"┣|• `Bot Ver     :`7.0 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
-        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/GEEZSUPPORTGROUP) || [𝐎𝐖𝐍𝐄𝐑](https://t.me/ramubotinfo)")
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
+        f"[𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/GEEZSUPPORTGROUP) || [𝐎𝐖𝐍𝐄𝐑](https://t.me/ramubotinfo) \n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -366,7 +368,7 @@ async def amireallyalivereset(ureset):
 
 
 CMD_HELP.update({
-    "system":
+    "sistem":
     "`.sysd`\
 \nUsage: Shows system information using neofetch.\
 \n\n`.botver`\
