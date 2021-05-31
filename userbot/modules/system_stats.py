@@ -240,7 +240,9 @@ async def amireallyalive(alive):
         f"┣[• `🥴 Python   :`Ver {python_version()} \n"
         f"┣[• `🤖 Bot Ver  :`7.0 \n"
         f"┣[• `✨ Modules  :`{len(modules)} \n"
-        f"╰✠╼━━━━━━❖━━━━━━━✠╯")
+        f"╰✠╼━━━━━━❖━━━━━━━✠╯\n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
+        f"[𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌](https://www.instagram.com/ramadh20?r=nametag) || [𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
@@ -302,19 +304,22 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
-        f"**╠╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╤╣** \n"
-        f"**            👿RAM-UBOT👿** \n"
-        f"**╠╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╧╣** \n"
-        f"┏━━━━━━━━━━━━━━━━━━━ \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
+        f"**          ✨𝗥𝗔𝗠-𝗨𝗕𝗢𝗧✨** \n"
+        f"**✠╼━━━━━━❖━━━━━━━✠** \n"
+        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
         f"┣|• `💳 Username :`@{user.username} \n"
         f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
         f"┣|• `🐉 Python   :`Ver {python_version()} \n"
+        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
+        f"╭✠╼━━━━━━❖━━━━━━━✠╮
         f"┣|• `Branch      :`RAM-UBOT \n"
         f"┣|• `Bot Ver     :`7.0 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
-        f"┗━━━━━━━━━━━━━━━━━━━ \n\n"
-        f"[REPO](https://github.com/ramadhani892/RAM-UBOT) | [GROUP](t.me/GEEZSUPPORTGROUP) | [CHANNEL SUPPORT](t.me/UserbotChannel) | [OWNER](t.me/Ramubotinfo)")
+        f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
+        f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
+        f"[𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/GEEZSUPPORTGROUP) || [𝐎𝐖𝐍𝐄𝐑](https://t.me/maafgausahsokap)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
