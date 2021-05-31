@@ -316,7 +316,7 @@ async def amireallyalive(alive):
         f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
         f"┣|• `🐉 Python   :`Ver {python_version()} \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
-        f"╭✠╼━━━━━━❖━━━━━━━✠╮
+        f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `Branch      :`RAM-UBOT \n"
         f"┣|• `Bot Ver     :`7.0 \n"
         f"┣|• `Modules     :`{len(modules)} Modules \n"
