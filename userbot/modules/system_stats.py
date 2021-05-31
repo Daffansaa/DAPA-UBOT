@@ -223,6 +223,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`Perkenalan diri...`")
+    await asyncio.sleep(1)
     await alive.edit("⭐")
     await asyncio.sleep(3)
     output = (
@@ -305,6 +306,7 @@ async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     await alive.edit("`Perkenalan diri...⭐`")
+    await asyncio.sleep(1)
     await alive.edit("✨")
     await asyncio.sleep(3)
     output = (
