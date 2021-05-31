@@ -61,8 +61,8 @@ async def typewriter(typew):
 
 CMD_HELP.update({
     "ram-ubot":
-    "`.ram`\
-    \nUsage: alive bot.\
+    "`.rambot`\
+    \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
     \n\n`.punten` ; `.geez`\
