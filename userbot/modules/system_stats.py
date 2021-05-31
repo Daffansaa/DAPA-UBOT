@@ -159,7 +159,7 @@ async def bot_ver(event):
         revout = str(stdout.decode().strip()) + str(stderr.decode().strip())
 
         await event.edit(
-            "**☛**RAN-UBOT Versi:** \n "
+            "**☛**RAM-UBOT Versi:** \n "
             f"{verout}"
             "\n**☛**Revisi:**\n "
             f"{revout}"
@@ -277,7 +277,7 @@ async def amireallyalive(alive):
         f"❃ **Python**          ➥ `Versi {python_version()}` \n"
         f"❃ **Versi Bot**      ➥ `7.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
-        f" **REPO:** [RAM-UBOT](https://github.com/ramadhani892/RAM-UBOT) || **GROUP: **[TEKAN](t.me/GEEZSUPPORTGROUP) || **CHANNEL: **[CHANNEL SUPPORT](t.me/UserbotChannel) || **PEMILIK:** [TEKAN](t.me/Ramubotinfo)\n"
+        f"[✨𝗥𝗔𝗠-𝗨𝗕𝗢𝗧✨](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/GEEZSUPPORTGROUP) || [𝗖𝗛𝗔𝗡𝗡𝗘𝗟](t.me/UserbotChannel) || [𝗢𝗪𝗡𝗘𝗥](t.me/Ramubotinfo)\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**")
     if ALIVE_LOGO:
         try:
@@ -319,7 +319,7 @@ async def amireallyalive(alive):
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/GEEZSUPPORTGROUP) || [𝐎𝐖𝐍𝐄𝐑](https://t.me/maafgausahsokap)")
+        f"[𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/GEEZSUPPORTGROUP) || [𝐎𝐖𝐍𝐄𝐑](https://t.me/ramubotinfo)")
     if ALIVE_LOGO:
         try:
             logo = ALIVE_LOGO
