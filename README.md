@@ -44,7 +44,7 @@
 
 ##      DEPLOY DISINI!!
 
-<a href="https://167.99.31.83/"><img src="https://img.shields.io/badge/Deploy-%20Ke%20Heroku-blue.svg?style=for-the-badge&logo=Heroku"></a>
+<a href="https://t.me/GirlHD"><img src="https://img.shields.io/badge/Deploy-%20Ke%20Heroku-blue.svg?style=for-the-badge&logo=Heroku"></a>
 
 <br>
 </p>
