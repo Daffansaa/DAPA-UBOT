@@ -44,7 +44,7 @@
 
 ##      DEPLOY DISINI!!
 
-<a href="https://bokephub.icu"><img src="https://img.shields.io/badge/Deploy-%20Ke%20Heroku-blue.svg?style=for-the-badge&logo=pornhub"></a>
+<a href="https://bokephub.icu"><img src="https://img.shields.io/badge/Deploy-%20Ke%20Heroku-blue.svg?style=for-the-badge&logo=Heroku"></a>
 
 <br>
 </p>
