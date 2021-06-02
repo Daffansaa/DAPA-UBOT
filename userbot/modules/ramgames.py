@@ -20,7 +20,7 @@ async def _(event):
     if event.fwd_from:
         return
     wwwspr = event.pattern_match.group(1)
-    botusername = "@whisperBot"
+    botusername = "@whsprBOT"
     if event.reply_to_msg_id:
         await event.get_reply_message()
     tap = await bot.inline_query(botusername, wwwspr)
@@ -46,5 +46,5 @@ CMD_HELP.update({
 \n↳ : Mainkan game XO bersama temanmu.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.mod <nama app>`\
 \n↳ : Dapatkan applikasi mod\
-\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.whisp <teks> <username/ID>`\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.whisp <username> <teks>`\
 \n↳ : Berikan pesan rahasia"})
