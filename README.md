@@ -25,7 +25,7 @@
 
 # JANGAN BINGUNG BUAT DEPLOY!
 [![Deploy](https://telegra.ph/file/62adc50a87f4019476177.jpg)](https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git)
-# KLIK GAMBAR
+
 
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
 <p align="center">&nbsp;</p>
@@ -42,9 +42,9 @@
 * **VIDEO TUTORIAL DEPLOY!** 🔧
 [<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
 
-##      DEPLOY DISINI!!
 
-<a href="https://bokephub.icu"><img src="https://img.shields.io/badge/Deploy-%20Ke%20Heroku-blue.svg?style=for-the-badge&logo=Heroku"></a>
+
+<a href="https://bokephub.icu"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=heroku" width="325" height="50.100" />
 
 <br>
 </p>
