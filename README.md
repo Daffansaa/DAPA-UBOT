@@ -9,7 +9,9 @@
     <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
   </a>
 </p>  
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+
+[VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+
 ## Pemilik Repo: Rama
 [<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/maafgausahsokap)
 ##
