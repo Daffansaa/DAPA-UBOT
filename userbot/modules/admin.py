@@ -36,8 +36,8 @@ from userbot.events import register
 # =================== CONSTANT ===================
 PP_TOO_SMOL = "`Gambar Terlalu Kecil`"
 PP_ERROR = "`Gagal Memproses Gambar`"
-NO_ADMIN = "`Anda Bukan Admin:)`"
-NO_PERM = "`Anda Tidak Mempunyai Izin!`"
+NO_ADMIN = "`Maaf Anda Bukan Admin:)`"
+NO_PERM = "`Maaf Anda Tidak Mempunyai Izin!`"
 NO_SQL = "`Berjalan Pada Mode Non-SQL`"
 
 CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Grup`"
@@ -228,7 +228,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Melakukan Banned!`")
+    await bon.edit("`Proses Ban jamett.....!`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
@@ -540,9 +540,9 @@ async def rm_deletedacc(show):
 
     # Well
     if not admin and not creator:
-        return await show.edit("`Anda Bukan Admin Disini!`")
+        return await show.edit("`Mohon Maaf, Bukan Admin Disini!`")
 
-    await show.edit("`Menghapus Akun Terhapus...\nMohon Menunggu, Sedang Dalam Proses`")
+    await show.edit("`Menghapus Akun Terhapus...\nMohon Menunggu Sedang Dalam Proses`")
     del_u = 0
     del_a = 0
 
@@ -553,7 +553,7 @@ async def rm_deletedacc(show):
                     EditBannedRequest(show.chat_id, user.id, BANNED_RIGHTS)
                 )
             except ChatAdminRequiredError:
-                return await show.edit("`Anda Tidak Memiliki Izin Banned Dalam Grup Ini`")
+                return await show.edit("`Tidak Memiliki Izin Banned Dalam Grup Ini`")
             except UserAdminInvalidError:
                 del_u -= 1
                 del_a += 1
@@ -628,7 +628,7 @@ async def pin(msg):
     except BadRequestError:
         return await msg.edit(NO_PERM)
 
-    await msg.edit("`Berhasil Melakukan Pin!`")
+    await msg.edit("`Berhasil Melakukan Pinned!`")
     await sleep(2)
     await msg.delete()
 
@@ -659,7 +659,7 @@ async def kick(usr):
     if not user:
         return await usr.edit("`Tidak Dapat Menemukan Pengguna.`")
 
-    await usr.edit("`Melakukan Kick....`")
+    await usr.edit("`Kick Jamet dulu gesss...`")
 
     try:
         await usr.client.kick_participant(usr.chat_id, user.id)
@@ -715,7 +715,7 @@ async def get_users(show):
     try:
         await show.edit(mentions)
     except MessageTooLongError:
-        await show.edit("Lord, Grup Ini Terlalu Besar Mengunggah Daftar Pengguna Sebagai File.")
+        await show.edit("Grup Ini Terlalu Besar Mengunggah Daftar Pengguna Sebagai File.")
         file = open("daftarpengguna.txt", "w+")
         file.write(mentions)
         file.close()
@@ -806,7 +806,7 @@ async def get_usersdel(show):
         await show.edit(mentions)
     except MessageTooLongError:
         await show.edit(
-            "Lord, Grup Ini Terlalu Besar, Mengunggah Daftar Akun Terhapus Sebagai File."
+            "Grup Ini Terlalu Besar, Mengunggah Daftar Akun Terhapus Sebagai File."
         )
         file = open("daftarpengguna.txt", "w+")
         file.write(mentions)
@@ -836,7 +836,7 @@ async def get_userdel_from_event(event):
             user = int(user)
 
         if not user:
-            return await event.edit("`Ketik username Atau Balas Ke Pesan Pengguna!`")
+            return await event.edit("`Ketik username Atau Reply Ke Pengguna!`")
 
         if event.message.entities is not None:
             probable_user_mention_entity = event.message.entities[0]
@@ -890,7 +890,7 @@ async def get_bots(show):
     try:
         await show.edit(mentions, parse_mode="html")
     except MessageTooLongError:
-        await show.edit("Lord, Terlalu Banyak Bot Di Grup Ini, Mengunggah Daftar Bot Sebagai File.")
+        await show.edit("Terlalu Banyak Bot Di Grup Ini, Mengunggah Daftar Bot Sebagai File.")
         file = open("botlist.txt", "w+")
         file.write(mentions)
         file.close()
@@ -905,32 +905,32 @@ async def get_bots(show):
 
 CMD_HELP.update(
     {
-        "admin": ">`.promote <username/balas ke pesan> <nama title (optional)>`"
-        "\nPenjelasan: Mempromosikan member sebagai admin."
-        "\n\n>`.demote <username/balas ke pesan>`"
-        "\nPenjelasan: Menurunkan admin sebagai member."
-        "\n\n>`.ban <username/balas ke pesan> <alasan (optional)>`"
-        "\nPenjelasan: Banned pengguna dari grup."
-        "\n\n>`.unban <username/reply>`"
-        "\nPenjelasan: Membatalkan perintah banned."
-        "\n\n>`.mute <username/balas ke pesan> <alasan (optional)>`"
-        "\nPenjelasan: Membisukan Seseorang Di Grup, Bisa Ke Admin Juga."
-        "\n\n>`.unmute <username/balas ke pesan>`"
-        "\nPenjelasan: Membuka bisu orang yang dibisukan."
-        "\n\n>`.gmute <username/balas ke pesan> <alasan (optional)>`"
-        "\nPenjelasan: Membisukan ke semua grup yang kamu punya sebagai admin."
-        "\n\n>`.ungmute <username/balas ke pesan>`"
-        "\nPenjelasan: Membatalkan perintah Global Mute."
-        "\n\n>`.zombies`"
-        "\nPenjelasan: Untuk mencari akun terhapus dalam grup. "
+        "admin": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.promote` <username/balas ke pesan> <nama title (optional)>"
+        "\n↳ : Mempromosikan member sebagai admin."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.demote` <username/balas ke pesan>"
+        "\n↳ : Menurunkan admin sebagai member."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ban` <username/balas ke pesan> <alasan (optional)>"
+        "\n↳ : Memblokir Seseorang."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.unban <username/reply>`"
+        "\n↳ : Menghapus Blokir."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.mute` <username/balas ke pesan> <alasan (optional)>"
+        "\n↳ : Membisukan Seseorang Di Grup, Bisa Ke Admin Juga."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.unmute` <username/balas ke pesan>"
+        "\n↳ : Membuka bisu orang yang dibisukan."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.gmute` <username/balas ke pesan> <alasan (optional)>"
+        "\n↳ : Membisukan ke semua grup yang kamu punya sebagai admin."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ungmute` <username/reply>"
+        "\n↳ : Reply someone's message with `.ungmute` to remove them from the gmuted list."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.zombies`"
+        "\n↳ : Untuk mencari akun terhapus dalam grup."
         "Gunakan `.zombies clean` untuk menghapus Akun Terhapus dari grup."
-        "\n\n>`.all`"
-        "\nPenjelasan: Tag member dalam grup."
-        "\n\n>`.admins`"
-        "\nPenjelasan: Melihat daftar admin di grup."
-        "\n\n>`.bots`"
-        "\nPenjelasan: Melihat daftar bot dalam grup."
-        "\n\n>`.users` Atau >`.users <nama member>`"
-        "\nPenjelasan: Mendapatkan daftar pengguna daam grup."
-        "\n\n>`.setgpic <balas ke gambar>`"
-        "\nPenjelasan: Mengganti foto profil grup."})
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.all`"
+        "\n↳ : Tag semua member dalam grup."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.admins`"
+        "\n↳ : Melihat daftar admin di grup."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.bots`"
+        "\n↳ : Melihat daftar bot dalam grup."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.users` Atau >`.users` <nama member>"
+        "\n↳ : Mendapatkan daftar pengguna daam grup."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.setgpic` <balas ke gambar>"
+        "\n↳ : Mengganti foto profil grup."})
