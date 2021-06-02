@@ -1,6 +1,3 @@
-# Based Plugins
-# Ported For Lord-Userbot By liualvinas/Alvin
-# If You Kang It Don't Delete / Warning!! Jangan Hapus Ini!!!
 from userbot import CMD_HELP, bot
 from userbot.events import register
 
@@ -17,10 +14,8 @@ async def _(event):
     await tap[0].click(event.chat_id)
     await event.delete()
 
-# Alvin Gans
 
-
-@register(outgoing=True, pattern=r"^\.wp(?: |$)(.*)")
+@register(outgoing=True, pattern=r"^\.whisp(?: |$)(.*)")
 async def _(event):
     if event.fwd_from:
         return
@@ -31,8 +26,6 @@ async def _(event):
     tap = await bot.inline_query(botusername, wwwspr)
     await tap[0].click(event.chat_id)
     await event.delete()
-
-# Alvin Gans
 
 
 @register(outgoing=True, pattern=r"^\.mod(?: |$)(.*)")
@@ -47,13 +40,11 @@ async def _(event):
     await tap[0].click(event.chat_id)
     await event.delete()
 
-# Ported For Lord-Userbot By liualvinas/Alvin
-
 CMD_HELP.update({
-    "ramfun": "\
-`.xogame`\
-\nUsage: Mainkan game XO bersama temanmu.\
-\n\n`.mod <nama app>`\
-\nUsage: Dapatkan applikasi mod\
-\n\n`.wp <teks> <username/ID>`\
-\nUsage: Berikan pesan rahasia"})
+    "games": "\
+𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.xogame`\
+\n↳ : Mainkan game XO bersama temanmu.\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.mod <nama app>`\
+\n↳ : Dapatkan applikasi mod\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.whisp <teks> <username/ID>`\
+\n↳ : Berikan pesan rahasia"})
