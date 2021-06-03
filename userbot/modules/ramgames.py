@@ -46,5 +46,5 @@ CMD_HELP.update({
 \n↳ : Mainkan game XO bersama temanmu.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.mod <nama app>`\
 \n↳ : Dapatkan applikasi mod\
-\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.whisp <username> <teks>`\
+\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.whisp <teks> <username>`\
 \n↳ : Berikan pesan rahasia"})
