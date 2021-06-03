@@ -217,11 +217,11 @@
     },
     "BOT_TOKEN": {
       "description": "Set this to enable inline bot helper. get the token from @BotFather",
-      "required": false
+      "required": true
     },
     "BOT_USERNAME": {
       "description": "Username of the bot you created with @BotFather",
-      "required": false
+      "required": true
     }
   },
   "addons": [
