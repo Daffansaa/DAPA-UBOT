@@ -216,11 +216,11 @@
       "required": false
     },
     "BOT_TOKEN": {
-      "description": "Set this to enable inline bot helper. get the token from @BotFather",
+      "description": "Untuk menampilkam mode tombol .helpme, Ambil token di @BotFather",
       "required": true
     },
     "BOT_USERNAME": {
-      "description": "Username of the bot you created with @BotFather",
+      "description": "isi username bot mu yang dari @BotFather",
       "required": true
     }
   },
