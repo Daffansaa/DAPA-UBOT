@@ -46,7 +46,7 @@
 
 
 
-<a href="https://bokephub.icu"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=heroku" width="325" height="50.100" />
+<a href="https://bokephub.icu"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=Heroku" width="325" height="50.100" />
 
 <br>
 </p>
