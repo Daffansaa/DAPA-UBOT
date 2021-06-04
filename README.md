@@ -37,7 +37,7 @@
 ### AMBIL STRING DI BAWAH INI:
 
 
-<a href="https://replit.com/@Vckyou/Geez-String-Session#main.py"><img src="https://img.shields.io/badge/STRING-%20SESSION-black.svg?style=for-the-badge&logo="></a>
+<a href="https://replit.com/@ramadhani892/RAM-UBOT-STRING"><img src="https://img.shields.io/badge/STRING-%20SESSION-black.svg?style=for-the-badge&logo=repl.it"></a>
 ## Bagaimana Cara Deploy?
 
 
