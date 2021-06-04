@@ -190,10 +190,10 @@ async def _(event):
         await event.edit(input_str)
 
         animation_chars = [
-            "**OWNER STREES USER-BOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA KENALAN DULU SAMA OWNER NYA YUK**"
+            "**OWNER RAM-UBOT ADALAH MANUSIA TERGANTENG DI HATI PEMAKAI NYA, KENALAN DULU SAMA OWNER NYA YUK**"
             "**RAMADHANI NAMANYA,ORANG NYA BAIK**"
-            "**TINGGAL NYA DI TANGERANG, BTW ORANG TANGERANG GANTENG GANTENG DAN KUAT KUAT AWWHHHH**"
-            "**KALO MAU PAKE USERBOT INI,IZIN DULU KE ORANG NYA YA GENGSSS**"
+            "**TINGGAL NYA DI TANGERANG, BTW ORANG TANGERANG GANTENG GANTENG DAN THEBEST POKOK NYA AWWHHHH**"
+            "**KALO MAU FORK REPONYA,IZIN DULU KE ORANG NYA YA GENGSSS**"
             "**POKOK NYA OWNER NYA THEBEST BANGET SERIUSSSSS**"
             "**UDAH POKOK NYA ITU AJA SIH,INTINYA OWNER NYA GANTENG DAN BAIK PARAH**"]
 
@@ -202,9 +202,7 @@ async def _(event):
             await asyncio.sleep(animation_interval)
 
             await event.edit(animation_chars[i % 6])
-# Alvin Imut
-# Alvin Gans
-# Lord
+
 CMD_HELP.update({
     "animasi":
     "`.nah` ; `.huh` ; `.owner`\
