@@ -40,25 +40,11 @@ async def _(event):
     await tap[0].click(event.chat_id)
     await event.delete()
 
-@register(outgoing=True, pattern=r"^\.game(?: |$)(.*)")
-async def _(event):
-    if event.fwd_from:
-        return
-    botusername = "@gamee"
-    noob = "play"
-    if event.reply_to_msg_id:
-        await event.get_reply_message()
-    tap = await bot.inline_query(botusername, noob)
-    await tap[0].click(event.chat_id)
-    await event.delete()
-
 CMD_HELP.update({
     "games": "\
 𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.xogame`\
 \n↳ : Mainkan game XO bersama temanmu.\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.mod <nama app>`\
 \n↳ : Dapatkan applikasi mod\
-\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.game <nama game>`\
-\n↳ : Dapatkan Game Untuk di mainkan\
 \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.whisp <teks> <username>`\
 \n↳ : Berikan pesan rahasia"})
