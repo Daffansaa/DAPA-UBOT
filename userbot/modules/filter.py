@@ -39,7 +39,7 @@ async def filter_incoming_handler(handler):
         pass
 
 
-@register(outgoing=True, pattern=r"^Filter (.*)")
+@register(outgoing=True, pattern=r"^Fltr (.*)")
 async def add_new_filter(new_handler):
     """ For .filter command, allows adding new filters in a chat """
     try:
@@ -82,7 +82,7 @@ async def add_new_filter(new_handler):
         await new_handler.edit(success.format(keyword, 'Disini'))
 
 
-@register(outgoing=True, pattern=r"^Stop (.*)")
+@register(outgoing=True, pattern=r"^Stp (.*)")
 async def remove_a_filter(r_handler):
     """ For .stop command, allows you to remove a filter from a chat. """
     try:
@@ -97,9 +97,9 @@ async def remove_a_filter(r_handler):
             "`Berhasil Menghapus Filter` **{}** `Disini`.".format(filt))
 
 
-@register(outgoing=True, pattern="^.clearallbot (.*)")
+@register(outgoing=True, pattern="^.clrallbot (.*)")
 async def kick_marie_filter(event):
-    """ For .bersihkanbotfilter command, allows you to kick all \
+    """ For .clrallbot command, allows you to kick all \
         Marie(or her clones) filters from a chat. """
     bot_type = event.pattern_match.group(1).lower()
     if bot_type not in ["marie", "rose"]:
@@ -122,7 +122,7 @@ async def kick_marie_filter(event):
             BOTLOG_CHATID, "Saya Membersihkan Semua Filter Bot Di " + str(event.chat_id))
 
 
-@register(outgoing=True, pattern="^Filters$")
+@register(outgoing=True, pattern="^Fltrs$")
 async def filters_active(event):
     """ For .filters command, lists all of the active filters in a chat. """
     try:
@@ -143,14 +143,14 @@ async def filters_active(event):
 
 CMD_HELP.update({
     "filter":
-    "`Filters`\
+    "`Fltrs`\
     \nUsage: Melihat filter RAM UBOT yang aktif di obrolan.\
-    \n\n`Filter` <keyword> <balasan> atau balas ke pesan ketik .filter <keyword>\
+    \n\n`Fltr` <keyword> <balasan> atau balas ke pesan ketik .filter <keyword>\
     \nUsage: Membuat filter di obrolan.\
     \nBot Akan Membalas Jika Ada Yang Menyebut 'keyword' yang dibuat.\
     \nBisa dipake ke media/sticker/vn/file.\
-    \n\n`Stop` <keyword>\
+    \n\n`Stp` <keyword>\
     \nUsage: Untuk Nonaktifkan Filter.\
-    \n\n`.clearallbot` <marie/rose>\
+    \n\n`.clrallbot` <marie/rose>\
     \nUsage: Menghapus semua filter yang ada di bot grup (Saat ini bot yang didukung: Marie, Rose.) dalam obrolan."
 })
