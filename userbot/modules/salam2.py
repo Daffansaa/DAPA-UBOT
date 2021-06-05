@@ -122,7 +122,7 @@ async def typewriter(typew):
     await typew.edit("**GC SAMPAH KAYA GINI, BUBARIN AJA PLIS!!🤣**")
 
 CMD_HELP.update({
-    "salam2":
+    "salam3":
     ".p\
 \nUsage:\
 \n\n.l\
@@ -136,8 +136,12 @@ CMD_HELP.update({
 \n\n.yb\
 \nUsage:\
 \n\n.gjk\
-\nUsage:\
-\n\n.gbgn\
+\nUsage:"
+})
+
+CMD_HELP.update:({
+    "salam4":
+    ".gbgn\
 \nUsage:\
 \n\n.bsl\
 \nUsage:\
