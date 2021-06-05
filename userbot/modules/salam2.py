@@ -139,7 +139,7 @@ CMD_HELP.update({
 \nUsage:"
 })
 
-CMD_HELP.update:({
+CMD_HELP.update({
     "salam4":
     ".gbgn\
 \nUsage:\
