@@ -389,10 +389,10 @@ def paginate_help(page_number, loaded_modules, prefix):
         custom.Button.inline("{} {} 💫".format("💫", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
-    pairs = list(zip(modules[::number_of_cols],
+    pairs = list(zip(modules[2::number_of_cols],
                      modules[1::number_of_cols],
                      modules[2:number_of_cols]))
-    if len(modules) % number_of_cols == 2:
+    if len(modules) % number_of_cols == 1:
         pairs.append((modules[-1],))
     max_num_pages = ceil(len(pairs) / number_of_rows)
     modulo_page = page_number % max_num_pages
@@ -443,7 +443,7 @@ with bot:
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}"
                     f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
-                    "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ ↯** \n".format(
+                    "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ :** \n".format(
                         "** ╡⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐╞ **",
                         len(dugmeler),
                     ),
