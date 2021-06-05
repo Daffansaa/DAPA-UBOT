@@ -37,9 +37,9 @@
 
 ### AMBIL STRING DI BAWAH INI:
 
- [![Run on Repl.it](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@ramadhani892/RAM-UBOT-STRING)
+ [![RAM-UBOT-STRING](https://replit.com/badge/github/@ramadhani892/RAM-UBOT)](https://replit.com/@ramadhani892/RAM-UBOT-STRING)
 
-<a href="https://replit.com/@ramadhani892/RAM-UBOT-STRING"><img src="https://img.shields.io/badge/STRING-%20SESSION-red.svg?style=for-the-badge&logo=replit."></a>
+
 ## Bagaimana Cara Deploy?
 
 
