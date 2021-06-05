@@ -49,6 +49,6 @@ async def github(event):
 
 
 CMD_HELP.update({
-    "github": ".git <username>"
+    "github": ".git <nama pengguna>"
     "\nPenjelasan: Seperti .whois tetapi untuk nama pengguna GitHub."
 })
