@@ -382,7 +382,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 def paginate_help(page_number, loaded_modules, prefix):
     number_of_rows = 4
-    number_of_cols = 3
+    number_of_cols = 2
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
@@ -438,7 +438,7 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith("@UserButt"):
-                buttons = paginate_help(0, dugmeler, "help")
+                buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}"
@@ -482,7 +482,7 @@ with bot:
                 current_page_number = int(
                     event.data_match.group(1).decode("UTF-8"))
                 buttons = paginate_help(
-                    current_page_number + 1, dugmeler, "help")
+                    current_page_number + 1, dugmeler, "helpmel")
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
@@ -499,7 +499,7 @@ with bot:
                 current_page_number = int(
                     event.data_match.group(1).decode("UTF-8"))
                 buttons = paginate_help(
-                    current_page_number - 1, dugmeler, "help"  # pylint:disable=E0602
+                    current_page_number - 1, dugmeler, "helpme"  # pylint:disable=E0602
                 )
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
