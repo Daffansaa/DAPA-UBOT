@@ -43,5 +43,5 @@ async def yardim(event):
             )
     except Exception:
         return await event.edit(
-            "`Anda tidak dapat mengirim hasil sebaris dalam obrolan ini (disebabkan oleh SendInlineBotResultRequest)`"
+            "`Anda tidak dapat mengirim hasil sebaris dalam obrolan ini (disebabkan oleh Permintaan Hasil Bot Sebaris)`"
         )
