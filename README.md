@@ -11,6 +11,7 @@
 </p>  
 
 ![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+<a href="https://www.codefactor.io/repository/github/ramadhani892/ram-ubot"><img src="https://www.codefactor.io/repository/github/ramadhani892/ram-ubot/badge" alt="CodeFactor" /></a>
 
 ## Pemilik Repo: Rama
 [<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/maafgausahsokap)
