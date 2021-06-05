@@ -19,7 +19,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 @register(outgoing=True, pattern="^.helpme(?: |$)(.*)")
 async def help(event):
-    """ For .help command,"""
+    """ For .helpme command,"""
     args = event.pattern_match.group(1).lower()
     if args:
         if args in CMD_HELP:
