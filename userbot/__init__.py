@@ -390,9 +390,9 @@ def paginate_help(page_number, loaded_modules, prefix):
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
-                     modules[2::number_of_cols],
+                     modules[1::number_of_cols],
                      modules[2:number_of_cols]))
-    if len(modules) % number_of_cols == 1:
+    if len(modules) % number_of_cols == 2:
         pairs.append((modules[-1],))
     max_num_pages = ceil(len(pairs) / number_of_rows)
     modulo_page = page_number % max_num_pages
