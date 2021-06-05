@@ -138,8 +138,12 @@ CMD_HELP.update({
 \n\nC\
 \nUsage: Buat menghujat.\
 \n\nS\
-\nUsage: Haha sokap.\
-\n\nV\
+\nUsage: Haha sokap."
+})
+
+CMD_HELP.update({
+    "salam2":
+    "V\
 \nUsage: Hujat Orang caper.\
 \n\nJ\
 \nUsage: Hujat Jamet.\
