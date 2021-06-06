@@ -446,7 +446,7 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 CMD_HELP.update({
-    "memes8":
+    "memes9":
     "`.gabut` ; `.orgil`\
     \nUsage: ntahlah gabut doang.\
     \n\n`.ass`\
@@ -454,7 +454,7 @@ CMD_HELP.update({
 })
 
 CMD_HELP.update({
-    "memes9":
+    "memes10":
     "`.cinta`\
     \nUsage: mengirim cintamu ke seseorang.\
     \n\n`.sange`\
