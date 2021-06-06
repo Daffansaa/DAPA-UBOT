@@ -3,7 +3,7 @@ from userbot import CMD_HELP, bot
 from userbot.events import register
 
 
-@register(outgoing=True, pattern=r'^.limit(?: |$")
+@register(outgoing=True, pattern=r"^.limit(?: |$")
 async def demn(ult):
     chat = "@SpamBot"
     msg = await event.edit("Checking If You Are Limited...")
