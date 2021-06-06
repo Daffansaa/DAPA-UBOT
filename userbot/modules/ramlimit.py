@@ -12,7 +12,6 @@ from userbot.events import register
 @register(outgoing=True, pattern=r"^\.limit(?: |$)(.*)")
 async def _(event):
     await event.edit("`Proses Ngecek Limit akun, Gausah panik lah ngentot!...`")
-    sleep(2)
     async with bot.conversation("@SpamBot") as conv:
         try:
             response = conv.wait_event(
