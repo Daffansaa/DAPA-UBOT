@@ -1859,7 +1859,7 @@ CMD_HELP.update({
     "\nUsage: Puji orang!."
 })
 
-CMD_HELP update({
+CMD_HELP.update({
     "rammemes4":
     ">`.f` <emoji/karakter>"
     "\nUsage: F."
