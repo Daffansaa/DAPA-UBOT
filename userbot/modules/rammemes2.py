@@ -1812,7 +1812,7 @@ async def emoji_tengkorak(e):
 
 
 CMD_HELP.update({
-    "ramemes3":
+    "memes3":
     ">`.cowsay`"
     "\nUsage: sapi yang mengatakan sesuatu."
     "\n\n> .cp"
@@ -1860,7 +1860,7 @@ CMD_HELP.update({
 })
 
 CMD_HELP.update({
-    "rammemes4":
+    "memes4":
     ">`.f` <emoji/karakter>"
     "\nUsage: F."
     "\n\n>`.bt`"
