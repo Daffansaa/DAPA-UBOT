@@ -23,7 +23,7 @@
       "required": true
     },
      "STRING_SESSION": {
-      "description": "Ambil String Session di @geezsupportgroup dengan cara ketik #string.",
+      "description": "Ambil String Session di @ramubotspam dengan cara ketik #string.",
       "required": true
     },
     "HEROKU_APP_NAME": {
@@ -41,8 +41,8 @@
       "required": true
     },
     "BOTLOG_CHATID": {
-      "description": "Buatlah sebuah grup private/public masukan bot rose lalu ketik /id.",
-      "value": "Isi id grup lu tot",
+      "description": "Masuk @ramubotspam atau Buatlah sebuah grup private/public masukan @goku_isbot lalu ketik /id.",
+      "value": "-1001122897608",
       "required": true
     },
     "CONSOLE_LOGGER_VERBOSE": {
@@ -89,7 +89,7 @@
     },
     "PM_AUTO_BAN": {
       "description": "Ini berguna Untuk Mengaktifkan pesan otomatis di room chat anda.",
-      "value": "True",
+      "value": "False",
       "required": true
     },
     "YOUTUBE_API_KEY": {
@@ -168,8 +168,8 @@
       "required": false
     },
     "G_BAN_LOGGER_GROUP": {
-      "description": "Buatlah Sebuah Grup Private/Public Lalu Masukkan Bot Rose Lalu Ketik /id.",
-      "value": "Isi id grup lu tolol",
+      "description": "Masuk @ramubotspam Atau Buatlah Sebuah Grup Private/Public Lalu Masukkan @goku_isbot Lalu Ketik /id.",
+      "value": "-1001122897608",
       "required": false
     },
     "G_DRIVE_DATA": {
