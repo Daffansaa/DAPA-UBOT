@@ -3013,7 +3013,7 @@ CMD_HELP.update({
 \nUsage: meh."
 })
 
-CMD_HELP update({
+CMD_HELP.update({
     "rammemes2":
     ".music`\
 \nUsage: music player\
