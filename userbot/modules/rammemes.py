@@ -2982,7 +2982,7 @@ async def _(event):
 
 
 CMD_HELP.update({
-    "rammemes":
+    "memes":
     "`.eye`\
 \nUsage: Lihat Sendiri.\
 \n\n`.earth`\
@@ -3014,7 +3014,7 @@ CMD_HELP.update({
 })
 
 CMD_HELP.update({
-    "rammemes2":
+    "memes2":
     ".music`\
 \nUsage: music player\
 \n\n`.fleave`\
