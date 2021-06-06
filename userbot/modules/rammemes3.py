@@ -204,14 +204,18 @@ async def _(event):
             await event.edit(animation_chars[i % 6])
 
 CMD_HELP.update({
-    "memes4":
+    "memes5":
     "`.nah` ; `.huh` ; `.owner`\
     \nUsage: cobain.\
     \n\n`.bunga` ; `.buah`\
     \nUsage: animasi.\
     \n\n`.waktu`\
-    \nUsage: animasi.\
-    \n\n`.hua`\
+    \nUsage: animasi."
+})
+
+CMD_HELP.update({
+    "memes6":
+    "`.hua`\
     \nUsage: nangis.\
     \n\n`.cinta` ; `.canda`\
     \nUsage: liat sendiri"
