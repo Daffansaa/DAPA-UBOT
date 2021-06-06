@@ -376,12 +376,16 @@ async def typewriter(typew):
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
 
 CMD_HELP.update({
-    "vip":
+    "memes7":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
     \nUsage: liat aja.\
     \n\n`.heli` ; `.tank` ; `.tembak`\n`.bundir`\
-    \nUsage: liat sendiri.\
-    \n\n`.y` ; `.uasu`\
+    \nUsage: liat sendiri."
+})
+
+CMD_HELP.update({
+    "memes8":
+    ".y` ; `.uasu`\
     \nUsage: jempol & Cek dyno\
     \n\n`.tawa` ; `.oy` ; `.fck`\
     \nUsage: ketawa lari , Nyuruh nimbrung , fvck & Coba sendiri.\
