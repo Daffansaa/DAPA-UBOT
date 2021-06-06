@@ -423,7 +423,7 @@ with bot:
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
-        logo = "https://telegra.ph/file/8379436998b815ba50ea3.jpg"
+        logo = "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg"
 
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
