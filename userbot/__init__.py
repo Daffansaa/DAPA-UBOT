@@ -442,9 +442,9 @@ with bot:
                 result = builder.article(
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}"
-                    f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
-                    "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ :** \n".format(
-                        "** ╡⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐╞ **",
+                    f"\n\n**𝙿𝙴𝙼𝙸𝙻𝙸𝙺 𝙱𝙾𝚃 : {DEFAULTUSER}**\n\n"
+                    " **𝙼𝙾𝙳𝚄𝙻𝙴𝚂 :** `{}`\n◎› **𝚂𝙴𝙼𝚄𝙰 𝙼𝙴𝙽𝚄: :** \n".format(
+                        "** ━━━━━━❖━━━━━━\n   ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n ━━━━━━❖━━━━━━ **",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -452,13 +452,13 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ╡⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐╞ ",
+                    "Bantuan Dari ━━━━━━❖━━━━━━\n   ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n ━━━━━━❖━━━━━━ ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ╡⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐╞ ",
+                    " ━━━━━━❖━━━━━━\n   ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n ━━━━━━❖━━━━━━ ",
                     text="""╭✠╼━━━━━━❖━━━━━━━✠╮\n**Anda Bisa Membuat \n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n Anda Sendiri Dengan Cara :**\n __Tekan Dibawah Ini__ 👇\n╰✠╼━━━━━━❖━━━━━━━✠╯""",
                     buttons=[
                         [
