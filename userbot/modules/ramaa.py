@@ -60,11 +60,11 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 CMD_HELP.update({
-    "ram-ubot":
+    "rambot":
     "`.rambot`\
     \nUsage: menampilkan alive bot.\
     \n\n`.sadboy`\
     \nUsage: hiks\
     \n\n`.punten` ; `.geez`\
-    \nUsage: coba aja & salam."
+    \nUsage: misi."
 })
