@@ -3011,7 +3011,6 @@ CMD_HELP.update({
 \nUsage: Tidak Ada Yang Menarik\
 \n\n`.wupload`\
 \nUsage: meh."
-
 })
 
 CMD_HELP update({
