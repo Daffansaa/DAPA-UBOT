@@ -81,7 +81,7 @@ CUSTOM_PMPERMIT_TEXT = os.environ.get("CUSTOM_PMPERMIT_TEXT", None)
 # Pm Permit Img
 PM_PERMIT_PIC = os.environ.get(
     "PM_PERMIT_PIC",
-    None) or "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg"
+    None) or "https://telegra.ph/file/5e197cb47a4168c39f78f.jpg"
 
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
@@ -205,7 +205,7 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
-    "ALIVE_LOGO") or "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg"
+    "ALIVE_LOGO") or "https://telegra.ph/file/5e197cb47a4168c39f78f.jpg"
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
