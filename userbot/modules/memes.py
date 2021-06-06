@@ -1158,7 +1158,7 @@ async def zal(zgfy):
     await zgfy.edit("".join(reply_text))
 
 
-@register(outgoing=True, pattern=r"^\.hi$")
+@register(outgoing=True, pattern=r"^\.hai$")
 async def hoi(hello):
     """ Greet everyone! """
     await hello.edit(choice(HELLOSTR))
@@ -1404,7 +1404,7 @@ async def weebify(e):
         get = await e.get_reply_message()
         args = get.text
     if not args:
-        await e.edit("`Apa Yang Anda Lakukan Lord ツ`")
+        await e.edit("`Apa Yang Anda Lakukan`")
         return
     string = '  '.join(args).lower()
     for normiecharacter in string:
@@ -1424,7 +1424,7 @@ async def claptext(memereview):
     elif textx:
         message = textx.text
     else:
-        return await memereview.edit("`Lord, Mohon Balas Ke Pesan Orang Yang Ingin Anda Puji ツ`")
+        return await memereview.edit("`Mohon Balas Ke Pesan Orang Yang Ingin Anda Puji ツ`")
     reply_text = "👏 "
     reply_text += message.replace(" ", " 👏 ")
     reply_text += " 👏"
@@ -1470,15 +1470,16 @@ async def let_me_google_that_for_you(lmgtfy_q):
 @register(outgoing=True, pattern=r"^\.sayhi$")
 async def sayhi(e):
     await e.edit(
-        "\n💰💰💰💰💰💰💰💰💰💰💰💰"
-        "\n💰🔷💰💰💰🔷💰💰🔷🔷🔷💰"
-        "\n💰🔷💰💰💰🔷💰💰💰🔷💰💰"
-        "\n💰🔷💰💰💰🔷💰💰💰🔷💰💰"
-        "\n💰🔷🔷🔷🔷🔷💰💰💰🔷💰💰"
-        "\n💰🔷💰💰💰🔷💰💰💰🔷💰💰"
-        "\n💰🔷💰💰💰🔷💰💰💰🔷💰💰"
-        "\n💰🔷💰💰💰🔷💰💰🔷🔷🔷💰"
-        "\n💰💰💰💰💰💰💰💰💰💰💰💰")
+        "\n✨✨✨✨✨✨✨✨✨✨✨✨"
+        "\n✨❤️❤️✨✨❤️❤️✨✨❤️❤️✨"
+        "\n✨❤️❤️✨✨❤️❤️✨✨❤️❤️✨"
+        "\n✨❤️❤️✨✨❤️❤️✨✨❤️❤️✨"
+        "\n✨❤️❤️❤️❤️❤️❤️✨✨❤️❤️✨"
+        "\n✨❤️❤️❤️❤️❤️❤️✨✨❤️❤️✨"
+        "\n✨❤️❤️✨✨❤️❤️✨✨❤️❤️✨"
+        "\n✨❤️❤️✨✨❤️❤️✨✨❤️❤️✨"
+        "\n✨❤️❤️✨✨❤️❤️✨✨❤️❤️✨"
+        "\n✨✨✨✨✨✨✨✨✨✨✨✨")
 
 
 @register(pattern=r".scam(?: |$)(.*)", outgoing=True)
@@ -1543,7 +1544,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern=r"^\.leave$")
 async def leave(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("`Gua cabut dulu ya asu,Jangan kangen...`")
+        await e.edit("`❗ Ｇｅｅｚ. Telah Meninggalkan Group...`")
 
 
 @register(outgoing=True, pattern=r"^\.fail$")
@@ -1661,7 +1662,7 @@ async def gey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈┈┈╭━━━━━╮┈┈┈┈┈\n┈┈┈┃┊┊┊┊┊┃┈┈┈┈┈`"
                      "`\n┈┈┈┃┊┊╭━╮┻╮┈┈┈┈\n┈┈┈╱╲┊┃▋┃▋┃┈┈┈┈\n┈┈╭┻┊┊╰━┻━╮┈┈┈┈`"
-                     "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈Lu Bau Belom mandi hehe!`"
+                     "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈Lu Bau Hehe`"
                      "\n┈┈┈┈┈┈┏━┓┈┈┈┈┈┈")
 
 
@@ -1670,7 +1671,7 @@ async def gey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
         await e.edit("`\n┈┈┈╭━━━━━╮┈┈┈┈┈\n┈┈┈┃┊┊┊┊┊┃┈┈┈┈┈`"
                      "`\n┈┈┈┃┊┊╭━╮┻╮┈┈┈┈\n┈┈┈╱╲┊┃▋┃▋┃┈┈┈┈\n┈┈╭┻┊┊╰━┻━╮┈┈┈┈`"
-                     "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈ANDA TOLOL!`"
+                     "`\n┈┈╰┳┊╭━━━┳╯┈┈┈┈\n┈┈┈┃┊┃╰━━┫┈ANDA GAY`"
                      "\n┈┈┈┈┈┈┏━┓┈┈┈┈┈┈")
 
 
@@ -1684,7 +1685,7 @@ async def bot(e):
 @register(outgoing=True, pattern=r"^\.hey$")
 async def hey(e):
     if not e.text[0].isalpha() and e.text[0] not in ("/", "#", "@", "!"):
-        await e.edit("\n┈┈┈╱▔▔▔▔╲┈╭━━━━━\n┈┈▕▂▂▂▂▂▂▏┃GOBLOK!┊😀`"
+        await e.edit("\n┈┈┈╱▔▔▔▔╲┈╭━━━━━\n┈┈▕▂▂▂▂▂▂▏┃HEY!┊😀`"
                      "`\n┈┈▕▔▇▔▔┳▔▏╰┳╮HEY!┊\n┈┈▕╭━╰╯━╮▏━╯╰━━━\n╱▔▔▏▅▅▅▅▕▔▔╲┈┈┈┈`"
                      "`\n▏┈┈╲▂▂▂▂╱┈┈┈▏┈┈┈`")
 
@@ -1779,11 +1780,11 @@ async def emoji_penis(e):
     emoji = e.pattern_match.group(1)
     titid = GAMBAR_TITIT
     if emoji:
-        titid = titid.replace('😋', emoji)
+        titid = titid.replace('🌟', emoji)
     await e.edit(titid)
 
 
-@register(outgoing=True, pattern=r"^\.(?:kon|kontl)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:kntl|kontol)\s?(.)?")
 async def emoji_kontl(e):
     emoji = e.pattern_match.group(1)
     kontl = GAMBAR_KONTL
@@ -1792,7 +1793,7 @@ async def emoji_kontl(e):
     await e.edit(kontl)
 
 
-@register(outgoing=True, pattern=r"^\.ok$")
+@register(outgoing=True, pattern=r"^\.oke$")
 async def emoji_oke(e):
     emoji = e.pattern_match.group(1)
     oke = GAMBAR_OK
@@ -1811,7 +1812,7 @@ async def emoji_tengkorak(e):
 
 
 CMD_HELP.update({
-    "memes":
+    "ramemes3":
     ">`.cowsay`"
     "\nUsage: sapi yang mengatakan sesuatu."
     "\n\n> .cp"
@@ -1855,8 +1856,12 @@ CMD_HELP.update({
     "\n\n>`.mock`"
     "\nUsage: Lakukan dan temukan kesenangan yang sesungguhnya."
     "\n\n>`.clap`"
-    "\nUsage: Puji orang!"
-    "\n\n>`.f` <emoji/karakter>"
+    "\nUsage: Puji orang!."
+})
+
+CMD_HELP update({
+    "rammemes4":
+    ">`.f` <emoji/karakter>"
     "\nUsage: F."
     "\n\n>`.bt`"
     "\nUsage: Percayalah, Anda akan menemukan ini berguna."
@@ -1872,5 +1877,5 @@ CMD_HELP.update({
     "\n> `.fag` `.gtfo`; `.stfu` `.lol` `.lool` `.fail` `.leave`"
     "\n> `.iwi` `.sayhi` `.koc` `.gas` `.earth` `.love` `.rain`"
     "\n> `.penis` `.emo` `.fuck` `.skull`  `.monyet`\nUsage: Cobain aja"
-    "\n\n\n**Semoga Harimu Menyenangkan**\n➥ `Rama`"
+    "\n\n\n**Semoga Harimu Menyenangkan**\n"
 })
