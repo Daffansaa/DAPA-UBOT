@@ -1,4 +1,4 @@
-# Alvin Gans
+
 
 from time import sleep
 from userbot import CMD_HELP, bot
@@ -204,7 +204,7 @@ async def _(event):
             await event.edit(animation_chars[i % 6])
 
 CMD_HELP.update({
-    "animasi":
+    "memes4":
     "`.nah` ; `.huh` ; `.owner`\
     \nUsage: cobain.\
     \n\n`.bunga` ; `.buah`\
