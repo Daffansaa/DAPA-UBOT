@@ -466,19 +466,19 @@ async def _(event):
     if not event.text[0].isalpha() and event.text[0] not in (
             "/", "#", "@", "!"):
         await event.edit("Hai Goblok")
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(1)
         await event.edit("Aku")
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(2)
         await event.edit("Gangstar")
-        await asyncio.sleep(0.5)
+        await asyncio.sleep(1)
         await event.edit("Sekarang ")
-        await asyncio.sleep(0.2)
+        await asyncio.sleep(1)
         await event.edit("KAMU ADALAH BABU")
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(3)
         await event.edit("Ku bunuh kau")
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(2)
         await event.edit("😎😎😎")
-        await asyncio.sleep(0.3)
+        await asyncio.sleep(1)
         await event.edit("Mau gak gua bunuh? Woi kontol 😎😎😎")
 
 
@@ -3010,8 +3010,13 @@ CMD_HELP.update({
 \n\n`.human`\
 \nUsage: Tidak Ada Yang Menarik\
 \n\n`.wupload`\
-\nUsage: meh\
-\n\n`.music`\
+\nUsage: meh."
+
+})
+
+CMD_HELP update({
+    "rammemes2":
+    ".music`\
 \nUsage: music player\
 \n\n`.fleave`\
 \nUsage: Keluar boong an\
