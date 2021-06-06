@@ -32,5 +32,5 @@ async def demn(ult):
 CMD_HELP.update({
     "limited":
     "`.limit`\
-\nUsage:Mengecek limit
+\nUsage: Mengecek limit
 })
