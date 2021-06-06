@@ -1,3 +1,7 @@
+# From vckyou Geez-Userbot
+# WOI NGENTOT, KALO FORK KASIH BINTANG
+# Yang apus kredit Lo ngentot!
+
 from telethon import events
 from telethon.errors.rpcerrorlist import YouBlockedUserError
 
