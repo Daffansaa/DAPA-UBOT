@@ -34,9 +34,9 @@ async def help(event):
             string += "`" + str(i)
             string += "`\t 💫  "
         await event.edit("**⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐**\n\n"
-                         f"**💫 Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n**💀 Mᴏᴅᴜʟᴇꜱ : {len(modules)}**\n\n"
-                         "**• Mᴀɪɴ Mᴇɴᴜ :**\n"
-                         f"💫 {string}\nNGETIK YANG BENER YA NGENTOOOOT!!\n\n")
+                         f"**💫 𝙿𝙴𝙼𝙸𝙻𝙸𝙺 𝙱𝙾𝚃 : {DEFAULTUSER}**\n**💫  𝙼𝙾𝙳𝚄𝙻𝙴𝚂 : {len(modules)}**\n\n"
+                         "**💫 𝚂𝙴𝙼𝚄𝙰 𝙼𝙴𝙽𝚄 :**\n═════════════╣❃ ♕ ❃╠═════════════\n\n"
+                         f"💫 {string}\n\n═════════════╣❃ ♕ ❃╠═════════════\n\nNGETIK YANG BENER YA NGENTOOOOT!!\n\n")
         await event.reply(f"\n**Contoh** : Ketik <`.help ping`> Untuk Informasi Pengunaan.\nJangan Lupa Berdoa Sebelum Mencoba wahahaha..")
         await asyncio.sleep(50)
         await event.delete()
