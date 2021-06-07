@@ -208,9 +208,9 @@ async def trump(event):
         if event.is_reply and not reply_to_id.media:
             text = reply_to_id.message
         else:
-            await event.edit("`Send you text to trump so he can tweet.`")
+            await event.edit("`Kirim Beberapa Text untuk membuat.`")
             return
-    await event.edit("`Requesting trump to tweet...`")
+    await event.edit("`Membuat Kata kata dari Twitter Trump...`")
     text = deEmojify(text)
     img = await trumptweet(text)
     await event.client.send_file(event.chat_id, img, reply_to=reply_to_id)
