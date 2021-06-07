@@ -104,12 +104,6 @@ async def typewriter(typew):
     await typew.edit("**Lu siapa si ngentooootttt!!!!**")
 
 
-@register(outgoing=True, pattern='^.ms(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**BACA BAIK BAIK!!\n\nMIMIK SUSU ADALAH CLAN YANG MEMPUNYAI BEBERAPA PENDIRIAN TETAP, YAITU, TIDAK MENGINGINKAN KATA MAAF SEBELUM TERJADINYA WAR, TIDAK MELAWAN JIKA TIDAK DI SENGGOL, DAN KALAUPUN KAMI SEDANG TIDAK MOOD WAR, KAMI AKAN MENGHILANG, NAMUN BUKAN UNTUK MENGHINDAR, NANTI AKAN ADA SAAT NYA KAMI KELUAR UNTUK MENCARI PARA PENYERANG YANG SOKERAS DI AWAL!\nMS JUGA TIDAK AKAN TUNDUK PADA SIAPAPUN, BERTEMAN LAH JIKA INGIN, PERGILAH JIKA BENCI!!\n\nPAHAM TOD?**")
-
-
 @register(outgoing=True, pattern='^.hey(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
