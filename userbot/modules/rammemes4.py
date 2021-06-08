@@ -83,7 +83,7 @@ async def typewriter(typew):
                      "╬═╬ \n"
                      "╬═╬ \n"
                      "╬═╬ \n"
-                     "╬═╬ Hallo ANAK STRESS,AKU DATANG :) \n"
+                     "╬═╬ HALO ANAK YATIM,AKU DATANG :) \n"
                      "╬═╬☻/ \n"
                      "╬═╬/▌ \n"
                      "╬═╬/ \\ \n")
@@ -125,7 +125,7 @@ async def typewriter(typew):
                      "──▄▀█▄▄▄─────▄▀█▄▄▄\n"
                      "▄▀──█▄▄──────█─█▄▄\n"
                      "─▄▄▄▀──▀▄───▄▄▄▀──▀▄\n"
-                     "─▀───────▀▀─▀───────▀▀\n`Awkwokwokwok Dasar Stress..`")
+                     "─▀───────▀▀─▀───────▀▀\n`Awkwokwokwok Anak Ngentot..`")
 
 
 @register(outgoing=True, pattern='^.ular(?: |$)(.*)')
@@ -393,7 +393,7 @@ async def typewriter(typew):
     await typew.edit("**Kan tolol bgt, Jadi sepi kan**")
     sleep(1)
     await typew.edit("**Nimbrung tololl, Nimbrung!!**")
-    sleep(1)
+    sleep(2)
     await typew.edit("**Sombong amat punya jempol,Gamau nimbrung**")
     sleep(1)
     await typew.edit("**Jempol lu kebas? Apa dah putus?**")
