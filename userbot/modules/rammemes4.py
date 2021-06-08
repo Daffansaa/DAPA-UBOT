@@ -281,6 +281,34 @@ async def typewriter(typew):
     await typew.edit("╭✠╼━━━━━━❖━━━━━━━✠\n┣• **Perintah:** `BAPAKLO`\n┣• **Pengguna:** DIRILO\n┣• **Aksi:** `MENCORENG NAMA LO DARI KK`\n╰✠╼━━━━━━❖━━━━━━━✠")
 
 
+@register(outgoing=True, pattern='^.gkck(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("`Proses gkick Si ngentot!!...`")
+    sleep(2)
+    await typew.edit("`mengeluarkan dari (1) Group.`")
+    sleep(1)
+    await typew.edit("`mengeluarkan dari (2) Group.`")
+    await typew.edit("`mengeluarkan dari (3) Group.`")
+    await typew.edit("`mengeluarkan dari (4) Group.`")
+    await typew.edit("`mengeluarkan dari (5) Group.`")
+    await typew.edit("`mengeluarkan dari (6) Group.`")
+    await typew.edit("`mengeluarkan dari (7) Group.`")
+    await typew.edit("`mengeluarkan dari (8) Group.`")
+    await typew.edit("`mengeluarkan dari (9) Group.`")
+    await typew.edit("`mengeluarkan dari (10) Group.`")
+    await typew.edit("`mengeluarkan dari (11) Group.`")
+    await typew.edit("`mengeluarkan dari (12) Group.`")
+    await typew.edit("`mengeluarkan dari (13) Group.`")
+    await typew.edit("`mengeluarkan dari (14) Group.`")
+    await typew.edit("`mengeluarkan dari (15) Group.`")
+    await typew.edit("`mengeluarkan dari (16) Group.`")
+    await typew.edit("`mengeluarkan dari (17) Group.`")
+    await typew.edit("`mengeluarkan dari (18) Group.`")
+    await typew.edit("`mengeluarkan dari (19) Group.`")
+    await typew.edit("`mengeluarkan dari (20) Group.`")
+
+
 @register(outgoing=True, pattern='^.gmt(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
@@ -385,8 +413,8 @@ CMD_HELP.update({
 
 CMD_HELP.update({
     "memes8":
-    ".y` ; `.uasu`\
-    \nUsage: jempol & Cek dyno\
+    ".y` ; `.uasu` ; `.gkck`\
+    \nUsage: jempol , Cek dyno & prank global kick\
     \n\n`.tawa` ; `.oy` ; `.fck`\
     \nUsage: ketawa lari , Nyuruh nimbrung , fvck & Coba sendiri.\
     \n\n`.ular` ; `.babi` ; `.ajg`\
