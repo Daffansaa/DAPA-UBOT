@@ -310,7 +310,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("__mengeluarkan dari (12) Group__")
     sleep(1)
-    await typew.edit("__mengeluarkan dari (13) Group__`)
+    await typew.edit("__mengeluarkan dari (13) Group__")
     sleep(1)
     await typew.edit("__mengeluarkan dari (14) Group__")
     sleep(1)
