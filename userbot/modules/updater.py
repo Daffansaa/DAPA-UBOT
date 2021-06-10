@@ -136,7 +136,7 @@ async def update(event, repo, ups_rem, ac_br):
     return
 
 
-@ register(outgoing=True, pattern=r"^.update(?: |$)(now|deploy)?")
+@ register(outgoing=True, pattern=r"^.update(?: |$)(one|all)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
     await event.edit("`Mengecek Pembaruan, Silakan Menunggu....`")
@@ -188,7 +188,7 @@ async def upstream(event):
 
     if changelog == '' and force_update is False:
         await event.edit(
-            f'\n**✣ RAM-UBOT Sudah Versi Terbaru**\n')
+            f'\n**🌟 RAM-UBOT 🌟 Sudah Versi Terbaru**\n')
         await asyncio.sleep(15)
         await event.delete()
         return repo.__del__()
@@ -208,18 +208,18 @@ async def upstream(event):
             remove("output.txt")
         else:
             await event.edit(changelog_str)
-        return await event.respond('**Perintah Untuk Update RAM UBOT**\n >`.update now`\n >`.update deploy`\n\n__Untuk Meng Update Fitur Terbaru Dari RAM-UBOT.__')
+        return await event.respond('**Perintah Untuk Update 🌟RAM UBOT🌟**\n >`.update one`\n >`.update all`\n\n__Untuk Meng Update Fitur Terbaru Dari 🌟RAM-UBOT🌟.__')
 
     if force_update:
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('`✲ Proses Update RAM-UBOT, Loading....1%`')
-        await event.edit('`✲ Proses Update RAM-UBOT, Loading....20%`')
-        await event.edit('`✲ Proses Update RAM-UBOT, Loading....35%`')
-        await event.edit('`✲ Proses Update RAM-UBOT, Loading....77%`')
-        await event.edit('`✲ Proses Update RAM-UBOT, Updating...90%`')
-        await event.edit('`✲ Proses Update RAM-UBOT, Mohon Menunggu....100%`')
+        await event.edit('`💫 Proses Update RAM-UBOT, Loading....1%`')
+        await event.edit('`💫 Proses Update RAM-UBOT, Loading....20%`')
+        await event.edit('`💫 Proses Update RAM-UBOT, Loading....35%`')
+        await event.edit('`💫 Proses Update RAM-UBOT, Loading....77%`')
+        await event.edit('`💫 Proses Update RAM-UBOT, Updating...90%`')
+        await event.edit('`💫 Proses Update RAM-UBOT, Mohon Menunggu....100%`')
     if conf == "now":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(10)
@@ -235,8 +235,8 @@ CMD_HELP.update({
     'update':
     ".update"
     "\nUsage: Untuk Melihat Pembaruan Terbaru RAM-UBOT."
-    "\n\n.update now"
+    "\n\n.update one"
     "\nUsage: Memperbarui RAM-UBOT."
-    "\n\n.update deploy"
+    "\n\n.update all"
     "\nUsage: Memperbarui RAM-UBOT Dengan Cara Deploy Ulang."
 })
