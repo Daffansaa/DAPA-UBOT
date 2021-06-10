@@ -56,7 +56,7 @@ async def _(event):
 
 CMD_HELP.update(
     {
-        "specialtools": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.getaudio`\
+        "ramspec": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.getaudio`\
          \n↳ : Download Audio To put in ur Desired Video/Gif..\
          \n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.addaudio`\
          \n↳ : It will put the above audio to the replied video/gif.."
