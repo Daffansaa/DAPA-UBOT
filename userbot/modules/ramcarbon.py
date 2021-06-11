@@ -1,3 +1,7 @@
+# Ported By @VckyouuBitch From Geez-Projects
+# Fixes bugs kemaren ngestuck kaya hidup piki
+
+
 import os
 from time import sleep
 from selenium import webdriver
@@ -75,8 +79,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap/),\
-        \na Group support : [Geez Support](https://t.me/geezsupportgroup/)",
+        caption="Made using [Carbon](https://carbon.now.sh/about/),\
+        \na project by [Dawn Labs](https://dawnlabs.io/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -141,10 +145,11 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap),\
-        \n Group support : [Geez Support](https://t.me/geezsupportgroup)",
+        caption="Made using [Carbon](https://carbon.now.sh/about/),\
+        \na project by [Dawn Labs](https://dawnlabs.io/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
+    )
 
     os.remove('/root/userbot/.bin/carbon.png')
     driver.quit()
@@ -206,8 +211,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap),\
-        \n Group support : [Geez Support](https://t.me/geezsupportgroup)",
+        caption="Made using [Carbon](https://carbon.now.sh/about/),\
+        \na project by [Dawn Labs](https://dawnlabs.io/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -272,8 +277,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap),\
-        \n Group support : [Geez Support](https://t.me/geezsupportgroup)",
+        caption="Made using [Carbon](https://carbon.now.sh/about/),\
+        \na project by [Dawn Labs](https://dawnlabs.io/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -338,8 +343,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap),\
-        \n Group support : [Geez Support](https://t.me/geezsupportgroup)",
+        caption="Made using [Carbon](https://carbon.now.sh/about/),\
+        \na project by [Dawn Labs](https://dawnlabs.io/)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -352,6 +357,6 @@ async def carbon_api(e):
 
 CMD_HELP.update({
     "carbon":
-    "`.carbon`value <values=1,2,3,4,>\
-        \nUsage:reply or type .carbon1 or 2,3,4, value and beautify your text."
+    "`.carbon`value <values=1,2,3,4>\
+        \nUsage:reply or type .carbon1 or 2,3,4 value and beautify your text."
 })
