@@ -141,8 +141,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap/),\
-        \na Group support : [Geez Support](https://t.me/geezsupportgroup/)",
+        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap),\
+        \n Group support : [Geez Support](https://t.me/geezsupportgroup)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
 
@@ -206,8 +206,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap/),\
-        \na Group support : [Geez Support](https://t.me/geezsupportgroup/)",
+        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap),\
+        \n Group support : [Geez Support](https://t.me/geezsupportgroup)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -272,8 +272,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap/),\
-        \na Group support : [Geez Support](https://t.me/geezsupportgroup/)",
+        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap),\
+        \n Group support : [Geez Support](https://t.me/geezsupportgroup)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
@@ -338,8 +338,8 @@ async def carbon_api(e):
     await e.client.send_file(
         e.chat_id,
         file,
-        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap/),\
-        \na Group support : [Geez Support](https://t.me/geezsupportgroup/)",
+        caption="Created by : [ラマダニ。](https://t.me/maafgausahsokap),\
+        \n Group support : [Geez Support](https://t.me/geezsupportgroup)",
         force_document=True,
         reply_to=e.message.reply_to_msg_id,
     )
