@@ -25,7 +25,7 @@ from userbot.events import register
 
 KANGING_STR = [
     "BERUSAHA MENCURY TIKEL INI! HAHAHA",
-    "GUA IZIN NGAMBIL TIKEL NGENTOTTTT!",
+    "GUA NYOLONG TIKEL LU YA NGENTOTTTT!",
 ]
 
 
