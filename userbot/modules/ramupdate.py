@@ -66,7 +66,7 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
                 f'{txt}\n`Kredensial Heroku tidak valid untuk deploy RAM-USERBOT dyno.`'
             )
             return repo.__del__()
-        await event.edit('`[HEROKU]:'
+        await event.edit('`⭐RAM-UBOT⭐:'
                          '\nSedang Dalam proses Update RAM-USERBOT, Mohon Menunggu 7-8 Menit`'
                          )
         ups_rem.fetch(ac_br)
