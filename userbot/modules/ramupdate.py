@@ -220,13 +220,13 @@ async def upstream(event):
         await event.edit('`💫 Proses Update RAM-UBOT, Loading....77%`')
         await event.edit('`💫 Proses Update RAM-UBOT, Updating...90%`')
         await event.edit('`💫 Proses Update RAM-UBOT, Mohon Menunggu....100%`')
-    if conf == "now":
+    if conf == "one":
         await update(event, repo, ups_rem, ac_br)
-        await asyncio.sleep(10)
+        await asyncio.sleep(5)
         await event.delete()
-    elif conf == "deploy":
+    elif conf == "all":
         await deploy(event, repo, ups_rem, ac_br, txt)
-        await asyncio.sleep(10)
+        await asyncio.sleep(5)
         await event.delete()
     return
 
