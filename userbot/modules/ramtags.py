@@ -15,7 +15,7 @@ from userbot import CMD_HELP
 
 @register(
     outgoing=True,
-    pattern=r"^\.tag(on|off|all|bots|rec|admins|owner)?(.*)",
+    pattern=r"^\.tag(on|off|all|bots|rec|adm|own)?(.*)",
     disable_errors=True,
 )
 async def _(e):
