@@ -375,7 +375,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} 🔰".format("🔰", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} 💫".format("💫", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -391,10 +391,10 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⋖╯", data="{}_prev({})".format(prefix, modulo_page)
+                    "↩️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "╰⋗", data="{}_next({})".format(prefix, modulo_page)
+                    "↪️", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
@@ -417,9 +417,9 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("⚡𝗚𝗲𝗲𝘇 𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡, Buat Userbot Mu Sendiri [Tekan Disini](https://vckyou.github.io/Geez-UserBot)")
+                await event.reply("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐, BIKIN USERBOT LU SENDIRI NGENTOT!! [NIH TEKEN BABI](https://github.com/ramadhani892/)")
             else:
-                await event.reply(f"`Hai {DEFAULTUSER}\n\nApa Kabarmu ? 😊`")
+                await event.reply(f"`NGENTOT {DEFAULTUSER}\n\nGIMANE KABARLO ? 😊`")
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
@@ -432,8 +432,8 @@ with bot:
                     "Harap Gunakan .help Untuk Perintah",
                     text="{}"
                     f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
-                    "◎› **Pʟᴜɢɪɴꜱ :** `{}`\n◎› **Mᴇɴᴜ ᴏꜰ ʙᴏᴛ ↯** \n".format(
-                        "** ╡⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞ **",
+                    "⭐ **𝙿𝙻𝚄𝙶𝙸𝙽𝚂 :** `{}`\n⭐ **𝚂𝙴𝙼𝚄𝙰 𝙼𝙴𝙽𝚄 ** \n".format(
+                        "** ━━━━━━━❖━━━━━━━━\n        ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ **",
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -441,22 +441,22 @@ with bot:
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ╡⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞ ",
+                    "Bantuan Dari ━━━━━━━❖━━━━━━━━\n        ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
                     text="Daftar Modul",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ╡⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞ ",
-                    text="""**Anda Bisa Membuat ⚡𝗚𝗲𝗲𝘇-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri Dengan Cara :** __Tekan Dibawah Ini__ 👇""",
+                    " ━━━━━━━❖━━━━━━━━\n        ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
+                    text="""**LU MODAL DONG NGENTOT, BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ LU SENDIRI, NIH CARANYA :** __Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡𝗚𝗲𝗲𝘇",
+                                "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
                                 "https://github.com/vckyou/Geez-UserBot"),
                             custom.Button.url(
-                                "✨𝗢𝘄𝗻𝗲𝗿",
-                                "t.me/VckyouuBitch")]],
+                                "💫𝗢𝘄𝗻𝗲𝗿💫",
+                                "t.me/maafgausahsokap")]],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
@@ -475,7 +475,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT, BIKIN SENDIRI JANGAN PAKE PUNYA {DEFAULTUSER} NGENTOT!."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -493,7 +493,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT, BIKIN SENDIRI JANGAN PAKE PUNYA {DEFAULTUSER} NGENTOT!."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -524,7 +524,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Dilarang Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT, BIKIN SENDIRI JANGAN PAKE PUNYA {DEFAULTUSER} NGENTOT!."
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
