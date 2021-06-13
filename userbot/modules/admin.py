@@ -924,8 +924,6 @@ CMD_HELP.update(
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.zombies`"
         "\n↳ : Untuk mencari akun terhapus dalam grup."
         "Gunakan `.zombies clean` untuk menghapus Akun Terhapus dari grup."
-        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.all`"
-        "\n↳ : Tag semua member dalam grup."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.admins`"
         "\n↳ : Melihat daftar admin di grup."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.bots`"
