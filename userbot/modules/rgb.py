@@ -1,4 +1,5 @@
 # GAUSAH KESINI ANJING NGENTOT
+# BUATAN VCKYOUUU
 
 import io
 import textwrap
