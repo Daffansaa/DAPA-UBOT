@@ -40,7 +40,7 @@ NO_ADMIN = "`Maaf Anda Bukan Admin:)`"
 NO_PERM = "`Maaf Anda Tidak Mempunyai Izin!`"
 NO_SQL = "`Berjalan Pada Mode Non-SQL`"
 
-CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Grup`"
+CHAT_PP_CHANGED = "`Berhasil Mengubah Profil Gru anjing`"
 CHAT_PP_ERROR = (
     "`Ada Masalah Dengan Memperbarui Foto,`"
     "`Mungkin Karna Anda Bukan Admin,`"
@@ -134,7 +134,7 @@ async def promote(promt):
         pin_messages=True,
     )
 
-    await promt.edit("`Promosikan Pengguna Sebagai Admin... Mohon Menunggu`")
+    await promt.edit("`Kita tambah admin dulu gess!!`")
     user, rank = await get_user_from_event(promt)
     if not rank:
         rank = "Admin"  # Just in case.
@@ -144,7 +144,7 @@ async def promote(promt):
     # Try to promote if current user is admin or creator
     try:
         await promt.client(EditAdminRequest(promt.chat_id, user.id, new_rights, rank))
-        await promt.edit("`Berhasil Mempromosikan Pengguna Ini Sebagai Admin!`")
+        await promt.edit("`Udah di Promote Jangan Semena mena Ya admin baru!`")
         await sleep(5)
         await promt.delete()
 
@@ -174,7 +174,7 @@ async def demote(dmod):
         return await dmod.edit(NO_ADMIN)
 
     # If passing, declare that we're going to demote
-    await dmod.edit("`Sedang Melepas Admin...`")
+    await dmod.edit("`Otw Hapus Admin dulu ges...`")
     rank = "Admin"  # dummy rank, lol.
     user = await get_user_from_event(dmod)
     user = user[0]
@@ -198,7 +198,7 @@ async def demote(dmod):
     # Assume we don't have permission to demote
     except BadRequestError:
         return await dmod.edit(NO_PERM)
-    await dmod.edit("`Admin Berhasil Dilepas!`")
+    await dmod.edit("`Admin Berhasil Dilepas! Makanya Jamgan semena mena tolol`")
     await sleep(5)
     await dmod.delete()
 
@@ -228,7 +228,7 @@ async def ban(bon):
         return
 
     # Announce that we're going to whack the pest
-    await bon.edit("`Proses Ban jamett.....!`")
+    await bon.edit("`Kita banned Jamet dulu gess`")
 
     try:
         await bon.client(EditBannedRequest(bon.chat_id, user.id, BANNED_RIGHTS))
@@ -277,7 +277,7 @@ async def nothanos(unbon):
         return await unbon.edit(NO_ADMIN)
 
     # If everything goes well...
-    await unbon.edit("`Sedang Melakukan Unban...`")
+    await unbon.edit("`Kita Unban gess, Kasian...`")
 
     user = await get_user_from_event(unbon)
     user = user[0]
@@ -286,7 +286,7 @@ async def nothanos(unbon):
 
     try:
         await unbon.client(EditBannedRequest(unbon.chat_id, user.id, UNBAN_RIGHTS))
-        await unbon.edit("```Unban Berhasil Dilakukan!```")
+        await unbon.edit("```Udah di Unban Jangan Jadi Jamet!```")
         await sleep(3)
         await unbon.delete()
 
@@ -659,7 +659,7 @@ async def kick(usr):
     if not user:
         return await usr.edit("`Tidak Dapat Menemukan Pengguna.`")
 
-    await usr.edit("`Kick Jamet dulu gesss...`")
+    await usr.edit("`Melakukan Kick....`")
 
     try:
         await usr.client.kick_participant(usr.chat_id, user.id)
@@ -924,6 +924,8 @@ CMD_HELP.update(
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.zombies`"
         "\n↳ : Untuk mencari akun terhapus dalam grup."
         "Gunakan `.zombies clean` untuk menghapus Akun Terhapus dari grup."
+        "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.all`"
+        "\n↳ : Tag semua member dalam grup."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.admins`"
         "\n↳ : Melihat daftar admin di grup."
         "\n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.bots`"
