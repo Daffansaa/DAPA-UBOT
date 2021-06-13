@@ -20,7 +20,6 @@ from telethon.errors import (
 from telethon.utils import get_input_location
 from telethon.tl.types import ChannelParticipantAdmin, ChannelParticipantsBots
 from userbot.events import register
-from userbot.modules.admin import get_user_from_event
 from telethon.utils import pack_bot_file_id
 
 
