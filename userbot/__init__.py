@@ -486,7 +486,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"NGENTOT!! Kalo mau mencet-mencet bikin ⭐RAM-UBOT⭐ sendiri, Gausah pake punya {DEFAULTUSER} NGENTOT!!."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -504,7 +504,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"NGENTOT!! Kalo mau mencet-mencet bikin ⭐RAM-UBOT⭐ sendiri, Gausah pake punya {DEFAULTUSER} NGENTOT!!."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(
@@ -535,7 +535,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Dilarang Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"NGENTOT!! Kalo mau mencet-mencet bikin ⭐RAM-UBOT⭐ sendiri, Gausah pake punya {DEFAULTUSER} NGENTOT!!."
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
