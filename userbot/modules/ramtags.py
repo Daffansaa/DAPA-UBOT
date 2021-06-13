@@ -1,6 +1,8 @@
 # Port By @VckyouuBitch From Geez - Project
 # Copyright © Geez - Project
-# Credits By Ultroid
+# NGOTAK NGOTAK from @ultroid
+# KREDIT JANGAN DI APUS BLOK!!!
+
 
 from telethon.tl.types import ChannelParticipantAdmin as admin
 from telethon.tl.types import ChannelParticipantCreator as owner
@@ -15,7 +17,7 @@ from userbot import CMD_HELP
 
 @register(
     outgoing=True,
-    pattern=r"^\.tag(on|off|all|bots|rec|adm|own)?(.*)",
+    pattern=r"^\.tag(on|off|all|bots|rec|admins|owner)?(.*)",
     disable_errors=True,
 )
 async def _(e):
@@ -48,7 +50,7 @@ async def _(e):
                 if not (bb.bot or bb.deleted):
                     xx += f"\n[{get_display_name(bb)}](tg://user?id={bb.id})"
         if isinstance(y, owner):
-            if "adm" or "own" in okk:
+            if "admin" or "owner" in okk:
                 xx += f"\n👑 [{get_display_name(bb)}](tg://user?id={bb.id}) 👑"
         if isinstance(y, admin):
             if "admin" in okk:
