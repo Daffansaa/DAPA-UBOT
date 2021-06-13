@@ -15,7 +15,7 @@ from random import choice, getrandbits, randint
 
 from userbot import bot, CMD_HELP
 from userbot.events import register
-from userbot.modules.admin import get_user_from_event
+from userbot.modules.admins import get_user_from_event
 
 # ================= CONSTANT =================
 METOOSTR = [
