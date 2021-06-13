@@ -53,7 +53,6 @@ from userbot import (
     BOTLOG_CHATID,
     CMD_HELP,
     TEMP_DOWNLOAD_DIRECTORY,
-    WOLFRAM_ID,
     LOGS,
     GOOGLE_CHROME_BIN,
     CHROME_DRIVER,
