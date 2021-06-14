@@ -43,5 +43,5 @@ async def yardim(event):
             )
     except Exception:
         return await event.edit(
-            "`Anda tidak dapat Menggunakan Perintah Helpme (Mungkin Anda Belum Menghidupakan Inline Moda Dan Inline Location Data)`"
+            "`Anda tidak dapat Menggunakan Perintah Helpme (Mungkin Anda Belum Menghidupakan Inline Mode Dan Inline Location Data)`"
         )
