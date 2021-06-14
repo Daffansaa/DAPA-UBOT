@@ -197,7 +197,7 @@ BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 TERM_ALIAS = os.environ.get("TERM_ALIAS", "RAM-UBOT")
 
 # Bot Version
-BOT_VER = os.environ.get("BOT_VER", "5.0")
+BOT_VER = os.environ.get("BOT_VER", "7.0")
 
 # Default .alive Username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -464,12 +464,12 @@ with bot:
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**RAM-UBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**GROUP SUPPORT** Dibawah Ini.\n",
+                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**RAM-UBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
                                         "t.me/Ramubotinfo"),
-                             Button.url("**🚨 GROUP SUPPORT 🚨**",
+                             Button.url("🚨 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
                                         "t.me/geezSupportGroup")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
                                         "t.me/MaafGausahSokap")],
@@ -498,7 +498,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n💫 **Bᴏᴛ ᴠᴇʀ :** `v7.0`\n💫 **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n🔥 **Created by : ラマダニ。 **".format(
+                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n💫 **Bᴏᴛ ᴠᴇʀ :** `V 7.0`\n💫 **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n🔥 **Created by : ラマダニ。 **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
