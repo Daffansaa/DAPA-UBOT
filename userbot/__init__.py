@@ -466,10 +466,9 @@ with bot:
                 await event.reply(
                     f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO MAU TAU LEBIH DETAIL TENTANG RAM UBOT\nLU PILIH MENU **SUPPORT** Dibawah Ini.\n",
                     buttons=[
-                        [
-                             Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
-                                        "t.me/ramubotinfo"),
-                             Button.url("🚨 **SUPPORT** 🚨",
+                             [Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
+                                        "t.me/ramubotinfo"),]
+                             [Button.url("🚨 **SUPPORT** 🚨",
                                         "https://t.me/geezsupportgroup")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
                                         "t.me/maafgausahsokap")],
