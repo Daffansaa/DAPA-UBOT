@@ -43,5 +43,5 @@ async def yardim(event):
             )
     except Exception:
         return await event.edit(
-            "`Anda tidak dapat mengirim hasil sebaris dalam obrolan ini (disebabkan oleh Permintaan Hasil Bot Sebaris)`"
+            "`Anda tidak dapat Menggunakan Perintah Helpme (Mungkin Anda Belum Menghidupakan Inline Moda Dan Inline Location Data)`"
         )
