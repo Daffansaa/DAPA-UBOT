@@ -464,11 +464,11 @@ with bot:
                     buttons=[
                         [
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
-                                        "t.me/FederationSuperGroup/3"),
-                             Button.url("🚨 𝗠𝗲𝗻𝘂-𝗕𝗮𝗻𝘁𝘂𝗮𝗻 🚨",
-                                        "https://telegra.ph/Bantuan-06-11")],
+                                        "t.me/ramubotinfo/"),
+                             Button.url("🚨 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
+                                        "https://t.me/geezsupportgroup")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                        "t.me/FederationSuperGroup/17")],
+                                        "t.me/maafgausahsokap")],
                     ]
                 )
 
@@ -493,7 +493,7 @@ with bot:
                    f"NGENTOT LU[{get_display_name(u)}](tg://user?id={u.id}) NAMA GUA ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n"
                    f"GUA BOT TELEGRAM UNTUK SENENG SENENG,\n"
                    f"LO NGENTOT,NGAPAIN KESINI?.\n"
-                   f"GUA MAU NGASIH TAU**GUA DIBIKIN SAMA :** @MaafGausahSokap NGASAL TUH DIA BIKIN GUA EMG ANJING.\n")
+                   f"GUA MAU NGASIH TAU, **GUA DIBIKIN SAMA :** @MaafGausahSokap NGASAL TUH DIA BIKIN GUA EMG ANJING.\n")
                 await tgbot.send_file(event.chat_id, ramlogo, caption=text,
                                      buttons=[
                                          [
