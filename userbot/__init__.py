@@ -469,7 +469,7 @@ with bot:
                         [
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
                                         "t.me/Ramubotinfo"),
-                             Button.url("🚨 **GROUP SUPPORT** 🚨",
+                             Button.url("**🚨 GROUP SUPPORT 🚨**",
                                         "t.me/geezSupportGroup")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
                                         "t.me/MaafGausahSokap")],
