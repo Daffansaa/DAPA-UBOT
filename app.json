@@ -156,7 +156,7 @@
     },
     "ALIVE_NAME": {
       "description": "Nama untuk menunjukan pesan .alive",
-      "required": false
+      "required": true
     },
     "RAM_TEKS_KOSTUM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .ram (Isi Terserah)",
@@ -217,11 +217,11 @@
     },
     "BOT_TOKEN": {
       "description": "Untuk menampilkam mode tombol .helpme, Ambil token di @BotFather",
-      "required": true
+      "required": false
     },
     "BOT_USERNAME": {
       "description": "isi username bot mu yang dari @BotFather",
-      "required": true
+      "required": false
     }
   },
   "addons": [
