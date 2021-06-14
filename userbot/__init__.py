@@ -476,6 +476,7 @@ with bot:
                     ]
                 )
 
+
         @tgbot.on(events.NewMessage(pattern="/deploy"))
         async def handler(event):
             if event.message.from_id != uid:
