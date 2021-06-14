@@ -209,6 +209,10 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO") or "https://telegra.ph/file/5e197cb47a4168c39f78f.jpg"
 
+# Default .helpme logo
+HELP_LOGO = os.environ.get(
+   "HELP_LOGO") or "https://telegra.ph/file/5daa73aa6d1afbd1da353.jpg"
+
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
 DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
@@ -451,7 +455,7 @@ with bot:
                 )
 
 
-        ramlogo = "resource/logo/RamUbotLogo.jpg"
+        ramlogo = HELP_LOGO
         plugins = CMD_HELP
         vr = BOT_VER
 
