@@ -455,7 +455,7 @@ with bot:
                 )
 
 
-        lynxlogo = "resource/logo/"
+        ramlogo = "resource/logo/RamUbotLogo.jpg"
         plugins = CMD_HELP
         vr = BOT_VER
 
@@ -528,7 +528,7 @@ with bot:
             if event.query.user_id == uid and query.startswith("@LynxRobot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
-                    file=lynxlogo,
+                    file=ramlogo,
                     link_preview=False,
                     text=f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.{len(vr)}`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n◎› **Cᴏᴘʏʀɪɢʜᴛ © 𝟤𝟢𝟤𝟣 Lʏɴx-Uꜱᴇʀʙᴏᴛ**".format(
                         len(dugmeler),
