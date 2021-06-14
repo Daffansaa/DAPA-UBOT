@@ -406,9 +406,6 @@ def paginate_help(page_number, loaded_modules, prefix):
                 custom.Button.inline(
                     "↩️Pʀᴇᴠ", data="{}_prev({})".format(prefix, modulo_page)
                 ),
-                custom.Button.url(
-                    "Support", "https://t.me/GeezSupportGroup")
-                ),
                 custom.Button.inline(
                     "Nᴇxᴛ↪️", data="{}_next({})".format(prefix, modulo_page)
                 )
@@ -529,7 +526,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.7.0`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n◎› **Cᴏᴘʏʀɪɢʜᴛ © 𝟤𝟢𝟤𝟣 Lʏɴx-Uꜱᴇʀʙᴏᴛ**".format(
+                    text=f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.7.0`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n◎› **Created by : ラマダニ。 **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
