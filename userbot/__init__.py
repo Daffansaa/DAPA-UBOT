@@ -476,20 +476,6 @@ with bot:
                 )
 
 
-        @tgbot.on(events.NewMessage(pattern="/deploy"))
-        async def handler(event):
-            if event.message.from_id != uid:
-                await event.reply(
-                   f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Deploy to Heroku, Click Here 👇🏻")
-                   buttons=[
-                       [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", 
-                                  "https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT/tree/RAM-UBOT")],
-                       [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", 
-                                  "t.me/ootspambot")],
-                   ],
-               )
-
-
         @tgbot.on(events.NewMessage(pattern="/repo"))
         async def handler(event):
             if event.message.from_id != uid:
