@@ -85,12 +85,6 @@ BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", ""))
 BOTLOG = sb(os.environ.get("BOTLOG", "True"))
 LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
 
-# Custom Module
-CUSTOM_PMPERMIT_TEXT = os.environ.get("CUSTOM_PMPERMIT_TEXT", None)
-
-# Pm Permit Img
-PM_PERMIT_PIC = os.environ.get("PM_PERMIT_PIC", None) or "https://telegra.ph/file/49ce66ba7e0fa0ce99210.png"
-
 # Bleep Blop, this is a bot ;)
 PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
 
@@ -203,7 +197,7 @@ BITLY_TOKEN = os.environ.get("BITLY_TOKEN", None)
 TERM_ALIAS = os.environ.get("TERM_ALIAS", "RAM-UBOT")
 
 # Bot Version
-BOT_VER = os.environ.get("BOT_VER", "0.2.9")
+BOT_VER = os.environ.get("BOT_VER", "5.0")
 
 # Default .alive Username
 ALIVE_USERNAME = os.environ.get("ALIVE_USERNAME", None)
@@ -214,9 +208,6 @@ S_PACK_NAME = os.environ.get("S_PACK_NAME", None)
 # Default .alive Logo
 ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO") or "https://telegra.ph/file/5e197cb47a4168c39f78f.jpg"
-
-# Link Instagram for CMD Alive 
-INSTAGRAM_ALIVE = os.environ.get("INSTAGRAM_ALIVE", None)
 
 # Last.fm Module
 BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
@@ -260,9 +251,6 @@ CMD_HELP = {}
 
 # Quotes API Token
 QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
-
-# Wolfram Alpha API
-WOLFRAM_ID = os.environ.get("WOLFRAM_ID") or None
 
 # Deezloader
 DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
@@ -452,7 +440,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@LynxRobot")
+                    results = await event.client.inline_query(tgbotusername, "@UserButt")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -467,7 +455,7 @@ with bot:
                 )
 
 
-        lynxlogo = "resource/logo/LynxUserbot-Button.jpg"
+        lynxlogo = "resource/logo/"
         plugins = CMD_HELP
         vr = BOT_VER
 
