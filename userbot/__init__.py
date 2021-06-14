@@ -476,27 +476,6 @@ with bot:
                 )
 
 
-        @tgbot.on(events.NewMessage(pattern="/repo"))
-        async def handler(event):
-            if event.message.from_id != uid:
-                u = await event.client.get_entity(event.chat_id)
-                await event.message.get_sender()
-                text = (
-                   f"NGENTOT LU[{get_display_name(u)}](tg://user?id={u.id}) NAMA GUA ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n"
-                   f"GUA BOT TELEGRAM UNTUK SENENG SENENG,\n"
-                   f"LO NGENTOT,NGAPAIN KESINI?.\n"
-                   f"GUA MAU NGASIH TAU, **GUA DIBIKIN SAMA :** @MaafGausahSokap NGASAL TUH DIA BIKIN GUA EMG ANJING.\n"
-                await.tgbot.send_file(event.chat_id, ramlogo, caption=text,
-                                     buttons=[
-                                         [
-                                             custom.Button.url(
-                                                 text="𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆",
-                                                 url="https://github.com/ramadhani892/"
-                                             )
-                                         ]
-                                     ]
-                                     )
-
         @tgbot.on(events.NewMessage(pattern="/ping"))
         async def handler(event):
             if event.message.from_id != uid:
