@@ -479,7 +479,6 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/deploy"))
         async def handler(event):
             if event.message.from_id != uid:
-                u = await event.client.get_entity(event.chat_id)
                 await event.reply(
                    f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Deploy to Heroku, Click Here 👇🏻")
                    buttons=[
