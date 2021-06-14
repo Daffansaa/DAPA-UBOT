@@ -466,8 +466,8 @@ with bot:
                 await event.message.get_sender()
                 text = (
                     f"WOI NGENTOT[{get_display_name(u)}](tg://user?id={u.id}) SELAMAT DATANG DI ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO LU MAU TAU TENTANG RAM-UBOT LEBIH LANJUT,\nLU KLIK **SUPPORT** DIBAWAH INI.\n")
-                    buttons=[
-                        [
+                      buttons=[
+                          [
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
                                         "t.me/ramubotinfo/"),
                              Button.url("🚨 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
@@ -501,8 +501,7 @@ with bot:
                    f"NGENTOT LU[{get_display_name(u)}](tg://user?id={u.id}) NAMA GUA ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n"
                    f"GUA BOT TELEGRAM UNTUK SENENG SENENG,\n"
                    f"LO NGENTOT,NGAPAIN KESINI?.\n"
-                   f"GUA MAU NGASIH TAU, **GUA DIBIKIN SAMA :** @MaafGausahSokap NGASAL TUH DIA BIKIN GUA EMG ANJING.\n")
-                await tgbot.send_file(event.chat_id, ramlogo, caption=text,
+                   f"GUA MAU NGASIH TAU, **GUA DIBIKIN SAMA :** @MaafGausahSokap NGASAL TUH DIA BIKIN GUA EMG ANJING.\n"
                                      buttons=[
                                          [
                                              custom.Button.url(
