@@ -463,8 +463,10 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
-                await event.reply(
-                    f"WOI NGENTOT[{get_display_name(u)}](tg://user?id={u.id}) SELAMAT DATANG DI ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO LU MAU TAU TENTANG RAM-UBOT LEBIH LANJUT,\nLU KLIK **SUPPORT** DIBAWAH INI.\n",
+                await event.message.get_sender()
+                text = (
+                    f"WOI NGENTOT[{get_display_name(u)}](tg://user?id={u.id}) SELAMAT DATANG DI ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO LU MAU TAU TENTANG RAM-UBOT LEBIH LANJUT,\nLU KLIK **SUPPORT** DIBAWAH INI.\n")
+                 await tgbot.send_file(event.chat_id, ramlogo, caption=text,
                     buttons=[
                         [
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
@@ -479,9 +481,12 @@ with bot:
         @tgbot.on(events.NewMessage(pattern="/deploy"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply(
-                    f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Deploy to Heroku, Click Here 👇🏻",
-                    buttons=[
+                u = await event.client.get_entity(event.chat_id)
+                await event.message.get_sender()
+                text = (
+                   f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Deploy to Heroku, Click Here 👇🏻")
+                 await tgbot.send_file(event.chat_id, ramlogo, caption=text,
+                     buttons=[
                         [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT/tree/RAM-UBOT")],
                         [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/ootspambot")],
                     ],
