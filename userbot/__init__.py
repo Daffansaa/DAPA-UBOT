@@ -479,13 +479,13 @@ with bot:
                 text = (
                    f"NGENTOT LU [{get_display_name(u)}](tg://user?id={u.id}) NAMA GUA ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n"
                    f"GUA DI BUAT NGASAL NGASAL AJA BABI😭,\n"
-                   f"USERBOT INI CUMA BUAT SENENG".\n"
+                   f"USERBOT INI CUMA BUAT SENENG-SENENG.\n"
                    f"DAN GUA MAU BILANG, **GUA DI BUAT OLEH :** @MaafGausahSokap Ngasal aja bikinnya itu.\n")
                 await tgbot.send_file(event.chat_id, ramlogo, caption=text,
                                      buttons=[
                                          [
                                              custom.Button.url(
-                                                 text="🇮🇩 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 🇮🇩",
+                                                 text="𝗥𝗲𝗽𝗼",
                                                  url="https://github.com/ramadhani892/"
                                              )
                                          ]
@@ -498,37 +498,35 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@UserButt"):
+            if event.query.user_id == uid and query.startswith("@LynxRobot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                result = builder.article(
-                    "Harap Gunakan .help Untuk Perintah",
-                    text="{}"
-                    f"\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n"
-                    "⭐ **𝙿𝙻𝚄𝙶𝙸𝙽𝚂 :** `{}`\n⭐ **𝚂𝙴𝙼𝚄𝙰 𝙼𝙴𝙽𝚄 ** \n".format(
-                        "** ━━━━━━━❖━━━━━━━━\n        ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ **",
+                result = builder.photo(
+                    file=ramlogo,
+                    link_preview=False,
+                    text=f"\n**𝙿𝙴𝙼𝙸𝙻𝙸𝙺 𝙱𝙾𝚃 : {DEFAULTUSER}**\n\n◎› **𝚅𝙴𝚁𝚂𝙸 𝙱𝙾𝚃 :** `v.{len(vr)}`\n◎› **𝙿𝚕𝚞𝚐𝚒𝚗𝚜 :** `{len(plugins)}`\n\n◎› **Created By : ラマダニ。**".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
-                    link_preview=False,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ━━━━━━━❖━━━━━━━━\n        ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
-                    text="Daftar Modul",
+                    "Bantuan Dari ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ ",
+                    text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
-                    text="""**━━━━━━━❖━━━━━━━━\nLU MODAL DONG NGENTOT,\nBIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nLU SENDIRI, NIH CARANYA: \n━━━━━━━❖━━━━━━━━**\n __Tekan Dibawah Ini__ 👇""",
+                    " ━━━━━━━❖━━━━━━━━\n       ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
+                    text="""**Lu Bikin ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Lu Sendiri dong\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
-                                "https://github.com/ramadhani892/RAM-UBOT"),
+                                "https://kenzo-404.github.io/Lynx-Userbot"),
                             custom.Button.url(
-                                "💫𝗢𝘄𝗻𝗲𝗿💫",
-                                "t.me/maafgausahsokap")]],
+                                "Dᴇᴠᴇʟᴏᴘᴇʀ",
+                                "t.me/maafgausahsokap")] 
+                    ],
                     link_preview=False,
                 )
             await event.answer([result] if result else None)
