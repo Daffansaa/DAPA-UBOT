@@ -407,7 +407,7 @@ def paginate_help(page_number, loaded_modules, prefix):
                     "↩️Pʀᴇᴠ", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.url(
-                    "Support", data="https://t.me/GeezSupportGroup
+                    "Support", "https://t.me/GeezSupportGroup)
                 ),
                 custom.Button.inline(
                     "Nᴇxᴛ↪️", data="{}_next({})".format(prefix, modulo_page)
