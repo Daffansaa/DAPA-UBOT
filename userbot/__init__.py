@@ -467,11 +467,11 @@ with bot:
                    f"WOI NGENTOT[{get_display_name(u)}](tg://user?id={u.id}) SELAMAT DATANG DI ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO LU MAU TAU TENTANG RAM-UBOT LEBIH LANJUT,\nLU KLIK **SUPPORT** DIBAWAH INI.\n")
                    buttons=[
                        [
-                             Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
+                            Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
                                         "t.me/ramubotinfo/"),
-                             Button.url("🚨 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
+                            Button.url("🚨 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
                                         "https://t.me/geezsupportgroup")],
-                             [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
+                            [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
                                         "t.me/maafgausahsokap")],
                     ]
                 )
