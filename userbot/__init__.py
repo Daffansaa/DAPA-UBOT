@@ -502,7 +502,7 @@ with bot:
                                          [
                                              custom.Button.url(
                                                  text="🇮🇩 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 🇮🇩",
-                                                 url="https://kenzo-404.github.io/Lynx-Userbot/"
+                                                 url="https://github.com/ramadhani892/"
                                              )
                                          ]
                                      ]
@@ -524,7 +524,7 @@ with bot:
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@LynxRobot"):
+            if event.query.user_id == uid and query.startswith("@RAM_UBOT"):
                 buttons = paginate_help(0, dugmeler, "helpme")
                 result = builder.photo(
                     file=ramlogo,
