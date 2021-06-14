@@ -1,8 +1,8 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
 # Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
-# Credits @keselekpermen69 / @Ultroid / @LynxUserbot
-# Ported @SyndicateTwenty4
+# Credits @keselekpermen69 / @Ultroid / @RAM-UBOT
+# Ported @MaafGausahSokap
 """Userbot initialization."""
 
 import os
@@ -388,7 +388,7 @@ def paginate_help(page_number, loaded_modules, prefix):
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} 」◑".format("◐「", x), data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} 💫".format("💫", x), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -588,7 +588,7 @@ with bot:
                     link_preview=True,
                     buttons=[
                           Button.url("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
-                          Button.inline("•Oᴘᴇɴ Mᴇɴᴜ• ", data="open")
+                          Button.url("•SUPPORT• ", "t.me/GeezSupportGroup")
                     ]
                 )
 
