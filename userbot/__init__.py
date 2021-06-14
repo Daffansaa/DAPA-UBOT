@@ -497,7 +497,7 @@ with bot:
                    f"Lynx Used For Fun On Telegram✨,\n"
                    f"and For Maintaining Your Group 🛠️.\n"
                    f"I was **Created by :** @SyndicateTwenty4 For Various Userbots on Github.\n")
-                await tgbot.send_file(event.chat_id, lynxlogo, caption=text,
+                await tgbot.send_file(event.chat_id, ramlogo, caption=text,
                                      buttons=[
                                          [
                                              custom.Button.url(
