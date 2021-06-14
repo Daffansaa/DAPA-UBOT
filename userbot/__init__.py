@@ -466,7 +466,6 @@ with bot:
                 await event.message.get_sender()
                 text = (
                     f"WOI NGENTOT[{get_display_name(u)}](tg://user?id={u.id}) SELAMAT DATANG DI ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO LU MAU TAU TENTANG RAM-UBOT LEBIH LANJUT,\nLU KLIK **SUPPORT** DIBAWAH INI.\n")
-                 await tgbot.send_file(event.chat_id, ramlogo, caption=text,
                     buttons=[
                         [
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
