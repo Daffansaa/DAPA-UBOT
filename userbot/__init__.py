@@ -447,13 +447,13 @@ with bot:
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ━━━━━━━❖━━━━━━━━\n        ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
-                    text="""**LU MODAL DONG NGENTOT, BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ LU SENDIRI, NIH CARANYA :** __Tekan Dibawah Ini__ 👇""",
+                    "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
+                    text="""**━━━━━━━❖━━━━━━━━\nLU MODAL DONG NGENTOT, BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ LU SENDIRI, NIH CARANYA\n━━━━━━━❖━━━━━━━━**\n __Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
                                 "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
-                                "https://github.com/vckyou/Geez-UserBot"),
+                                "https://github.com/ramadhani892/RAM-UBOT"),
                             custom.Button.url(
                                 "💫𝗢𝘄𝗻𝗲𝗿💫",
                                 "t.me/maafgausahsokap")]],
