@@ -540,7 +540,7 @@ with bot:
             else:
                 result = builder.article(
                     " ━━━━━━━❖━━━━━━━━\n       ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
-                    text="""**━━━━━━━❖━━━━━━━━\nLU BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ SENDIRI DONG NGENTOT━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
+                    text="""**━━━━━━━❖━━━━━━━━\nLU BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ SENDIRI DONG NGENTOT\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
