@@ -412,14 +412,86 @@ with bot:
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
-        logo = "https://telegra.ph/file/5e197cb47a4168c39f78f.jpg"
+
+
+        @tgbot.on(
+            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
+                data=re.compile("open")
+            )
+        )
+        async def opeen(event):
+            try:
+                tgbotusername = BOT_USERNAME
+                if tgbotusername is not None:
+                    results = await event.client.inline_query(tgbotusername, "@LynxRobot")
+                    await results[0].click(
+                        event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
+                    )
+                    await event.delete()
+                else:
+                    await event.edit(
+                        "`The bot doesn't work! Please set the Bot Token and Username correctly. The module has been stopped.`"
+                    )
+            except Exception:
+                return await event.edit(
+                    "`You cannot send inline results in this chat (caused by SendInlineBotResultRequest)`"
+                )
+
+
+        ramlogo = "userbot/utils/style/RamUbotLogo.jpg"
+        plugins = CMD_HELP
+        vr = BOT_VER
 
         @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                await event.reply("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐, BIKIN USERBOT LU SENDIRI NGENTOT!! [NIH TEKEN BABI](https://github.com/ramadhani892/)")
-            else:
-                await event.reply(f"`NGENTOT {DEFAULTUSER}\n\nGIMANE KABARLO ? 😊`")
+                u = await event.client.get_entity(event.chat_id)
+                await event.reply(
+                    f"Halo Ngentot [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang di ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nJika Kalian Datang Kesini dan Ingin Mengetahui Tentang Userbot Lebih Lanjut,\nBisa Tekan **Group support** Dibawah Ini.\n",
+                    buttons=[
+                        [
+                             Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
+                                        "t.me/ramubotinfo"),
+                             Button.url("👥 𝗚𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 👥",
+                                        "https://t.me/GeezSupportGroup")],
+                             [Button.url("👤 𝗢𝗪𝗡𝗘𝗥 👤",
+                                        "t.me/MaafGausahSokap")],
+                    ]
+                )
+
+        @tgbot.on(events.NewMessage(pattern="/deploy"))
+        async def handler(event):
+            if event.message.from_id != uid:
+                await event.reply(
+                    f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Deploy to Heroku, Click Here 👇🏻",
+                    buttons=[
+                        [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT/tree/RAM-UBOT")],
+                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/OOTSPAMBOT")],
+                    ],
+                )
+
+
+        @tgbot.on(events.NewMessage(pattern="/repo"))
+        async def handler(event):
+            if event.message.from_id != uid:
+                u = await event.client.get_entity(event.chat_id)
+                await event.message.get_sender()
+                text = (
+                   f"NGENTOT LU [{get_display_name(u)}](tg://user?id={u.id}) NAMA GUA ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n"
+                   f"GUA DI BUAT NGASAL NGASAL AJA BABI😭,\n"
+                   f"USERBOT INI CUMA BUAT SENENG".\n"
+                   f"DAN GUA MAU BILANG, **GUA DI BUAT OLEH :** @MaafGausahSokap Ngasal aja bikinnya itu.\n")
+                await tgbot.send_file(event.chat_id, ramlogo, caption=text,
+                                     buttons=[
+                                         [
+                                             custom.Button.url(
+                                                 text="🇮🇩 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 🇮🇩",
+                                                 url="https://github.com/ramadhani892/"
+                                             )
+                                         ]
+                                     ]
+                                     )
+
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
