@@ -350,7 +350,7 @@ with bot:
 
 
 async def check_alive():
-    await bot.send_message(BOTLOG_CHATID, "```⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡Has Been Active!!```")
+    await bot.send_message(BOTLOG_CHATID, "```║DAH AKTIF YA NGENTOT!!🔥🔥║\n\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\nJika Tidak Bisa Di .ping\nSilahkan Anda\nCek viewlogs\nPada heroku Anda.\n▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰```")
     return
 
 with bot:
@@ -404,13 +404,13 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⋖╯Pʀᴇᴠ", data="{}_prev({})".format(prefix, modulo_page)
+                    "↩️Pʀᴇᴠ", data="{}_prev({})".format(prefix, modulo_page)
+                ),
+                custom.Button.url(
+                    "Support", data="https://t.me/GeezSupportGroup
                 ),
                 custom.Button.inline(
-                    "ᴄʟᴏꜱᴇ", data="{}_close({})".format(prefix, modulo_page)
-                ),
-                custom.Button.inline(
-                    "Nᴇxᴛ╰⋗", data="{}_next({})".format(prefix, modulo_page)
+                    "Nᴇxᴛ↪️", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
@@ -479,10 +479,10 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 await event.reply(
-                    f"⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Deploy to Heroku, Click Here 👇🏻",
+                    f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Deploy to Heroku, Click Here 👇🏻",
                     buttons=[
-                        [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/KENZO-404/Lynx-Userbot/tree/Lynx-Userbot")],
-                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/GroupTidakDiketahui")],
+                        [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT/tree/RAM-UBOT")],
+                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/ootspambot")],
                     ],
                 )
 
@@ -493,15 +493,15 @@ with bot:
                 u = await event.client.get_entity(event.chat_id)
                 await event.message.get_sender()
                 text = (
-                   f"Haii 😼 [{get_display_name(u)}](tg://user?id={u.id}) My Name is 𝗟𝘆𝗻𝘅 🐈\n"
-                   f"Lynx Used For Fun On Telegram✨,\n"
-                   f"and For Maintaining Your Group 🛠️.\n"
-                   f"I was **Created by :** @SyndicateTwenty4 For Various Userbots on Github.\n")
+                   f"NGENTOT LU[{get_display_name(u)}](tg://user?id={u.id}) NAMA GUA ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n"
+                   f"GUA BOT TELEGRAM UNTUK SENENG SENENG,\n"
+                   f"LO NGENTOT,NGAPAIN KESINI?.\n"
+                   f"GUA MAU NGASIH TAU**GUA DIBIKIN SAMA :** @MaafGausahSokap NGASAL TUH DIA BIKIN GUA EMG ANJING.\n")
                 await tgbot.send_file(event.chat_id, ramlogo, caption=text,
                                      buttons=[
                                          [
                                              custom.Button.url(
-                                                 text="🇮🇩 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 🇮🇩",
+                                                 text="𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆",
                                                  url="https://github.com/ramadhani892/"
                                              )
                                          ]
@@ -516,7 +516,7 @@ with bot:
                 ms = (end - start).microseconds / 1000
                 await tgbot.send_message(
                     event.chat_id,
-                    f"**PONG !!**\n `{ms}ms`",
+                    f"**NGENTOT!!**\n `{ms}ms`",
                 )
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
@@ -529,29 +529,29 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.{len(vr)}`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n◎› **Cᴏᴘʏʀɪɢʜᴛ © 𝟤𝟢𝟤𝟣 Lʏɴx-Uꜱᴇʀʙᴏᴛ**".format(
+                    text=f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.7.0`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n◎› **Cᴏᴘʏʀɪɢʜᴛ © 𝟤𝟢𝟤𝟣 Lʏɴx-Uꜱᴇʀʙᴏᴛ**".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
+                    "Bantuan Dari ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ╔╡⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗ ",
-                    text="""**Anda Bisa Membuat ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
+                    " ━━━━━━━❖━━━━━━━━\n       ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
+                    text="""**━━━━━━━❖━━━━━━━━\nLU BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ SENDIRI DONG NGENTOT━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⚡𝗟𝘆𝗻𝘅⚡",
-                                "https://kenzo-404.github.io/Lynx-Userbot"),
+                                "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
+                                "https://github.com/ramadhani892/RAM-UBOT"),
                             custom.Button.url(
-                                "Dᴇᴠᴇʟᴏᴘᴇʀ",
-                                "t.me/FederationSuperGroup/17")] 
+                                "OWNER",
+                                "t.me/MaafGausahSokap")] 
                     ],
                     link_preview=False,
                 )
@@ -571,7 +571,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -584,10 +584,10 @@ with bot:
             if event.query.user_id == uid:  # @Ram-ubot
                 # https://t.me/TelethonChat/115200
                 await event.edit(
-                    file=lynxlogo,
+                    file=ramlogo,
                     link_preview=True,
                     buttons=[
-                          Button.url("⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡", "t.me/LynxUserbot"),
+                          Button.url("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
                           Button.inline("•Oᴘᴇɴ Mᴇɴᴜ• ", data="open")
                     ]
                 )
@@ -608,7 +608,7 @@ with bot:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
@@ -640,7 +640,7 @@ with bot:
                     )
                 )
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫 Jangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
