@@ -448,7 +448,7 @@ with bot:
             else:
                 result = builder.article(
                     "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
-                    text="""**━━━━━━━❖━━━━━━━━\nLU MODAL DONG NGENTOT, BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ LU SENDIRI, NIH CARANYA\n━━━━━━━❖━━━━━━━━**\n __Tekan Dibawah Ini__ 👇""",
+                    text="""**━━━━━━━❖━━━━━━━━\nLU MODAL DONG NGENTOT,\nBIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nLU SENDIRI, NIH CARANYA: \n━━━━━━━❖━━━━━━━━**\n __Tekan Dibawah Ini__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
