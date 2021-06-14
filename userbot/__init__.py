@@ -463,11 +463,10 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
-                await event.message.get_sender()
-                text = (
-                    f"WOI NGENTOT[{get_display_name(u)}](tg://user?id={u.id}) SELAMAT DATANG DI ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO LU MAU TAU TENTANG RAM-UBOT LEBIH LANJUT,\nLU KLIK **SUPPORT** DIBAWAH INI.\n")
-                      buttons=[
-                          [
+                await event.reply(
+                   f"WOI NGENTOT[{get_display_name(u)}](tg://user?id={u.id}) SELAMAT DATANG DI ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO LU MAU TAU TENTANG RAM-UBOT LEBIH LANJUT,\nLU KLIK **SUPPORT** DIBAWAH INI.\n")
+                   buttons=[
+                       [
                              Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
                                         "t.me/ramubotinfo/"),
                              Button.url("🚨 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
@@ -481,15 +480,13 @@ with bot:
         async def handler(event):
             if event.message.from_id != uid:
                 u = await event.client.get_entity(event.chat_id)
-                await event.message.get_sender()
-                text = (
+                await event.reply(
                    f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ Deploy to Heroku, Click Here 👇🏻")
-                await tgbot.send_file(event.chat_id, ramlogo, caption=text,
-                     buttons=[
-                        [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT/tree/RAM-UBOT")],
-                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/ootspambot")],
-                    ],
-                )
+                   buttons=[
+                       [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT/tree/RAM-UBOT")],
+                       [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/ootspambot")],
+                   ],
+               )
 
 
         @tgbot.on(events.NewMessage(pattern="/repo"))
@@ -502,6 +499,7 @@ with bot:
                    f"GUA BOT TELEGRAM UNTUK SENENG SENENG,\n"
                    f"LO NGENTOT,NGAPAIN KESINI?.\n"
                    f"GUA MAU NGASIH TAU, **GUA DIBIKIN SAMA :** @MaafGausahSokap NGASAL TUH DIA BIKIN GUA EMG ANJING.\n"
+                await.tgbot.send_file(event.chat_id, ramlogo, caption=text,
                                      buttons=[
                                          [
                                              custom.Button.url(
