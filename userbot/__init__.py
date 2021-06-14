@@ -526,7 +526,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.7.0`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n◎› **Created by : ラマダニ。 **".format(
+                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n💫 **Bᴏᴛ ᴠᴇʀ :** `v7.0`\n💫 **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n🔥 **Created by : ラマダニ。 **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
@@ -540,7 +540,7 @@ with bot:
             else:
                 result = builder.article(
                     " ━━━━━━━❖━━━━━━━━\n       ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
-                    text="""**━━━━━━━❖━━━━━━━━\nLU BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ SENDIRI DONG NGENTOT\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
+                    text="""**━━━━━━━❖━━━━━━━━\nLU BIKIN ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ SENDIRI DONG\nNGENTOT!!\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
