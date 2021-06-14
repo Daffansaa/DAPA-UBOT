@@ -465,8 +465,8 @@ with bot:
                 u = await event.client.get_entity(event.chat_id)
                 await event.reply(
                    f"WOI NGENTOT[{get_display_name(u)}](tg://user?id={u.id}) SELAMAT DATANG DI ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nKALO LU MAU TAU TENTANG RAM-UBOT LEBIH LANJUT,\nLU KLIK **SUPPORT** DIBAWAH INI.\n")
-                   buttons=[
-                       [
+                    buttons=[
+                        [
                             Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
                                         "t.me/ramubotinfo/"),
                             Button.url("🚨 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
