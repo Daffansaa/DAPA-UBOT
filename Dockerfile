@@ -3,7 +3,7 @@ FROM xluxz/geezproject:buster
 # ramubot minta wkwk
 # Geez-UserBot
 #
-RUN git clone -b RAM-UBOT https://github.com/ramadhani892/RAM-UBOT /root/userbot
+RUN git clone -b RAM-UBOT https://github.com/Daffansaa/DAPA-USERBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
