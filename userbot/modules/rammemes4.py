@@ -278,8 +278,7 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("`Proses Global banned...✅`")
     sleep(3)
-    await typew.edit("╭✠╼━━━━━━❖━━━━━━━✠\n┣• **Perintah:** `BAPAKLO`\n┣• **Pengguna:** DIRILO\n┣• **Aksi:** `MENCORENG NAMA LO DARI KK`\n╰✠╼━━━━━━❖━━━━━━━✠")
-
+    await typew.edit(f"╭✠╼━━━━━━❖━━━━━━━✠\n┣• **Perintah:** `{ALIVE_NAME}`\n┣• **Pengguna:** [{user.first_name}](tg://user?id={user.id})\n┣• **Aksi:** `Global Banned`\n╰✠╼━━━━━━❖━━━━━━━✠")
 
 @register(outgoing=True, pattern='^.gkck(?: |$)(.*)')
 async def typewriter(typew):
