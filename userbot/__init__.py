@@ -503,25 +503,25 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}**\n\n💫 **𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 :** `7.0`\n💫 **𝗠𝗢𝗗𝗨𝗟𝗘𝗦 :** `{len(plugins)}`\n\n🔥 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : ラマダニ。 **".format(
+                    text=f"⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐\n\n**𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}**\n\n💫 **𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 :** `7.0`\n💫 **𝗠𝗢𝗗𝗨𝗟𝗘𝗦 :** `{len(plugins)}`\n\n🔥 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : ͔ ⁴⁰⁴ | ʀᴀɴ **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
-                    "Bantuan Dari ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐ ",
+                    "Bantuan Dari ⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐ ",
                     text="Daftar Plugins",
                     buttons=[],
                     link_preview=True)
             else:
                 result = builder.article(
-                    " ━━━━━━━❖━━━━━━━━\n       ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
-                    text="""**━━━━━━━❖━━━━━━━━\nLU BIKIN \n⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\nSENDIRI DONG NGENTOT!!\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
+                    " ━━━━━━━❖━━━━━━━━\n       ⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐\n━━━━━━━❖━━━━━━━━ ",
+                    text="""**━━━━━━━❖━━━━━━━━\nLU BIKIN \n⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐\nSENDIRI DONG NGENTOT!!\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
                     buttons=[
                         [
                             custom.Button.url(
-                                "⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐",
+                                "⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐",
                                 "https://github.com/ramadhani892/RAM-UBOT"),
                             custom.Button.url(
                                 "OWNER",
@@ -561,7 +561,7 @@ with bot:
                     file=ramlogo,
                     link_preview=True,
                     buttons=[
-                          Button.url("⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
+                          Button.url("⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
                           Button.url("•SUPPORT• ", "t.me/GeezSupportGroup")
                     ]
                 )
