@@ -1,6 +1,6 @@
 # RAM-UBOT
 from time import sleep
-from userbot import ALIVE_NAME, CMD_HELP, bot
+from userbot import ALIVE_NAME, CMD_HELP, IG_ALIVE, bot
 from userbot.events import register
 from telethon import events
 import asyncio
@@ -378,7 +378,8 @@ async def typewriter(typew):
                      "┣[•𝗣𝗘𝗡𝗚𝗚𝗨𝗡𝗔𝗔𝗡 𝗕𝗨𝗟𝗔𝗡 𝗜𝗡𝗜 :\n"
                      "┣[• ▸ `999999` ᴊᴀᴍ - `999999` ᴍᴇɴɪᴛ.\n"
                      "┣[• ▸ ᴘʀᴇꜱᴇɴᴛᴀꜱᴇ : 1000%.\n"
-                     "╰✠╼━━━━━━❖━━━━━━━✠╯")
+                     "╰✠╼━━━━━━❖━━━━━━━✠╯\n"
+                     "𝗣𝗘𝗠𝗜𝗟𝗜𝗞  : {ALIVE_NAME} ")
 
 
 @register(outgoing=True, pattern='^.oy(?: |$)(.*)')
@@ -406,7 +407,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Mutualan Yukkk!...**")
     sleep(2)
-    await typew.edit("𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌= [𝐓𝐄𝐊𝐀𝐍](https://www.instagram.com/ramadh20?r=nametag)")
+    await typew.edit("𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌= [𝐓𝐄𝐊𝐀𝐍]({IG_ALIVE})")
 
 
 @register(outgoing=True, pattern='^.fck(?: |$)(.*)')
