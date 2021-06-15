@@ -500,7 +500,7 @@ with bot:
                 result = builder.photo(
                     file=ramlogo,
                     link_preview=False,
-                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n💫 **Bᴏᴛ ᴠᴇʀ :** `V 7.0`\n💫 **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n🔥 **Created by : ラマダニ。 **".format(
+                    text=f"⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐\n\n**𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}**\n\n💫 **𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 :** `7.0`\n💫 **𝗠𝗢𝗗𝗨𝗟𝗘𝗦 :** `{len(plugins)}`\n\n🔥 **𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : ラマダニ。 **".format(
                         len(dugmeler),
                     ),
                     buttons=buttons,
