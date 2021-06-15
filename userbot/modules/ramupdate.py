@@ -91,14 +91,14 @@ async def deploy(event, repo, ups_rem, ac_br, txt):
             await asyncio.sleep(5)
             return await event.delete()
         else:
-            await event.edit("`RAM-UBOT Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu.....`")
+            await event.edit("`DAPA-UBOT Berhasil Di Deploy!\n" "Restarting, Mohon Menunggu.....`")
             await asyncio.sleep(15)
             await event.delete()
 
         if BOTLOG:
             await event.client.send_message(
                 BOTLOG_CHATID, "#BOT \n"
-                "`RAM-UBOT Berhasil Di Update`")
+                "`DAPA-UBOT Berhasil Di Update`")
 
     else:
         await event.edit('`[HEROKU]:'
