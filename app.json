@@ -158,6 +158,10 @@
       "description": "Nama untuk menunjukan pesan .alive",
       "required": true
     },
+    "IG_ALIVE": {
+      "description": "Taro link ig lu disini Biar Lu bisa mutualan .gi",
+      "required": false
+    },
     "RAM_TEKS_KOSTUM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .ram (Isi Terserah)",
       "value": "ㅤ",
