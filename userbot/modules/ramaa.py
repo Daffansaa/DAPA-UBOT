@@ -43,7 +43,7 @@ async def typewriter(typew):
     await typew.edit("**Dimas Gajelas☑️**")
     await typew.edit("**Dimas Gajelas✅**")
     sleep(2)
-    await typew.edit("**Adel GJM!☑️**")
+    await typew.edit("**Yoll GJM!☑️**")
     await typew.edit("**Yoll GJM!✅**")
     sleep(2)
     await typew.edit("**Jia GJB!☑️**")
