@@ -1,6 +1,6 @@
 {
-  "name": "DAPA-UBOT",
-  "description": "[DAPA-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
+  "name": "DAPA-USERBOT",
+  "description": "[DAPA-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/798d2415d85a16793bbac.jpg",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/Daffansaa/DAPA-UBOT",
+  "repository": "https://github.com/Daffansaa/DAPA-USERBOT",
   "telegram": "https://t.me/MadBoyys",
   "success_url": "https://t.me/teman_random",
   "stack": "container",
