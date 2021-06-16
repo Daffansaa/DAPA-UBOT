@@ -76,7 +76,7 @@ async def redis(pong):
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
     await pong.edit("`Connecting to server...`")
-    await pong.edit("☠️")
+    await pong.edit("😈")
     await asyncio.sleep(3)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
