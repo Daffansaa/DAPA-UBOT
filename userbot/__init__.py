@@ -522,10 +522,10 @@ with bot:
                         [
                             custom.Button.url(
                                 "⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐",
-                                "https://github.com/ramadhani892/RAM-UBOT"),
+                                "https://github.com/Daffansaa/DAPA-UBOT"),
                             custom.Button.url(
-                                "OWNER",
-                                "t.me/MaafGausahSokap")] 
+                                "OWNER"
+                                "t.me/MadBoyys")] 
                     ],
                     link_preview=False,
                 )
