@@ -280,7 +280,7 @@ async def amireallyalive(alive):
         f"❃ **Versi Bot**      ➥ `7.0` \n"
         f"❃ **Modul**           ➥ `{len(modules)}` \n\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
-        f"[✨𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧✨](https://github.com/ramadhani892/RAM-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/ootspambot) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
+        f"[✨𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧✨](https://github.com/Daffansaa/DAPA-UBOT) || [𝗚𝗥𝗢𝗨𝗣](t.me/ootspambot) || [𝗜𝗡𝗦𝗧𝗔𝗚𝗥𝗔𝗠]({IG_ALIVE})\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ **")
     if ALIVE_LOGO:
         try:
@@ -326,7 +326,7 @@ async def amireallyalive(alive):
         f"┣|• `Modules     :`{len(modules)} Modules \n"
         f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰ \n"
-        f"[𝐑𝐄𝐏𝐎](https://github.com/ramadhani892/RAM-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/ootspambot) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
+        f"[𝐑𝐄𝐏𝐎](https://github.com/Daffansaa/DAPA-UBOT) || [𝐆𝐑𝐎𝐔𝐏](t.me/ootspambot) || [𝐈𝐍𝐒𝐓𝐀𝐆𝐑𝐀𝐌]({IG_ALIVE}) \n"
         f"▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰")
     if ALIVE_LOGO:
         try:
