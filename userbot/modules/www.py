@@ -178,7 +178,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   "✧ **BOT:** ⭐𝗥𝗔𝗠-𝗨𝗕𝗢𝗧⭐")
+                   "✧ **BOT:** ⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐")
 
 
 def speed_convert(size):
