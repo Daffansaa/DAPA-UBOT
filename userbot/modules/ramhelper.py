@@ -13,7 +13,7 @@ async def usit(e):
     await e.edit(
         f"**Hai {DEFAULTUSER} Kalau Anda Tidak Tau Perintah Untuk Memerintah Ku Ketik** `.help` Atau Bisa Minta Bantuan Ke:\n"
         "\n[Telegram](t.me/MadBoyys)"
-        "\n[Repo](https://github.com/Daffansaa/DAPA-UBOY)"
+        "\n[Repo](https://github.com/Daffansaa/DAPA-UBOT)"
         "\n[Channel](https://t.me/saddestpeople)")
 
 
