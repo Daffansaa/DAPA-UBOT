@@ -1,5 +1,5 @@
 {
-  "name": "RAM-UBOT",
+  "name": "DAPA-UBOT",
   "description": "[RAM-UBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
   "logo": "https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg",
   "keywords": [
@@ -9,8 +9,8 @@
     "modular",
     "productivity"
   ],
-  "repository": "https://github.com/ramadhani892/RAM-UBOT",
-  "telegram": "https://t.me/Ramadhaniiiiiii1",
+  "repository": "https://github.com/Daffansaa/DAPA-UBOT",
+  "telegram": "https://t.me/MadBoyys",
   "success_url": "https://t.me/teman_random",
   "stack": "container",
   "env": {
