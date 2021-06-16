@@ -1,16 +1,16 @@
-<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5534445.png" width="516" height="211" alt="  DAPA-USERBOT" /></a>
+<a href="https://www.instagram.com/Daffansaa?r=nametag"><img src="https://images.cooltext.com/5534445.png" width="516" height="211" alt="  DAPA-USERBOT" /></a>
 
 <p align="center">
   <a href="https://github.com/Daffansaa/DAPA-USERBOT/fork">
     <img src="https://img.shields.io/github/forks/Daffansaa/DAPA-USERBOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/DAPA-USERBOT">
+  <a href="https://github.com/Daffansaa/DAPA-USERBOT">
     <img src="https://img.shields.io/github/stars/Daffansaa/DAPA-USERBOT?style=social">
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+![VIEWS](https://komarev.com/ghpvc/?username=Daffansaa)
 
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
