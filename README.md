@@ -1,12 +1,12 @@
-<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5534445.png" width="516" height="211" alt="  DAPA-UBOT" /></a>
+<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5534445.png" width="516" height="211" alt="  DAPA-USERBOT" /></a>
 
 <p align="center">
-  <a href="https://github.com/Daffansaa/DAPA-UBOT/fork">
-    <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
+  <a href="https://github.com/Daffansaa/DAPA-USERBOT/fork">
+    <img src="https://img.shields.io/github/forks/Daffansaa/DAPA-USERBOT?label=Fork&style=social">
     
   </a>
-  <a href="https://github.com/ramadhani892/RAM-UBOT">
-    <img src="https://img.shields.io/github/stars/ramadhani892/RAM-UBOT?style=social">
+  <a href="https://github.com/ramadhani892/DAPA-USERBOT">
+    <img src="https://img.shields.io/github/stars/Daffansaa/DAPA-USERBOT?style=social">
   </a>
 </p>  
 
