@@ -1,7 +1,7 @@
-<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5534445.png" width="516" height="211" alt="  RAM-UBOT" /></a>
+<a href="https://www.instagram.com/ramadh20?r=nametag"><img src="https://images.cooltext.com/5534445.png" width="516" height="211" alt="  DAPA-UBOT" /></a>
 
 <p align="center">
-  <a href="https://github.com/ramadhani892/RAM-UBOT/fork">
+  <a href="https://github.com/Daffansaa/DAPA-UBOT/fork">
     <img src="https://img.shields.io/github/forks/ramadhani892/RAM-UBOT?label=Fork&style=social">
     
   </a>
@@ -53,7 +53,7 @@
 ##
 ##
 
-<a href="https://heroku.com/deploy?template=https://github.com/ramadhani892/RAM-UBOT.git"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=Heroku" width="325" height="50.100" />
+<a href="https://heroku.com/deploy?template=https://github.com/Daffansaa/DAPA-UBOT.git"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=Heroku" width="325" height="50.100" />
 
 <br>
 </p>
