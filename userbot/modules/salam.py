@@ -63,7 +63,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^C(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**MUKA LU HINA, GAUSAH SOK KERAS YA ANJENGG!!**")
+    await typew.edit("**MUKA LU HINA JADIGAUSAH SOK KERAS YA NGENTOT!!**")
 
 
 @register(outgoing=True, pattern='^S(?: |$)(.*)')
