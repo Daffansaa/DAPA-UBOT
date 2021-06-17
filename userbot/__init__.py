@@ -561,9 +561,10 @@ with bot:
                     file=ramlogo,
                     link_preview=True,
                     buttons=[
-                          Button.url("⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
-                          Button.url("•SUPPORT• ", "t.me/GeezSupportGroup"),
-                          Button.url("•INSTAGRAM• ", f"instagram.com/daffansaa"),
+                         [Button.url("⭐𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧⭐", "t.me/ootspambot"),
+                         [Button.url("•SUPPORT• ", "t.me/GeezSupportGroup"),
+                         [Button.url("•INSTAGRAM• ", f"instagram.com/daffansaa"),
+                         [Button.url("•OWNER• ", f"{OWNER_BOT}")],
                     ]
                 )
 
