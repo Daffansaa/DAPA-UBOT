@@ -73,7 +73,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.gls(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GAK, LO SANGEAN!!!**")
+    await typew.edit("**GA, LO SANGEAN!!!**")
 
 
 @register(outgoing=True, pattern='^.bsl(?: |$)(.*)')
