@@ -138,7 +138,12 @@ async def typewriter(typew):
     await typew.edit("**YOLL CANTIK BANGET SUMAPH:)**")
 
 
-
+@register(outgoing=True, pattern='^PNB(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("404 LEWAT NIH BOSS!!!")
+    
+    
 CMD_HELP.update({
     "salam":
     "P\
