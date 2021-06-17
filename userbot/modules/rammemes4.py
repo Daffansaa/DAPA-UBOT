@@ -423,6 +423,20 @@ async def typewriter(typew):
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (")
     await typew.edit(".                       /¯ )\n                      /¯  /\n                    /    /\n              /´¯/'   '/´¯¯`•¸\n          /'/   /    /       /¨¯\\ \n        ('(   (   (   (  ¯~/'  ')\n         \\                        /\n          \\                _.•´\n            \\              (\n              \\  ")
 
+    
+@register(outgoingg=True, pattern='^.NF(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**ASSALAMUALAIKUM**")
+    sleep(1)
+    await typew.edit("**Gua Mau Pantun Nih Gesss**")
+    sleep(2)
+    await typew.edit("**Ikan Sepat**")
+    sleep(2)
+    await typew.edit("**Makan Saos**")
+    await typew.edit("**KENALIN 404 NIH BOS!**")
+
+    
 CMD_HELP.update({
     "memes7":
     "`.bulan` ; `.hati` ; `.gbn` ; `.tolol` ; `.gmt`\
