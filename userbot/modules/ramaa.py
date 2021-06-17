@@ -68,7 +68,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**ASSALAMUALAIKUM**")
     sleep(1)
-     await typew.edit("**Gua Mau Pantun Nih Gesss**")
+    await typew.edit("**Gua Mau Pantun Nih Gesss**")
     sleep(2)
     await typew.edit("**Ikan Sepat**")
     sleep(2)
