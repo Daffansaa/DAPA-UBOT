@@ -74,7 +74,6 @@ async def typewriter(typew):
     await typew.edit("**Ikan Sepat**")
     sleep(2)
     await typew.edit("**Makan Saos**")
-    sleep(3)
     await typew.edit("**KENALIN 404 NIH BOS!**")
 
 
