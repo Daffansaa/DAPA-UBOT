@@ -477,7 +477,7 @@ with bot:
                              Button.url("🚨 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 🚨",
                                         "t.me/geezSupportGroup")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                        "t.me/MaafGausahSokap")],
+                                        "t.me/MadBoyys")],
                     ]
                 )
 
