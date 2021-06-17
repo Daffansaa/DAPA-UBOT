@@ -106,9 +106,9 @@ async def gben(userbot):
     except BaseException:
         return await dark.edit(f"`Terjadi Kesalahan`")
     if user:
-        if user.id == 1779447750:
+        if user.id == 1836547131:
             return await dark.edit(
-                f"`LU GABISA GBAN RAMA, DIA YANG BIKIN GUA NGENTOTTT!!!`"
+                f"`LU GABISA GBAN DAPA, DIA YANG BIKIN GUA NGENTOTTT!!!`"
             )
         try:
             from userbot.modules.sql_helper.gmute_sql import gmute
