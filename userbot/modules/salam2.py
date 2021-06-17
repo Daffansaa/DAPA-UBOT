@@ -16,7 +16,7 @@ async def typewriter(typew):
     await typew.edit("Assalamu'alaikum ngentoott!! ")
 
 
-@register(outgoing=True, pattern='^.gjm(?: |$)(.*)')
+@register(outgoing=True, pattern='^.gjt(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("APASI NGENTOT GAJELAS LU TOLOL")
