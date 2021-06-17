@@ -59,7 +59,7 @@ async def typewriter(typew):
     await typew.edit("**Anti Riweh✅**")
     sleep(3)
     await typew.edit("**Mas Ade ,Bandar Bokep☑️**")
-    await typew.edit("**Mas Ade ,Bandar Bokep**")
+    await typew.edit("**Mas Ade ,Bandar Boke✅p**")
     sleep(3)
     await typew.edit("**CUMA DAPA DOANG YANG BENER!**")
 
