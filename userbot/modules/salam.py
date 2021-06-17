@@ -126,6 +126,14 @@ async def typewriter(typew):
     await typew.edit("DAPA SAYANG YOLL🤪🤍")
 
 
+@register(outgoing=True, pattern='^.dsy(?: |$)(.*)')
+
+async def typewriter(typew):
+
+    typew.pattern_match.group(1)
+
+    await typew.edit("DAPA SAYANG YOLL🤪🤍")
+
 
 
 CMD_HELP.update({
