@@ -120,14 +120,14 @@ async def typewriter(typew):
     await typew.edit("**Gak keren lu begitu tolol, kuburan bapak lu gw gali buat dijadiin kolam renang anak paud.Cuihhhhh!!!**")
 
 
-register(outgoing=True, pattern='^.atg(?: |$)(.*)')
-
+@register(outgoing=True, pattern='^.dsy(?: |$)(.*)')
 async def typewriter(typew):
-
     typew.pattern_match.group(1)
+    await typew.edit("DAPA SAYANG YOLL🤪🤍")
 
-    await typew.edit("𝐀𝐒𝐓𝐀𝐆𝐇𝐅𝐈𝐑𝐔𝐋𝐋𝐀𝐇.... 𝐆𝐎𝐁𝐋𝐎𝐊𝐊𝐊𝐊𝐊!!!!")
-    
+
+
+
 CMD_HELP.update({
     "salam":
     "P\
