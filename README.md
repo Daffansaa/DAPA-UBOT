@@ -10,7 +10,7 @@
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=Daffansaa)
+![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
 
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
