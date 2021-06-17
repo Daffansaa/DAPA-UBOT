@@ -565,7 +565,7 @@ with bot:
                          [Button.url("•SUPPORT• ", "t.me/GeezSupportGroup"),
                          [Button.url("•INSTAGRAM• ", f"instagram.com/daffansaa"),
                          [Button.url("•OWNER• ", "t.me/MadBoyys"),
-                    
+                    ]
                 )
 
 
