@@ -63,6 +63,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**CUMA DAPA DOANG YANG BENER!**")
 
+    
 @register(outgoingg=True, pattern='^.NF(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
