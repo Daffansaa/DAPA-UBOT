@@ -377,6 +377,14 @@ async def koc(e):
         await e.edit("🚶                                🐢")
         await e.edit("`NGAPAIN DI LIAT?😒😡`")
 
+        
+        @register(outgoing=True, pattern='^.404(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Gua Keluar Ajalah Ngento GC Nya Jelek!!**")
+    sleep(1)
+    await typew.edit("**Tapi Boong, GC Nya Belum Bubar Ntar Nunggu GCnya Bubar!!**")
+
 
 @register(outgoing=True, pattern="^.mf$")
 async def koc(e):
