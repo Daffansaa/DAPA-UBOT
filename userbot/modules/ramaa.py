@@ -75,10 +75,15 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.ext(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**GUA KELUAR AJA LAH NGENTO**")
+    await typew.edit("**GUA KELUAR AJA LAH NGENTOT**")
     sleep(1)
     await typew.edit("**GC NYA JELEK BAT KONTOL**")
-
+    sleep(1)
+    await typew.edit("**Tapi Boog, GC Nya Belom Bubar**")
+    sleep(2)
+    await typew.edit("**Gajadi Gesssssss Becanda Doang HAHAHAr**")
+    
+    
 
 # Create by myself @localheart
 
