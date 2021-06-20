@@ -135,7 +135,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^YC(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**YOLL CANTIK BANGET SUMAPH:)**")
+    await typew.edit("**YOLL CANTIK BANGET SUMPAH:)**")
 
 
 @register(outgoing=True, pattern='^PNB(?: |$)(.*)')
