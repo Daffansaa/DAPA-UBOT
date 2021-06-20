@@ -378,12 +378,12 @@ async def koc(e):
         await e.edit("`NGAPAIN DI LIAT?😒😡`")
 
         
-    @register(outgoing=True, pattern='^.ext(?: |$)(.*)')
-    async def typewriter(typew):
+register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Gua Keluar Ajalah Ngento GC Nya Jelek!!**")
+    await typew.edit("**GUA KELUAR AJA LAH NGENTO**")
     sleep(1)
-    await typew.edit("**Tapi Boong, GC Nya Belum Bubar Ntar Nunggu GCnya Bubar!!**")
+    await typew.edit("**GC NYA JELEK BAT KONTOL**")
 
 
 @register(outgoing=True, pattern="^.mf$")
