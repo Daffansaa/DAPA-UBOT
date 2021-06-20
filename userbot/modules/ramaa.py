@@ -72,7 +72,7 @@ async def typewriter(typew):
     sleep(3)
     await typew.edit("**CUMA DAPA DOANG YANG BENER!**")
     
-@register(outgoing=True, pattern='^.geez(?: |$)(.*)')
+@register(outgoing=True, pattern='^.ext(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**GUA KELUAR AJA LAH NGENTO**")
