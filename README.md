@@ -28,7 +28,7 @@
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/be5a4a2cb6aac37ca7945.jpg)](https://t.me/ootspambot)
+[![Deploy](https://telegra.ph/file/058e2d9911e0b1284ab73.jpg)](https://t.me/ootspambot)
 
 
 <h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
