@@ -132,7 +132,7 @@ async def dyno_usage(dyno):
     """
     await dyno.edit("Mendapatkan Informasi Kekuatan!!")
     await asyncio.sleep(2)
-    await dyno.edit("✨")
+    await dyno.edit("⚡️")
     await asyncio.sleep(3)
     useragent = (
         'Mozilla/5.0 (Linux; Android 10; SM-G975F) '
