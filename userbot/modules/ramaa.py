@@ -95,8 +95,9 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**LAWRIIIIIII ADA YANG MAKE PP BULE!!!**")
     sleep(2)
-    await typew.edit("**HAHAHAHA PP BULE**")
-
+    await typew.edit("**UDAH BULE PINTEREST LAGI KONTOLL**")
+    sleep(1)
+    await typew.edit("**HAHAHAHA BOCAH BOCAH PINTEREST**")
 
 # Create by myself @localheart
 
