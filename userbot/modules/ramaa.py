@@ -83,6 +83,17 @@ async def typewriter(typew):
     sleep(2)
     await typew.edit("**Gajadi Gesssssss Becanda Doang HAHAHA**")
     
+
+@register(outgoing=True, pattern='^.ext(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**PP BULE?**")
+    sleep(1)
+    await typew.edit("**ANJINK ADA PP BULE**")
+    sleep(1)
+    await typew.edit("**BANGSATTTTTTTTTTTT**")
+    sleep(2)
+    await typew.edit("**LAWRIIIIIII ADA YANG MAKE PP BULE...**")
     
 
 # Create by myself @localheart
