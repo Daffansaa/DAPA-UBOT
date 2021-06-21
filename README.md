@@ -31,7 +31,7 @@
 [![Deploy](https://telegra.ph/file/058e2d9911e0b1284ab73.jpg)](https://t.me/ootspambot)
 
 
-<h3 align="center">REPO RAM-UBOT DIBUAT KARNA LAGI GABUT AJA SI HAHA.</h3>
+<h3 align="center">REPO DAPA-UBOT DIBUAT KARNA SI DAPA LAGI DEPRESI.</h3>
 <p align="center">&nbsp;</p>
 
 
