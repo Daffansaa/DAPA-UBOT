@@ -136,7 +136,7 @@ async def update(event, repo, ups_rem, ac_br):
     return
 
 
-@ register(outgoing=True, pattern=r"^.update(?: |$)(kntl|pler)?")
+@ register(outgoing=True, pattern=r"^.update(?: |$)(one|all)?")
 async def upstream(event):
     "For .update command, check if the bot is up to date, update if specified"
     await event.edit("`Mengecek Pembaruan, Silakan Menunggu....`")
@@ -220,11 +220,11 @@ async def upstream(event):
         await event.edit('`💫 Proses Update DAPA-UBOT, Loading....77%`')
         await event.edit('`💫 Proses Update DAPA-UBOT, Updating...90%`')
         await event.edit('`💫 Proses Update DAPA-UBOT, Mohon Menunggu....100%`')
-    if conf == "kntl":
+    if conf == "one":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(5)
         await event.delete()
-    elif conf == "pler":
+    elif conf == "all":
         await deploy(event, repo, ups_rem, ac_br, txt)
         await asyncio.sleep(5)
         await event.delete()
