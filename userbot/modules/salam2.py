@@ -109,7 +109,7 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.hey(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**Hey, Member Alay..😂**")
+    await typew.edit("**HAI BOCAH HINA!**")
 
 
 @register(outgoing=True, pattern='^.loh(?: |$)(.*)')
