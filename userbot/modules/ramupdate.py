@@ -224,7 +224,7 @@ async def upstream(event):
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(5)
         await event.delete()
-    elif conf == "all":
+    elif conf == "pler":
         await deploy(event, repo, ups_rem, ac_br, txt)
         await asyncio.sleep(5)
         await event.delete()
