@@ -220,7 +220,7 @@ async def upstream(event):
         await event.edit('`💫 Proses Update DAPA-UBOT, Loading....77%`')
         await event.edit('`💫 Proses Update DAPA-UBOT, Updating...90%`')
         await event.edit('`💫 Proses Update DAPA-UBOT, Mohon Menunggu....100%`')
-    if conf == "one":
+    if conf == "kntl":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(5)
         await event.delete()
