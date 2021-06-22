@@ -235,8 +235,8 @@ CMD_HELP.update({
     'update':
     ".update"
     "\nUsage: Untuk Melihat Pembaruan Terbaru DAPA-UBOT."
-    "\n\n.update one"
+    "\n\n.update kntl"
     "\nUsage: Memperbarui DAPA-UBOT."
-    "\n\n.update all"
+    "\n\n.update pler"
     "\nUsage: Memperbarui DAPA-UBOT Dengan Cara Deploy Ulang."
 })
