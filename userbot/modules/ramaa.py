@@ -99,6 +99,8 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**HAHAHAHA BOCAH BOCAH PINTEREST**")
 
+    
+    
 # Create by myself @localheart
 
 CMD_HELP.update({
