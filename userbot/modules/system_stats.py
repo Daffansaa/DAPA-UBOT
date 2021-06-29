@@ -218,7 +218,7 @@ async def pipcheck(pip):
         await pip.edit("Gunakan `.help pip` Untuk Melihat Contoh")
 
 
-@register(outgoing=True, pattern=r"^\.(?:ram|rambot)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:dap|rambot)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**╔══════╣❃ ♕ ❃╠══════╗** \n"
-        f"**      ۩  ⬚⃝⃟  DAPA-UBOT ⬚⃝⃟     ۩ ** \n"
+        f"**     ۩  ⬚⃝⃟   DAPA-UBOT ⬚⃝⃟     ۩ ** \n"
         f"**╚══════╣❃ ♕ ❃╠══════╝** \n"
         f"\n__**{RAM_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
@@ -265,13 +265,13 @@ async def amireallyalive(alive):
         await alive.delete()
 
 
-@register(outgoing=True, pattern=r"^\.(?:ralive|ron)\s?(.)?")
+@register(outgoing=True, pattern=r"^\.(?:dalive|ron)\s?(.)?")
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"           **♕ DAPA UBOT ♕** \n"
+        f"         **♕ DAPA UBOT ♕** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ **Tuan**             ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
