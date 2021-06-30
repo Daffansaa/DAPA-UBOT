@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**╔══════╣❃ ♕ ❃╠══════╗** \n"
-        f"**     ۩  ⬚⃝⃟   DAPA-UBOT ⬚⃝⃟     ۩ ** \n"
+        f"**    ۩  ⬚⃝⃟   DAPA-UBOT ⬚⃝⃟     ۩ ** \n"
         f"**╚══════╣❃ ♕ ❃╠══════╝** \n"
         f"\n__**{RAM_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
@@ -271,7 +271,7 @@ async def amireallyalive(alive):
     await get_readable_time((time.time() - StartTime))
     output = (
         f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
-        f"         **♕ DAPA UBOT ♕** \n"
+        f"        **♕ DAPA UBOT ♕** \n"
         f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
         f"❃ **Tuan**             ➥ `{DEFAULTUSER}` \n"
         f"❃ **Username**    ➥ `@{user.username}` \n"
@@ -312,7 +312,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-        f"**      ✨𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧✨** \n"
+        f"**     ✨𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧✨** \n"
         f"**✠╼━━━━━━❖━━━━━━━✠** \n"
         f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
         f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
