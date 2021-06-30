@@ -143,7 +143,7 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("404 LEWAT NIH BOSS!!!")
     
-@register(outgoing=True, pattern='^B(?: |$)(.*)')
+@register(outgoing=True, pattern='^.B(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**BABINYAA KAU INI!!!**")    
