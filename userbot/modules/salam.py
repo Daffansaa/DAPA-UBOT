@@ -143,6 +143,11 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("404 LEWAT NIH BOSS!!!")
     
+@register(outgoing=True, pattern='^B(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**BABINYAA KAU INI!!!**")    
+    
     
 CMD_HELP.update({
     "salam":
@@ -184,6 +189,8 @@ CMD_HELP.update({
 \nUsage: Istighfar 1.\
 \n\n.ast\
 \nUsage: Istighfar 2.\
+\n\n.B\
+\nUsage: MengBabi.\
 \n\nO\
 \nUsage: Ngatain org norak.\
 \n\nG\
