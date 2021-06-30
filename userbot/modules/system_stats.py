@@ -228,7 +228,7 @@ async def amireallyalive(alive):
     await asyncio.sleep(3)
     output = (
         f"**╔══════╣❃ ♕ ❃╠══════╗** \n"
-        f".      **  ⬚⃝⃟  DAPA-UBOT ⬚⃝⃟   ** \n"
+        f".      **  ⬚⃝⃟   DAPA-UBOT ⬚⃝⃟   ** \n"
         f"**╚══════╣❃ ♕ ❃╠══════╝** \n"
         f"\n__**{RAM_TEKS_KOSTUM}**__\n"
         f"**▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰**\n"
