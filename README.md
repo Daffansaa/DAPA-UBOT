@@ -45,7 +45,7 @@
 
 ### AMBIL STRING DI BAWAH INI:
 
- [![DAPA-STRING-SESSION](https://replit.com/@Daffansaa/DAPA-STRING-SESSION)](https://replit.com/@Daffansaa/DAPA-STRING-SESSION)
+ [![DAPA-STRING-SESSION](https://replit.com/badge/github/@Daffansaa/DAPA-STRING)](https://replit.com/@Daffansaa/DAPA-STRING-SESSION)
 
 
 
