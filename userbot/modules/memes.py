@@ -2982,7 +2982,7 @@ async def _(event):
 
 
 CMD_HELP.update({
-    "memes":
+    "dapmemes":
     "`.eye`\
 \nUsage: Lihat Sendiri.\
 \n\n`.earth`\
