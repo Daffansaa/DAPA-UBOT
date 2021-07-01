@@ -61,6 +61,7 @@
 ## Credit
 TERIMAKASIH UNTUK
   
+*   [RAM](https://github.com/yunosainth/RAM-UBOT) - RAM-UBOT  
 *   [KENZO](https://github.com/KENZO-404) - ⚡Lynx-Userbot⚡
 *   [VICKY](https://github.com/vckyou) - ⚡Geez-Userbot⚡
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
