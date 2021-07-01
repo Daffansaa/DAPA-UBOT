@@ -10,7 +10,7 @@
   </a>
 </p>  
 
-![VIEWS](https://komarev.com/ghpvc/?username=ramadhani892)
+![VIEWS](https://komarev.com/ghpvc/?username=Daffansaa)
 
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
@@ -60,7 +60,8 @@
 
 ## Credit
 TERIMAKASIH UNTUK
-
+  
+*   [KENZO](https://github.com/KENZO-404) - ⚡Lynx-Userbot⚡
 *   [VICKY](https://github.com/vckyou) - ⚡Geez-Userbot⚡
 *   [RaphielGang](https://github.com/RaphielGang) - Telegram-Paperplane
 *   [AvinashReddy3108](https://github.com/AvinashReddy3108) - PaperplaneExtended
