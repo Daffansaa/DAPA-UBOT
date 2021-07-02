@@ -213,7 +213,11 @@ ALIVE_LOGO = os.environ.get(
 HELP_LOGO = os.environ.get(
    "HELP_LOGO") or "https://telegra.ph/file/798d2415d85a16793bbac.jpg"
 
+# Default you're Instagram
 IG_ALIVE = os.environ.get("IG_ALIVE") or "instagram.com/Daffansaa"
+
+# Default emoji help
+EMOJI_HELP = os.environ.get("EMOJI_HELP") or "💫"
 
 
 # Last.fm Module
