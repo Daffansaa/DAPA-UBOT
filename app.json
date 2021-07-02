@@ -161,6 +161,10 @@
     "IG_ALIVE": {
       "description": "Taro link ig lu disini Biar Lu bisa mutualan .gi",
       "required": false
+     },
+    "EMOJI_HELP": {
+      "description": "Custom Emoji Helpme mu!",
+      "value": "💫"
     },
     "RAM_TEKS_KOSTUM": {
       "description": "Kustom Pesan Alive Mu Untuk Perintah .ram (Isi Terserah)",
