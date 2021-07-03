@@ -1,6 +1,5 @@
 # Thanks Full To Team Ultroid
 # Ported By Vcky @VckyouuBitch
-# Cloned By DAPA @Daffansaa
 # Copyright (c) 2021 Geez - Projects
 # Geez - Projects https://github.com/Vckyou/Geez-UserBot
 # Ini Belum Ke Fix Ya Bg :')
@@ -20,8 +19,8 @@ NO_ADMIN = "`Sorry you are not admin :)`"
 
 async def get_call(event):
     geez = await event.client(getchat(event.chat_id))
-    dapa = await event.client(getvc(geez.full_chat.call))
-    return dapa.call
+    vcky = await event.client(getvc(geez.full_chat.call))
+    return vcky.call
 
 
 def user_list(l, n):
