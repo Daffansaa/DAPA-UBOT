@@ -20,7 +20,7 @@ NO_ADMIN = "`Sorry you are not admin :)`"
 
 async def get_call(event):
     geez = await event.client(getchat(event.chat_id))
-    vcky = await event.client(getvc(geez.full_chat.call))
+    dapa = await event.client(getvc(geez.full_chat.call))
     return dapa.call
 
 
