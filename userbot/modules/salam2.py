@@ -111,6 +111,11 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**HAI BOCAH HINA!**")
 
+@register(outgoing=True, pattern='^.mgk(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**MAKANYA GANTENG KONTOL!**")
+
 
 @register(outgoing=True, pattern='^.loh(?: |$)(.*)')
 async def typewriter(typew):
