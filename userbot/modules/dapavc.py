@@ -14,13 +14,13 @@ from telethon.tl.types import ChatAdminRights
 from userbot import CMD_HELP
 from userbot.events import register
 
-NO_ADMIN = "`Sorry you are not admin :)`"
+NO_ADMIN = "`Kau Bukan Admin Babi!!"
 
 
 async def get_call(event):
-    geez = await event.client(getchat(event.chat_id))
-    vcky = await event.client(getvc(geez.full_chat.call))
-    return vcky.call
+    dapabot = await event.client(getchat(event.chat_id))
+    dapa = await event.client(getvc(dapabot.full_chat.call))
+    return dapa.call
 
 
 def user_list(l, n):
@@ -61,22 +61,21 @@ async def _(e):
 
 
 @register(outgoing=True, pattern=r"^\.vcinvite", groups_only=True)
-async def _(e):
-    await e.edit("`Inviting Members to Voice Chat...`")
+async def _(dapabot):
+    await dapabot.edit("`Memulai Invite member group...`")
     users = []
     z = 0
-    async for x in e.client.iter_participants(e.chat_id):
+    async for x in dapabot.client.iter_participants(dapabot.chat_id):
         if not x.bot:
             users.append(x.id)
     hmm = list(user_list(users, 6))
     for p in hmm:
         try:
-            await e.client(invitetovc(call=await get_call(e), users=p))
+            await dapabot.client(invitetovc(call=await get_call(dapabot), users=p))
             z += 6
         except BaseException:
             pass
-    await e.edit(f"`Invited {z} users`")
-
+    await dapabot.edit(f"`Menginvite {z} Member`")
 
 CMD_HELP.update(
     {
