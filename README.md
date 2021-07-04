@@ -23,7 +23,7 @@
 
 ## JOIN DULU YA NGENTOT!!:
 
-<a href="https://t.me/ramubotinfo"><img src="https://img.shields.io/badge/Channel-%20RAM UBOT-black.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/DapaUbotInfo"><img src="https://img.shields.io/badge/Channel-%20DAPA UBOT-black.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/GroupTidakDiketahui"><img src="https://img.shields.io/badge/Join-GroupTidakDiketahui-purple.svg?style=for-the-badge&logo=Telegram"></a>
 ##
 
