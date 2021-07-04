@@ -54,43 +54,14 @@
       "value": "33273f18-4a0d-4a76-8d78-a16faa002375",
       "required": true
     },
-    "GENIUS_ACCESS_TOKEN": {
-      "description": "Client Access Token from https://genius.com/api-clients.",
-      "required": false
-    },
-    "MONGO_URI": {
-      "description": "Your MongoDB Atlas URL, Get your guide from https://telegra.ph/Mongo-DB-12-24.",
-      "required": false
-    },
-    "GENIUS": {
-      "description": "Get this value from https://genius.com/developers., basically same as GENIUS_API_TOKEN.",
-      "required": false
-    },
-    "GITHUB_ACCESS_TOKEN": {
-      "description": "Your GITHUB_ACCESS_TOKEN, get it from 'https://github.com/settings/tokens'",
-      "required": false
-    },
-    "GIT_REPO_NAME": {
-      "description": "Add the GIT_REPO_NAME here. It helps with commit on GitHub.",
-      "required": false
-    },
     "COUNTRY": {
       "description": "Set your Country to be used in the .time and .date commands.",
       "value": "ID",
       "required": true
     },
-    "TZ_NUMBER": {
-      "description": "Change this value in case your country has multiple Time Zones.",
-      "value": "1",
-      "required": false
-    },
-    "OPEN_WEATHER_MAP_APPID": {
-      "description": "Get your own APPID (API key)from https://api.openweathermap.org/data/2.5/weather",
-      "required": false
-    },
-    "PM_AUTO_BAN": {
+   "PM_AUTO_BAN": {
       "description": "Ini berguna Untuk Mengaktifkan pesan otomatis di room chat anda.",
-      "value": "False"
+      "value": "False",
       "required": true
     },
     "YOUTUBE_API_KEY": {
@@ -124,34 +95,10 @@
       "description": "When a new person joins, the old welcome message is deleted.",
       "value": "True"
     },
-    "G_DRIVE_FOLDER_ID": {
-      "description": "Create a folder and put that folder's id here.check folder link for id.",
-      "required": false
-    },
     "HEROKU_MEMEZ": {
       "description": "This should be True if the userbot is running on a Heroku Dyno.",
       "value": "True",
       "required": true
-    },
-    "LASTFM_API": {
-      "description": "API Key for Last.FM module. [Get one from - https://www.last.fm/api/account/create]",
-      "required": false
-    },
-    "LASTFM_SECRET": {
-      "description": "SECRET Key for Last.FM module. [Get one from - https://www.last.fm/api/account/create]",
-      "required": false
-    },
-    "LASTFM_USERNAME": {
-      "description": "Last.FM Username",
-      "required": false
-    },
-    "LASTFM_PASSWORD": {
-      "description": "Last.FM Password",
-      "required": false
-    },
-    "BIO_PREFIX": {
-      "description": "Prefix for Last.FM Module Bio.",
-      "required": false
     },
     "DEFAULT_BIO": {
       "description": "Default Bio Mu.",
@@ -168,12 +115,7 @@
      },
     "EMOJI_HELP": {
       "description": "Custom Emoji Helpme mu!",
-      "value": "💫"
-    },
-    "RAM_TEKS_KOSTUM": {
-      "description": "Kustom Pesan Alive Mu Untuk Perintah .ram (Isi Terserah)",
-      "value": "ㅤ",
-      "required": false
+      "value": "🐯"
     },
     "S_PACK_NAME": {
       "description": "Nama Sticker Pack Mu",
@@ -184,48 +126,10 @@
       "value": "-1001122897608",
       "required": false
     },
-    "G_DRIVE_DATA": {
-      "description": "Enter the Google Drive authentication data, as a JSON structure.",
-      "required": false
-    },
-    "G_PHOTOS_CLIENT_ID": {
-      "description": "get the client id from https://j.mp/39lWQQm",
-      "required": false
-    },
-    "G_PHOTOS_CLIENT_SECRET": {
-      "description": "get the client secret from https://j.mp/39lWQQm",
-      "required": false
-    },
-    "BITLY_TOKEN": {
-      "description": "Your Bit.ly API key, get it from 'https://bitly.com/a/sign_up'",
-      "value": "",
-      "required": false
-    },
-    "UB_BLACK_LIST_CHAT": {
-      "description": "Isi Apa Aja",
-      "required": false
-    },
-    "LYDIA_API_KEY": {
-      "description": "This Module Needs CoffeeHouse API to work. so Join https://telegram.dog/IntellivoidDev and send #activateapi and follow instructions.",
-      "required": false
-    },
-    "WEATHER_DEFCITY": {
-      "description": "Set the default city for the userbot's weather module.",
-      "value": "Lu tinggal dimana si? Kepo gua.",
-      "required": false
-    },
     "LOGSPAMMER": {
       "description": "Set this to True in case you want the error logs to be stored in the userbot log group, instead of spitting out the file in the current chat, requires a valid BOTLOG_CHATID to be set.",
       "value": "True",
       "required": true
-    },
-    "DEEZER_ARL_TOKEN": {
-      "description": "Input your DEEZER ARL TOKEN https://notabug.org/RemixDevs/DeezloaderRemix/wiki/Login+via+userToken",
-      "required": false
-    },
-    "UPSTREAM_REPO_URL": {
-      "description": "In case you maintain a fork, add your repo URL here.",
-      "required": false
     },
     "BOT_TOKEN": {
       "description": "Untuk menampilkam mode tombol .helpme, Ambil token di @BotFather",
