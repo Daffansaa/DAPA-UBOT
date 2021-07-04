@@ -214,12 +214,12 @@ async def upstream(event):
         await event.edit(
             '`Sinkronisasi Paksa Ke Kode Userbot Stabil Terbaru, Harap Tunggu .....`')
     else:
-        await event.edit('`💫 Proses Update DAPA-UBOT, Loading....1%`')
-        await event.edit('`💫 Proses Update DAPA-UBOT, Loading....20%`')
-        await event.edit('`💫 Proses Update DAPA-UBOT, Loading....35%`')
-        await event.edit('`💫 Proses Update DAPA-UBOT, Loading....77%`')
-        await event.edit('`💫 Proses Update DAPA-UBOT, Updating...90%`')
-        await event.edit('`💫 Proses Update DAPA-UBOT, Mohon Menunggu....100%`')
+        await event.edit('`🐯 Proses Update DAPA-UBOT, Loading....1%`')
+        await event.edit('`🐯 Proses Update DAPA-UBOT, Loading....20%`')
+        await event.edit('`🐯 Proses Update DAPA-UBOT, Loading....35%`')
+        await event.edit('`🐯 Proses Update DAPA-UBOT, Loading....77%`')
+        await event.edit('`🐯 Proses Update DAPA-UBOT, Updating...90%`')
+        await event.edit('`🐯 Proses Update DAPA-UBOT, Mohon Menunggu....100%`')
     if conf == "one":
         await update(event, repo, ups_rem, ac_br)
         await asyncio.sleep(5)
