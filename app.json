@@ -233,7 +233,7 @@
     },
     "BOT_USERNAME": {
       "description": "isi username bot mu yang dari @BotFather",
-      "required": false
+      "required": true
     }
   },
   "addons": [
