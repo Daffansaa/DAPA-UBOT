@@ -1,7 +1,7 @@
 {
-  "name": "DAPA-USERBOT",
-  "description": "[DAPA-USERBOT] USERBOT KHUSUS YANG DIGUNAKAN UNTUK BERSENANG-SENANG DI TELEGRAM.",
-  "logo": "https://telegra.ph/file/798d2415d85a16793bbac.jpg",
+  "name": "DAPA-UBOT",
+  "description": "[DAPA-UBOT] Let's Fun On Telegram.",
+  "logo": "https://telegra.ph/file/ce6e9d746f554aef0c4d0.jpg",
   "keywords": [
     "telegram",
     "userbot",
@@ -11,7 +11,7 @@
   ],
   "repository": "https://github.com/Daffansaa/DAPA-UBOT",
   "telegram": "https://t.me/MadBoyys",
-  "success_url": "https://t.me/teman_random",
+  "success_url": "https://t.me/saddestpeople",
   "stack": "container",
   "env": {
     "API_KEY": {
@@ -89,11 +89,12 @@
     },
     "PM_AUTO_BAN": {
       "description": "Ini berguna Untuk Mengaktifkan pesan otomatis di room chat anda.",
-      "value": "False",
+      "value": "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg",
       "required": true
     },
     "YOUTUBE_API_KEY": {
       "description": "YouTube Data API Key for .yt command. Get from https://console.cloud.google.com",
+      "value": "False",
       "required": false
     },
     "OCR_SPACE_API_KEY": {
