@@ -14,14 +14,14 @@
 
 <a href="https://t.me/ramubotspam"><img src="https://img.shields.io/badge/KODE%20PENILAIAN-A+-blue.svg?style=for-the-badge&logo=Factor.">
 
-## Pemilik Repo: DAPA
+## Owner Repo: DAPA
 [<img src="https://media0.giphy.com/media/ya4eevXU490Iw/giphy.gif">](https://t.me/MadBoyys)
 ##
 ##
-# KALO FORK TUH KASIH BINTANG YA TOLOL!
+# KALO FORK JAN LUPA KASI BINTANG!
 
 
-## JOIN DULU YA NGENTOT!!:
+## JOIN WITH US!!:
 
 <a href="https://t.me/DapaUbotInfo"><img src="https://img.shields.io/badge/Channel-%20DAPA UBOT-black.svg?style=for-the-badge&logo=Telegram"></a>
 <a href="https://t.me/GroupTidakDiketahui"><img src="https://img.shields.io/badge/Join-GroupTidakDiketahui-purple.svg?style=for-the-badge&logo=Telegram"></a>
@@ -40,20 +40,17 @@
 ## Bagaimana Cara Deploy?
 
 
-* **VIDEO TUTORIAL DEPLOY!** 🔧
+## **VIDEO TUTORIAL DEPLOY!** 🔧
 [<img src=https://telegra.ph/file/37c7a54f72b2be24d6793.jpg>](https://t.me/UserbotChannel/36)
 
 ### AMBIL STRING DI BAWAH INI:
+<a href="https://replit.com/badge/github/@Daffansaa/DAPA-STRING"><img src="https://img.shields.io/badge/run-string__session.py-magenta?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
+# [![DAPA-STRING-SESSION](https://replit.com/badge/github/@Daffansaa/DAPA-STRING)](https://replit.com/@Daffansaa/DAPA-STRING-SESSION)
 
- [![DAPA-STRING-SESSION](https://replit.com/badge/github/@Daffansaa/DAPA-STRING)](https://replit.com/@Daffansaa/DAPA-STRING-SESSION)
+  
+## <p align="center">DEPLOY TO HEROKU</p>
 
-
-
-##
-##
-##
-
-<a href="https://heroku.com/deploy?template=https://github.com/Daffansaa/DAPA-UBOT.git"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=Heroku" width="325" height="50.100" />
+<p align="center"><a href="https://heroku.com/deploy?template=https://github.com/Daffansaa/DAPA-UBOT.git"><img src="https://img.shields.io/badge/Deploy%20To%20Heroku-black?style=flat&logo=Heroku" width="325" height="50.100" />
 
 <br>
 </p>
