@@ -90,7 +90,6 @@
     },
     "PM_AUTO_BAN": {
       "description": "Ini berguna Untuk Mengaktifkan pesan otomatis di room chat anda.",
-      "value": "AIzaSyACwFrVv-mlhICIOCvDQgaabo6RIoaK8Dg",
       "required": true
     },
     "YOUTUBE_API_KEY": {
