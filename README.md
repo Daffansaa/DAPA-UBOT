@@ -28,7 +28,7 @@
 ##
 
 # JANGAN BINGUNG BUAT DEPLOY!
-[![Deploy](https://telegra.ph/file/ce6e9d746f554aef0c4d0.jpg)](https://t.me/ootspambot)
+[![Deploy](https://telegra.ph/file/ce6e9d746f554aef0c4d0.jpg)](https://heroku.com/deploy?template=https://github.com/Daffansaa/DAPA-UBOT.git)
 
 
 <h3 align="center">REPO DAPA-UBOT DIBUAT KARNA SI DAPA LAGI DEPRESI.</h3>
