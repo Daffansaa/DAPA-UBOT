@@ -45,7 +45,6 @@
 
 ### AMBIL STRING DI BAWAH INI:
 <a href="https://replit.com/@Daffansaa/DAPA-STRING-SESSION"><img src="https://img.shields.io/badge/run-string__session.py-magenta?style=for-the-badge&logo=repl.it" alt="generate_string" /></a>
-# [![DAPA-STRING-SESSION](https://replit.com/badge/github/@Daffansaa/DAPA-STRING)](https://replit.com/@Daffansaa/DAPA-STRING-SESSION)
 
   
 ## <p align="center">DEPLOY TO HEROKU</p>
