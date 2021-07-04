@@ -62,7 +62,7 @@ async def _(e):
 
 @register(outgoing=True, pattern=r"^\.vcinvite", groups_only=True)
 async def _(dapa):
-    ok = await eor(dapa, "`Memulai Invite member group...`")
+    await dapa.edit("`Memulai Invite member group...`")
     users = []
     z = 0
     async for x in dapa.client.iter_participants(dapa.chat_id):
