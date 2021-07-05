@@ -119,6 +119,12 @@ async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("**Gak keren lu begitu tolol, kuburan bapak lu gw gali buat dijadiin kolam renang anak paud.Cuihhhhh!!!**")
 
+    
+@register(outgoing=True, pattern='^.slipkol(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Bismillah Dapet Slipcrot🥵**")    
+    
 
 @register(outgoing=True, pattern='^.dsy(?: |$)(.*)')
 async def typewriter(typew):
