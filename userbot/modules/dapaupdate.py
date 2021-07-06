@@ -194,7 +194,7 @@ async def upstream(event):
         return repo.__del__()
 
     if conf is None and force_update is False:
-        changelog_str = f'**Pembaruan Untuk 🐯DAPA-UBOT🐯 [{ac_br}]:\n\n💻Update:**\n`{changelog}`'
+        changelog_str = f'**Pembaruan Untuk 🐯DAPA-UBOT🐯 [{ac_br}]:\n\n💻 Updater:**\n`{changelog}`'
         if len(changelog_str) > 4096:
             await event.edit("`Changelog Terlalu Besar, Lihat File Untuk Melihatnya.`")
             file = open("output.txt", "w+")
