@@ -18,7 +18,7 @@
 import random
 
 import requests
-from carbonnow import Carbon
+from dapacarbon import Carbon
 
 from . import *
 
