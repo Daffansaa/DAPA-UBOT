@@ -239,3 +239,5 @@ async def crbn(event):
         xx,
         caption=f"karbon oleh [{OWNER_NAME}](tg://user?id={OWNER_ID})",
     )
+
+      
