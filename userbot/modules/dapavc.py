@@ -86,7 +86,7 @@ async def join_group_call(client, m: Message):
         return
     await group_call.start(m.chat.id)
     await m.delete()    
-
+j
 
 
 CMD_HELP.update(
