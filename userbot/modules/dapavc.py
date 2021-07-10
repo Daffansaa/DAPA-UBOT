@@ -77,6 +77,16 @@ async def _(dapa):
             pass
     await dapa.edit(f"`Menginvite {z} Member`")
 
+@register(outgoing=True, pattern=r"^\.join", groups_only=True)
+async def join_group_call(client, m: Message):
+    group_call = mp.group_call
+    group_call.client = client
+    if group_call.is_connected:
+        await m.reply_text(f"{emoji.ROBOT} already joined a voice chat")
+        return
+    await group_call.start(m.chat.id)
+    await m.delete()    
+
 
 
 CMD_HELP.update(
