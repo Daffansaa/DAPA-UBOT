@@ -103,6 +103,17 @@ async def typewriter(typew):
     await typew.edit("**HAHAHAHA BOCAH BOCAH PINTEREST**")
 
     
+@register(outgoing=True, pattern='^.war(?: |$)(.*)')
+async def typewriter(typew):
+    typew.pattern_match.group(1)
+    await typew.edit("**Ini war bang?**")
+    sleep(1)
+    await typew.edit("**War apaan sih bang?**")
+    sleep(1)
+    await typew.edit("**Buset dah galak banget**")
+    sleep(2)
+    await typew.edit("**Ajarin war bang 🥺**")    
+    
     
 # Create by myself @localheart
 
@@ -114,4 +125,6 @@ CMD_HELP.update({
     \nUsage: hiks\
     \n\n`.punten` ; `.404`\
     \nUsage: misi."
+    \n\n`.war`\
+    \nUsage: gabisa war bang.\
 })
