@@ -125,6 +125,4 @@ CMD_HELP.update({
     \nUsage: hiks\
     \n\n`.punten` ; `.404`\
     \nUsage: misi."
-    \n\n`.war`\
-    \nUsage: gabisa war bang.\
 })
