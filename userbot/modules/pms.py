@@ -34,6 +34,7 @@ DEF_UNAPPROVED_MSG = (
     "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
     "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
     "┣[• MASUK AJA KE @GroupTidakDiketahui\n"
+    "┣[• SUBS DULU YU @Saddestpeoplee\n"
     "┣[• PESAN OTOMATIS\n"
     "┣[• BY DAPA-UBOT\n"
     "╰✠╼━━━━━━❖━━━━━━━✠╯")
