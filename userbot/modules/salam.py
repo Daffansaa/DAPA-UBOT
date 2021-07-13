@@ -126,22 +126,10 @@ async def typewriter(typew):
     await typew.edit("**Bismillah Dapet Slipcrot🥵**")    
     
 
-@register(outgoing=True, pattern='^.dsy(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("DAPA SAYANG YOLL🤪🤍")
-
-
 @register(outgoing=True, pattern='^PKP(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
     await typew.edit("FAMILY 404 NOT FOUND NIH BOSS!!!")
-
-
-@register(outgoing=True, pattern='^YC(?: |$)(.*)')
-async def typewriter(typew):
-    typew.pattern_match.group(1)
-    await typew.edit("**YOLL CANTIK BANGET SUMPAH:)**")
 
 
 @register(outgoing=True, pattern='^PNB(?: |$)(.*)')
