@@ -467,7 +467,7 @@ with bot:
             try:
                 tgbotusername = BOT_USERNAME
                 if tgbotusername is not None:
-                    results = await event.client.inline_query(tgbotusername, "@Ram_ubot")
+                    results = await event.client.inline_query(tgbotusername, "@Dapuserbot")
                     await results[0].click(
                         event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
                     )
@@ -603,7 +603,7 @@ with bot:
                             Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
                                    f"{IG_ALIVE}")],
                         [Button.inline("OPEN PLUGINS AGAIN", data="nepo")],
-                        [Button.inline(f"{EMOJI_HELP} 𝗘𝗫𝗜𝗧 {EMOJI_HELP}", b"close")],
+                        [Button.inline("𝗘𝗫𝗜𝗧", data="close")],
                        ]
                 )
 
