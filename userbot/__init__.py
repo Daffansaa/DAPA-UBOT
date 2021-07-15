@@ -602,7 +602,7 @@ with bot:
                                        "t.me/DapaUbotInfo"),
                             Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
                                    f"{IG_ALIVE}")],
-                        [Button.inline("OPEN PLUGINS AGAIN", data="nepo")]
+                        [Button.inline("OPEN PLUGINS AGAIN", data="nepo")],
                         [Button.inline(f"{EMOJI_HELP} 𝗘𝗫𝗜𝗧 {EMOJI_HELP}", b"close")],
                        ]
                 )
