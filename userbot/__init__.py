@@ -600,14 +600,10 @@ with bot:
                         [
                             Button.url(f"{REPO_NAME}",
                                        "t.me/DapaUbotInfo"),
-                            Button.url(f"{EMOJI_HELP} SUPPORT {EMOJI_HELP} ", 
-                                       "t.me/GeezSupportGroup")],
-                        [Button.url(f"{EMOJI_HELP} OWNER {EMOJI_HELP} ",
-                                    f"{OWNER_BOT}"),
                             Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
                                    f"{IG_ALIVE}")],
-                        [custom.Button.inline(
-                            f"{EMOJI_HELP} 𝗘𝗫𝗜𝗧 {EMOJI_HELP}", b"close")],
+                        [Button.inline("OPEN PLUGINS AGAIN", data="nepo")]
+                        [Button.inline(f"{EMOJI_HELP} 𝗘𝗫𝗜𝗧 {EMOJI_HELP}", b"close")],
                        ]
                 )
 
@@ -665,7 +661,7 @@ with bot:
 
         @tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
-            await event.edit("Menu di tutup!\nUntuk Melihat Menu, Silahkan Ketik `.rhelp`", buttons=Button.clear())
+            await event.edit("Menu Ditutup Ya Ngentot!`", buttons=Button.clear())
 
 
     except BaseException:
