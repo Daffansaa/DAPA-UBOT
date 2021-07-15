@@ -661,7 +661,7 @@ with bot:
 
         @tgbot.on(events.CallbackQuery(data=b"close"))
         async def close(event):
-            await event.edit("Menu Ditutup Ya Ngentot!`", buttons=Button.clear())
+            await event.edit("Menu Ditutup Ya Ngentot!", buttons=Button.clear())
 
 
     except BaseException:
