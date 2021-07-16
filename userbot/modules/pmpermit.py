@@ -76,8 +76,10 @@ async def permitpm(event):
         getmsg = gvarstatus("unapproved_msg")
         if getmsg is not None:
             UNAPPROVED_MSG = getmsg
+            WARN_PIC = getmsg
         else:
             UNAPPROVED_MSG = DEF_UNAPPROVED_MSG
+            UNAPPROVED_MSG = PM_PERMIT_PIC
 
         # This part basically is a sanity check
         # If the message that sent before is Unapproved Message
