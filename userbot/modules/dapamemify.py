@@ -2,6 +2,7 @@ import asyncio
 import os
 import textwrap
 
+from typing import Optional
 from PIL import Image, ImageDraw, ImageFont
 
 from userbot import CMD_HELP, TEMP_DOWNLOAD_DIRECTORY, bot
