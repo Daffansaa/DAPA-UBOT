@@ -18,7 +18,6 @@ from userbot import (
     LASTMSG,
     LOGS,
     PM_AUTO_BAN,
-    ALIVE_LOGO,
     ALIVE_NAME,
 )
 
