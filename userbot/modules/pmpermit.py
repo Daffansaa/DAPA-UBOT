@@ -18,8 +18,18 @@ from userbot import (
     LASTMSG,
     LOGS,
     PM_AUTO_BAN,
+    ALIVE_LOGO,
     ALIVE_NAME,
 )
+
+
+PM_PERMIT_PIC = os.environ.get(
+    "PM_PERMIT_PIC",
+    None) or "https://telegra.ph/file/ce6e9d746f554aef0c4d0.mp4"
+if PM_PERMIT_PIC is None:
+    WARN_PIC = ALIVE_LOGO
+else:
+    WARN_PIC = str(PM_PERMIT_PIC)
 
 from userbot.events import register
 
