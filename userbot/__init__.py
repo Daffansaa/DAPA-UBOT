@@ -661,9 +661,9 @@ with bot:
 
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
-        @tgbot.on(events.CallbackQuery(data=b"close"))
+        @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile("close")
+                data=re.compile(rb"close")
             )
         )
         async def on_plug_in_callback_query_handler(event):
@@ -671,10 +671,11 @@ with bot:
                 buttons = [
                     (custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ", data="nepo"),),
                 ]
-                await event.edit("Menu Ditutup Ya Ngentot!", buttons=Button.clear())
+                await event.edit(f"Menu Ditutup Ya Ngentot!", file=lynxlogo, buttons=buttons)
             else:
-                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
-             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)                         
+                reply_pop_up_alert =  f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+                        
 
     except BaseException:
         LOGS.info(
