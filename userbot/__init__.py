@@ -669,7 +669,7 @@ with bot:
         async def on_plug_in_callback_query_handler(event):
             if event.query.user_id == uid:
                 buttons = [
-                    (custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ", data="opener"),),
+                    (custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ", data="nepo"),),
                 ]
                 await event.edit("Menu Ditutup Ya Ngentot!", buttons=Button.clear())
             else:
