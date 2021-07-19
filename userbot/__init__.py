@@ -671,7 +671,7 @@ with bot:
                 buttons = [
                     (custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ", data="nepo"),),
                 ]
-                await event.edit(f"Menu Ditutup Ya Ngentot!", file=lynxlogo, buttons=buttons)
+                await event.edit(f"Menu Ditutup Ya Ngentot!", buttons=buttons)
             else:
                 reply_pop_up_alert =  f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
