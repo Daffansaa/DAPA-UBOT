@@ -389,6 +389,46 @@ with bot:
             "valid entity. Check your environment variables/config.env file.")
         quit(1)
 
+from git import Repo
+
+
+async def update_restart_msg(chat_id, msg_id):
+    DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
+    repo = Repo()
+    uname = platform.uname()
+    cpufreq = psutil.cpu_freq()
+    message = (
+           f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
+           f"**     ✨𝗗𝗔𝗣𝗔 - 𝗨𝗕𝗢𝗧✨** \n"
+           f"**✠╼━━━━━━❖━━━━━━━✠** \n"
+           f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
+           f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
+           f"┣|• `💳 Username :`@{user.username} \n"
+           f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
+           f"┣|• `🐉 Python   :`Ver {python_version()} \n"
+           f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
+        )
+    await bot.edit_message(chat_id, msg_id, message)
+    return True
+
+
+try:
+    from userbot.modules.sql_helper.globals import delgvar, gvarstatus
+
+    chat_id, msg_id = gvarstatus("restartstatus").split("\n")
+    try:
+        with bot:
+            bot.loop.run_until_complete(
+                update_restart_msg(
+                    int(chat_id), int(msg_id)))
+    except BaseException:
+        pass
+    delgvar("restartstatus")
+except AttributeError:
+    pass        
+        
+        
+        
 # Global Variables
 COUNT_MSG = 0
 USERS = {}
@@ -408,6 +448,36 @@ from userbot import (
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 # ============================================
+
+def alive_inline():
+    repo = Repo()
+    uname = platform.uname()
+    cpufreq = psutil.cpu_freq()
+    text = f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
+           f"**     ✨𝗗𝗔𝗣𝗔 - 𝗨𝗕𝗢𝗧✨** \n"
+           f"**✠╼━━━━━━❖━━━━━━━✠** \n"
+           f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
+           f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
+           f"┣|• `💳 Username :`@{user.username} \n"
+           f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
+           f"┣|• `🐉 Python   :`Ver {python_version()} \n"
+           f"╰✠╼━━━━━━❖━━━━━━━✠╯ \n"
+    buttons = [
+        (
+            custom.Button.url("🧪𝗥𝗘𝗣𝗢",
+                "https://zee.gl/lynx404",
+            ),
+            custom.Button.url("𝗥𝗣𝗟 𝘃𝟭.𝗱🎖️",
+                "https://github.com/KENZO-404/Lynx-Userbot/blob/Lynx-Userbot/LICENSE",
+            ),
+        ),
+        (
+            custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ",
+                data="opener",
+            ),
+        ),
+    ]
+    return text, buttons
 
 def paginate_help(page_number, loaded_modules, prefix):
     number_of_rows = 5
@@ -569,6 +639,23 @@ with bot:
                 link_preview=False,
             )
 
+        @tgbot.on(
+            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
+                data=re.compile(rb"allive")
+            )
+        )
+        async def on_plug_in_callback_query_handler(event):
+            if event.query.user_id == uid:
+                _result = alive_inline()
+                await event.edit(_result[0], buttons=_result[1],
+                    link_preview=False,
+                    file=alivvlogo,
+                )
+            else:
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."              
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+
+            
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"helpme_next\((.+?)\)")
