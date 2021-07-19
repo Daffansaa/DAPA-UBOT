@@ -498,6 +498,8 @@ with bot:
                                         "t.me/DapaUbotInfo"),
                              Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
                                         "t.me/geezSupportGroup")],
+                             [Button.url("🎯𝗗𝗘𝗣𝗟𝗢𝗬🎯",
+                                        "https://zee.gl/DAPAUBOT")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
                                         "t.me/MadBoyys")],
                     ]
@@ -512,7 +514,7 @@ with bot:
                 ms = (end - start).microseconds / 1000
                 await tgbot.send_message(
                     event.chat_id,
-                    f"**NGENTOT!!**\n `{ms}ms`",
+                    f"**WOW EDAN!!**\n `{ms}ms`",
                 )
 
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
