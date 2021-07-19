@@ -601,7 +601,7 @@ with bot:
                     buttons=[
                         [
                             Button.url(f"{REPO_NAME}",
-                                       "t.me/DapaUbotInfo"),
+                                       "https://zee.gl/DAPAUBOT"),
                             Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
                                    f"{IG_ALIVE}")],
                         [Button.inline("OPEN PLUGINS AGAIN", data="nepo")],
