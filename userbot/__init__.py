@@ -388,107 +388,36 @@ with bot:
             "BOTLOG_CHATID environment variable isn't a "
             "valid entity. Check your environment variables/config.env file.")
         quit(1)
-        
-from git import Repo
 
-
-async def update_restart_msg(chat_id, msg_id):
-    DEFAULTUSER = ALIVE_NAME or "Set `ALIVE_NAME` ConfigVar!"
-    repo = Repo()
-    uname = platform.uname()
-    cpufreq = psutil.cpu_freq()
-    message = (
-           f"**╭─━━━━━━━━━━━━━━━━━━━━━─╮**\n"
-           f"**│ㅤㅤㅤ[⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡](t.me/LynxUserbot)**\n"
-           f"**│ ㅤis Back up and Running... 🐈**\n"
-           f"**╭─━━━━━━━━━━━━━━━━━━━━━─╯**\n"
-           f"**│** `OS       :` __Debian GNU/{uname.system} 10 {uname.machine}__\n"
-           f"**│** `Kernel   :` __{uname.release}__\n"
-           f"**│** `CPU      :` __Intel Xeon E5-2670 @ {cpufreq.current:.2f}Ghz__\n"
-           f"**│** `Branch   :` __{repo.active_branch.name}__\n"
-           f"**│** `Telethon :` __{version.__version__}__\n"
-           f"**│** `Python   :` __{python_version()}__\n"
-           f"**│** `User     :` __{DEFAULTUSER}__\n"
-           f"**╰━━━━━━━━━━━━━━━━━━━━━━─╯**\n"
-           f" Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License : Raphielscape Public License v1.d"
-        )
-    await bot.edit_message(chat_id, msg_id, message)
-    return True
-
-
-try:
-    from userbot.modules.sql_helper.globals import delgvar, gvarstatus
-
-    chat_id, msg_id = gvarstatus("restartstatus").split("\n")
-    try:
-        with bot:
-            bot.loop.run_until_complete(
-                update_restart_msg(
-                    int(chat_id), int(msg_id)))
-    except BaseException:
-        pass
-    delgvar("restartstatus")
-except AttributeError:
-    pass
-
-# ------------------------------ Global Variables --------------------------------- #
-
+# Global Variables
 COUNT_MSG = 0
 USERS = {}
 COUNT_PM = {}
 ENABLE_KILLME = True
 LASTMSG = {}
-lynx = bot
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
 ZALG_LIST = {}
+
+#Import Userbot - Ported by RAMADHANI892
+from userbot import (
+    ALIVE_NAME
+)
+
+# ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-
-# -------------------------------- InlineBot ------------------------------------- #
-
-def alive_inline():
-    repo = Repo()
-    uname = platform.uname()
-    cpufreq = psutil.cpu_freq()
-    text = f"`Robot` **is running on** `{repo.active_branch.name}`\
-            \n`====================================`\
-            \n💻 `OS          :` Debian GNU/{uname.system} 10 {uname.machine}\
-            \n💻 `Kernel      :` {uname.release}\
-            \n💻 `CPU         :` Intel Xeon E5-2670 @ {cpufreq.current:.2f}Ghz\
-            \n🐍 `Python      :` v. {python_version()}\
-            \n⚙️ `Telethon    :` v. {version.__version__}\
-            \n👨‍💻 `User        :` {DEFAULTUSER}\
-            \n`====================================`\
-            \n Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License: Raphielscape Public License v1.d"
-    buttons = [
-        (
-            custom.Button.url("🧪𝗥𝗘𝗣𝗢",
-                "https://zee.gl/lynx404",
-            ),
-            custom.Button.url("𝗥𝗣𝗟 𝘃𝟭.𝗱🎖️",
-                "https://github.com/KENZO-404/Lynx-Userbot/blob/Lynx-Userbot/LICENSE",
-            ),
-        ),
-        (
-            custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ",
-                data="opener",
-            ),
-        ),
-    ]
-    return text, buttons
-
+# ============================================
 
 def paginate_help(page_number, loaded_modules, prefix):
     number_of_rows = 5
     number_of_cols = 2
-    global unpage
-    unpage = page_number
+    global lockpage
+    lockpage = page_number
     helpable_modules = [p for p in loaded_modules if not p.startswith("_")]
     helpable_modules = sorted(helpable_modules)
     modules = [
-        custom.Button.inline("{} {} 」◑".format("◐「", x),
-                             data="ub_modul_{}".format(x))
+        custom.Button.inline("{} {} {} ".format(f"{EMOJI_HELP}", x, f"{EMOJI_HELP}"), data="ub_modul_{}".format(x))
         for x in helpable_modules
     ]
     pairs = list(zip(modules[::number_of_cols],
@@ -503,333 +432,144 @@ def paginate_help(page_number, loaded_modules, prefix):
         ] + [
             (
                 custom.Button.inline(
-                    "⋖╯Pʀᴇᴠ", data="{}_prev({})".format(prefix, modulo_page)
+                    "↩️", data="{}_prev({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "ʙᴀᴄᴋ", data="{}_back({})".format(prefix, modulo_page)
+                    f"{EMOJI_HELP} 𝗖𝗟𝗢𝗦𝗘 {EMOJI_HELP}", data="{}_close({})".format(prefix, modulo_page)
                 ),
                 custom.Button.inline(
-                    "Nᴇxᴛ╰⋗", data="{}_next({})".format(prefix, modulo_page)
+                    "↪️", data="{}_next({})".format(prefix, modulo_page)
                 )
             )
         ]
     return pairs
 
-# -----------------------------------------Reg--------------------------------------- >
 
-with lynx:
+with bot:
     try:
-        lynx.tgbot = tgbot = TelegramClient(
+        tgbot = TelegramClient(
             "TG_BOT_TOKEN",
             api_id=API_KEY,
-            api_hash=API_HASH,
-            connection=ConnectionTcpAbridged,
-            auto_reconnect=True,
-            connection_retries=None).start(
+            api_hash=API_HASH).start(
             bot_token=BOT_TOKEN)
 
-# -------------------------Flex------------------------------- >
         dugmeler = CMD_HELP
         me = bot.get_me()
         uid = me.id
 
-# ------------Replc--------------- >
 
+        @tgbot.on(
+            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
+                data=re.compile("open")
+            )
+        )
+        async def opeen(event):
+            try:
+                tgbotusername = BOT_USERNAME
+                if tgbotusername is not None:
+                    results = await event.client.inline_query(tgbotusername, "@Dapuserbot")
+                    await results[0].click(
+                        event.chat_id, reply_to=event.reply_to_msg_id, hide_via=True
+                    )
+                    await event.delete()
+                else:
+                    await event.edit(
+                        "`The bot doesn't work! Please set the Bot Token and Username correctly. The module has been stopped.`"
+                    )
+            except Exception:
+                return await event.edit(
+                    "`You cannot send inline results in this chat (caused by SendInlineBotResultRequest)`"
+                )
+
+
+        daplogo = HELP_LOGO
         plugins = CMD_HELP
+        vr = BOT_VER
 
-# --------------------------------- InlinePic -------------------------------------- #
-
-        L_PIC = str(INLINE_PICTURE)
-        if L_PIC:
-            lynxlogo = L_PIC
-        else:
-            lynxlogo = "resource/logo/LynxUserbot-Button.jpg"
-
-
-        IN_PIC = str(INLINE_LOGO)
-        if IN_PIC:
-            aliplogo = IN_PIC
-        else:
-            aliplogo = "https://telegra.ph/file/b6580efa28fdc144749d5.jpg"
-
-
-        AL_PIC = str(ALIVE_LOGO)
-        if AL_PIC:
-            alivvlogo = AL_PIC
-        else:
-            alivvlogo = ALIVE_LOGO
-
-# ======================================== Inline Handler ======================================== #
-
-        @lynx.tgbot.on(events.NewMessage(outgoing=True, pattern=r"/start"))
+        @tgbot.on(events.NewMessage(pattern="/start"))
         async def handler(event):
             if event.message.from_id != uid:
-                u = await event.client.get_entity(event.user_id)
+                u = await event.client.get_entity(event.chat_id)
                 await event.reply(
-                    f"Hai 👋 [{get_display_name(u)}](tg://user?id={u.id}) Selamat Datang di ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡\nJika Kalian Datang Kesini dan Ingin Mengetahui Lynx-Robot Lebih Lanjut,\nSilahkan Pilih **Menu Bantuan** Dibawah Ini.\n",
+                    f"WOI NGENTOT [{get_display_name(u)}](tg://user?id={u.id}) NGAPAIN LU DI\n**DAPA-UBOT**\nKALO MAU TAU LEBIH DETAIL MENDING LU KE\n**𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧** Dibawah Ini.\n",
                     buttons=[
                         [
-                            Button.url("📢 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 📢",
-                                       "t.me/FederationSuperGroup/3"),
-                            Button.url("🚨 𝗠𝗲𝗻𝘂-𝗕𝗮𝗻𝘁𝘂𝗮𝗻 🚨",
-                                       "https://telegra.ph/Bantuan-06-11")],
-                        [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                    "t.me/FederationSuperGroup/17")],
+                             Button.url(f"{EMOJI_HELP} 𝗖𝗵𝗮𝗻𝗻𝗲𝗹 {EMOJI_HELP}",
+                                        "t.me/DapaUbotInfo"),
+                             Button.url(f"{EMOJI_HELP} 𝗚𝗥𝗢𝗨𝗣 𝗦𝗨𝗣𝗣𝗢𝗥𝗧 {EMOJI_HELP}",
+                                        "t.me/geezSupportGroup")],
+                             [Button.url("🎯𝗗𝗘𝗣𝗟𝗢𝗬🎯",
+                                        "https://zee.gl/DAPAUBOT")],
+                             [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
+                                        "t.me/MadBoyys")],
                     ]
                 )
 
-        @lynx.tgbot.on(events.NewMessage(outgoing=True, pattern=r"/deploy"))
-        async def handler(event):
-            if event.message.from_id != uid:
-                await event.reply(
-                    f"⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Deploy to Heroku, Click Here 👇🏻",
-                    buttons=[
-                        [Button.url("⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️", "https://zee.gl/DeployToHeroku")],
-                        [Button.url("👥 𝗚𝗥𝗢𝗨𝗣 👥", "t.me/GroupTidakDiketahui")],
-                    ],
-                )
 
-        @lynx.tgbot.on(events.NewMessage(outgoing=True, pattern=r"/repo"))
-        async def handler(event):
-            if event.message.from_id != uid:
-                u = await event.client.get_entity(event.user_id)
-                await event.message.get_sender()
-                text = (
-                    f"Haii 😼 [{get_display_name(u)}](tg://user?id={u.id}) My Name is 𝗟𝘆𝗻𝘅 🐈\n"
-                    f"Lynx Used For Fun On Telegram✨,\n"
-                    f"and For Maintaining Your Group 🛠️.\n"
-                    f"I was **Created by :** @SyndicateTwenty4 For Various Userbots on Github.\n")
-                await lynx.tgbot.send_file(event.chat_id, file=lynxlogo,
-                                      caption=text,
-                                      buttons=[
-                                          [
-                                              custom.Button.url(
-                                                  text="🇮🇩 𝗥𝗲𝗽𝗼𝘀𝗶𝘁𝗼𝗿𝘆 🇮🇩",
-                                                  url="https://zee.gl/lynx404"
-                                              )
-                                          ]
-                                      ]
-                                      )
-
-        @lynx.tgbot.on(events.NewMessage(outgoing=True, pattern=r"/alive"))
-        async def handler(event):
-            if event.message.from_id != uid:
-                axel = await event.client.get_entity(event.user_id)
-                await event.message.get_sender()
-                repo = Repo()
-                uname = platform.uname()
-                cpufreq = psutil.cpu_freq()
-                text = (
-                    f"`Robot` **is running on** `{repo.active_branch.name}`\n"
-                    "`====================================`\n"
-                    f"💻 `OS          :` Debian GNU/{uname.system} 10 {uname.machine}\n"
-                    f"💻 `Kernel      :` {uname.release}\n"
-                    f"💻 `CPU         :` Intel Xeon E5-2670 @ {cpufreq.current:.2f}Ghz\n"
-                    f"🐍 `Python      :` v. {python_version()}\n"
-                    f"⚙️ `Telethon    :` v. {version.__version__}\n"
-                    f"👨‍💻 `User        :` [{get_display_name(u)}](tg://user?id={u.id})\n"
-                    "`====================================`\n"
-                    f" Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License: Raphielscape Public License v1.d")
-                await lynx.tgbot.send_file(event.chat_id, file=alivvlogo,
-                                           caption=text,
-                                           buttons=[
-                                               [
-                                                   Button.url("🧪𝗥𝗘𝗣𝗢",
-                                                              "https://zee.gl/lynx404"),
-                                                   Button.url("𝗥𝗣𝗟 𝘃𝟭.𝗱🎖️",
-                                                              "https://github.com/KENZO-404/Lynx-Userbot/blob/Lynx-Userbot/LICENSE")],
-                                           ]
-                                           )
-
-        @lynx.tgbot.on(events.ChatAction)
-        async def handler(event):
-            if event.user_joined:
-                u = await event.client.get_entity(event.chat_id)
-                c = await event.client.get_entity(event.user_id)
-                await event.reply(f"```Welcome to the``` [{get_display_name(u)}](tg://user?id={u.id})\n👤**User:** [{get_display_name(c)}](tg://user?id={c.id})")
-
-        @lynx.tgbot.on(events.NewMessage(outgoing=True, pattern=r"/ping"))
+        @tgbot.on(events.NewMessage(pattern="/ping"))
         async def handler(event):
             if event.message.from_id != uid:
                 start = datetime.now()
                 end = datetime.now()
                 ms = (end - start).microseconds / 1000
-                await lynx.tgbot.send_message(
+                await tgbot.send_message(
                     event.chat_id,
-                    f"**PONG !!**\n `{ms}ms`",
+                    f"**WOW EDAN!!**\n `{ms}ms`",
                 )
 
-        @lynx.tgbot.on(events.InlineQuery)  # pylint:disable=E0602
+        @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
             builder = event.builder
             result = None
             query = event.text
-            if event.query.user_id == uid and query.startswith("@LynxRobot"):
-                buttons = [
-                    (Button.inline("Open Main Menu", data="mainmenu"),),
-                ]
-                photo_bytesio = lynxlogo
-                result = builder.photo(photo_bytesio,
-                    link_preview=False,
-                    text=f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n** Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License: Raphielscape Public License v1.d**",
-                    buttons=buttons,
-                )
-            elif query.startswith("tb_btn"):
-                result = builder.article(
-                    "Bantuan Dari ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
-                    text="Daftar Plugins",
-                    buttons=[],
-                    link_preview=False)
-            else:
-                result = builder.article(
-                    " ╔╡⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗ ",
-                    text="""**Anda Bisa Membuat ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
-                    buttons=[
-                        [
-                            custom.Button.url(
-                                "⚡𝗟𝘆𝗻𝘅⚡",
-                                "https://zee.gl/lynx404"),
-                            custom.Button.url(
-                                "Dᴇᴠᴇʟᴏᴘᴇʀ",
-                                "t.me/FederationSuperGroup/17")],
-                        [custom.Button.url(
-                             "⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️",
-                             "https://zee.gl/DeployToHeroku")]],
-                    link_preview=True,
-                )
-            await event.answer([result] if result else None)
-
-        @lynx.tgbot.on(events.InlineQuery)  # pylint:disable=E0602
-        async def inline_handler(event):
-            builder = event.builder
-            result = None
-            query = event.text
-            if event.query.user_id == uid and query.startswith("@LynxAliveRobot"):
-                _result = alive_inline()
-                photo_bytesio = alivvlogo
-                result = builder.photo(photo_bytesio,
-                    link_preview=False,
-                    text=_result[0],
-                    buttons=_result[1],
-                )
-            elif query.startswith("tb_btn"):
-                result = builder.article(
-                    "Bantuan Dari ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ ",
-                    text="Daftar Plugins",
-                    buttons=[],
-                    link_preview=False)
-            else:
-                result = builder.photo(
-                    " ╔╡⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡╞╗ ",
-                    text="""**Anda Bisa Membuat ⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡ Anda Sendiri\nDengan Cara :**__Tekan Dibawah Ini__ 👇""",
-                    buttons=[
-                        [
-                            custom.Button.url(
-                                "⚡𝗟𝘆𝗻𝘅⚡",
-                                "https://zee.gl/lynx404"),
-                            custom.Button.url(
-                                "Dᴇᴠᴇʟᴏᴘᴇʀ",
-                                "t.me/FederationSuperGroup/17")],
-                        [custom.Button.url(
-                             "⚒️ 𝗗𝗘𝗣𝗟𝗢𝗬 ⚒️",
-                             "https://zee.gl/DeployToHeroku")]],
-                    link_preview=True,
-                )
-            await event.answer([result] if result else None)
-
-
-        @lynx.tgbot.on(
-            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"mainmenu")
-            )
-        )
-        async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:
+            if event.query.user_id == uid and query.startswith("@Dapuserbot"):
                 buttons = paginate_help(0, dugmeler, "helpme")
-                text = f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.{BOT_VER}`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n **Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License: Raphielscape Public License v1.d**"
-                await event.edit(text,
-                    file=lynxlogo,
+                result = builder.photo(
+                    file=daplogo,
+                    link_preview=False,
+                    text=f"{REPO_NAME}\n\n𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}\n\n🐯 𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 : `7.0`\n🐯 𝗠𝗢𝗗𝗨𝗟𝗘𝗦 : `{len(plugins)}`\n\n🔥 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : [{DEFAULTUSER}]({OWNER_BOT}) ".format(
+                        len(dugmeler),
+                    ),
                     buttons=buttons,
-                    link_preview=False,
                 )
+            elif query.startswith("tb_btn"):
+                result = builder.article(
+                    f"Bantuan Dari {REPO_NAME} ",
+                    text="Daftar Plugins",
+                    buttons=[],
+                    link_preview=True)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-
-        @lynx.tgbot.on(
-            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"opener")
-            )
-        )
-        async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:
-                current_page_number = int(unpage)
-                buttons = paginate_help(current_page_number, plugins, "helpme")
-                text = f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.{BOT_VER}`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n **Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\n License: Raphielscape Public License v1.d**"
-                await event.edit(text,
-                    file=lynxlogo,
-                    buttons=buttons,
-                    link_preview=False,
-                )
-            else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-
-        @lynx.tgbot.on(
-            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"close")
-            )
-        )
-        async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:
-                buttons = [
-                    (custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ", data="opener"),),
-                ]
-                await event.edit(f"🕹 **<--- • Menu Has Closed • --->** 🕹", file=lynxlogo, buttons=buttons)
-            else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
-
-        @lynx.tgbot.on(
-            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"settings")
-            )
-        )
-        async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # Lynx-Settings
-                await event.edit(
-                    file=lynxlogo,
-                    link_preview=False,
+                result = builder.article(
+                    f" ━━━━━━━❖━━━━━━━━\n       {REPO_NAME}\n━━━━━━━❖━━━━━━━━ ",
+                    text=f"""**━━━━━━━❖━━━━━━━━\nLU BIKIN \n{REPO_NAME}\nSENDIRI DONG NGENTOT!!\n━━━━━━━❖━━━━━━━━\nNIH CARANYA:**__TEKEN DIBAWAH INI NGENTOT!__ 👇""",
                     buttons=[
                         [
-                            custom.Button.inline("ᴀʟɪᴠᴇ", data="allive")
-                        ],
-                        [
-                            custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ", data="opener")
-                        ],
-                    ]
+                            custom.Button.url(
+                                f"{REPO_NAME}",
+                                "https://zee.gl/DAPAUBOT"),
+                            custom.Button.url(
+                                "Daffansaa",
+                                f"{OWNER_BOT}")] 
+                    ],
+                    link_preview=False,
                 )
-            else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+            await event.answer([result] if result else None)
 
-        @lynx.tgbot.on(
-            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"allive")
+        @tgbot.on(
+             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
+                 data=re.compile(rb"nepo")
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:
-                _result = alive_inline()
-                await event.edit(_result[0], buttons=_result[1],
-                    link_preview=False,
-                    file=alivvlogo,
-                )
-            else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+            current_page_number = int(lockpage)
+            buttons = paginate_help(current_page_number, plugins, "helpme")
+            await event.edit(
+                file=daplogo,
+                buttons=buttons,
+                link_preview=False,
+            )
 
-        @lynx.tgbot.on(
+        @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"helpme_next\((.+?)\)")
             )
@@ -843,36 +583,34 @@ with lynx:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
-        @lynx.tgbot.on(
+
+        @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"helpme_back\((.+?)\)")
+                data=re.compile(rb"helpme_close\((.+?)\)")
             )
         )
         async def on_plug_in_callback_query_handler(event):
-            if event.query.user_id == uid:  # Lynx-Openeer
+            if event.query.user_id == uid:  # @Ram-ubot
                 # https://t.me/TelethonChat/115200
                 await event.edit(
-                    file=lynxlogo,
+                    file=daplogo,
                     link_preview=True,
                     buttons=[
                         [
-                            custom.Button.url("⚡𝗟𝘆𝗻𝘅-𝙐𝙎𝙀𝙍𝘽𝙊𝙏⚡",
-                                       "t.me/LynxUserbot"),
-                            custom.Button.url("[⊙] 𝗠𝘆 𝗜𝗻𝘀𝘁𝗮𝗴𝗿𝗮𝗺",
-                                       f"{INSTAGRAM_ALIVE}")],
-                        [custom.Button.inline("⚙️ ꜱᴇᴛᴛɪɴɢꜱ ⚙️", data="settings")],
-                        [custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ ᴀɢᴀɪɴ", data="opener")],
-                        [custom.Button.inline("ᴄʟᴏꜱᴇ", data="close")],
-                    ]
+                            Button.url(f"{REPO_NAME}",
+                                       "https://zee.gl/DAPAUBOT"),
+                            Button.url(f"{EMOJI_HELP} INSTAGRAM {EMOJI_HELP} ",
+                                   f"{IG_ALIVE}")],
+                        [Button.inline("OPEN PLUGINS AGAIN", data="nepo")],
+                        [Button.inline("𝗘𝗫𝗜𝗧", data="close")],
+                       ]
                 )
-            else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
-                await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
-        @lynx.tgbot.on(
+
+        @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"helpme_prev\((.+?)\)")
             )
@@ -887,12 +625,13 @@ with lynx:
                 # https://t.me/TelethonChat/115200
                 await event.edit(buttons=buttons)
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
-        @lynx.tgbot.on(
+
+        @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(b"ub_modul_(.*)")
+                data=re.compile(rb"ub_modul_(.*)")
             )
         )
         async def on_plug_in_callback_query_handler(event):
@@ -902,8 +641,7 @@ with lynx:
                 cmdhel = str(CMD_HELP[modul_name])
                 if len(cmdhel) > 150:
                     help_string = (
-                        str(CMD_HELP[modul_name]).replace(
-                            '`', '')[:150] + "..."
+                        str(CMD_HELP[modul_name]).replace('`', '')[:150] + "..."
                         + "\n\nBaca Text Berikutnya Ketik .help "
                         + modul_name
                         + " "
@@ -914,12 +652,28 @@ with lynx:
                 reply_pop_up_alert = (
                     help_string
                     if help_string is not None
-                    else "{} Tidak Ada Document Yang Tertulis Untuk Plugin".format(
+                    else "{} No document has been written for module.".format(
                         modul_name
                     )
                 )
             else:
-                reply_pop_up_alert = f"🚫!WARNING!🚫\nJangan Menggunakan Milik {DEFAULTUSER}."
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+
+            await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
+
+        @tgbot.on(
+            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
+                data=re.compile(rb"close")
+            )
+        )
+        async def on_plug_in_callback_query_handler(event):
+            if event.query.user_id == uid:
+                buttons = [
+                    (custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ", data="nepo"),),
+                ]
+                await event.edit(f"Menu Ditutup Ya Ngentot!", buttons=buttons)
+            else:
+                reply_pop_up_alert =  f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
                         
 
