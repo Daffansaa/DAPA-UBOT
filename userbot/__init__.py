@@ -453,10 +453,7 @@ def alive_inline():
     repo = Repo()
     uname = platform.uname()
     cpufreq = psutil.cpu_freq()
-    text = f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
-           f"**     ✨𝗗𝗔𝗣𝗔 - 𝗨𝗕𝗢𝗧✨** \n"
-           f"**✠╼━━━━━━❖━━━━━━━✠** \n"
-           f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
+    text = f"╭✠╼━━━━━━❖━━━━━━━✠╮ \n"
            f"┣|• `🤴 Majikan  :`{DEFAULTUSER} \n"
            f"┣|• `💳 Username :`@{user.username} \n"
            f"┣|• `👺 Telethon :`Ver {version.__version__} \n"
