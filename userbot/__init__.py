@@ -662,9 +662,19 @@ with bot:
             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
         @tgbot.on(events.CallbackQuery(data=b"close"))
-        async def close(event):
-            await event.edit("Menu Ditutup Ya Ngentot!", buttons=Button.clear())
-
+            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
+               data=re.compile(rb"close")
+            )
+        )
+        async def on_plug_in_callback_query_handler(event):
+            if event.query.user_id == uid:
+                buttons = [
+                    (custom.Button.inline("ᴏᴘᴇɴ ᴍᴇɴᴜ", data="opener"),),
+                ]
+                await event.edit("Menu Ditutup Ya Ngentot!", buttons=Button.clear())
+            else:
+                reply_pop_up_alert = f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+             await event.answer(reply_pop_up_alert, cache_time=0, alert=True)                         
 
     except BaseException:
         LOGS.info(
