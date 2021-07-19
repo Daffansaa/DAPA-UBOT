@@ -544,7 +544,7 @@ with bot:
                         [
                             custom.Button.url(
                                 f"{REPO_NAME}",
-                                "https://github.com/Daffansaa/DAPA-UBOT"),
+                                "https://zee.gl/DAPAUBOT"),
                             custom.Button.url(
                                 "Daffansaa",
                                 f"{OWNER_BOT}")] 
