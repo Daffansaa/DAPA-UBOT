@@ -517,6 +517,27 @@ with bot:
                     f"**WOW EDAN!!**\n `{ms}ms`",
                 )
 
+                
+
+        @tgbot.on(
+            events.callbackquery.CallbackQuery(  # pylint:disable=E0602
+                data=re.compile(rb"mainmenu")
+            )
+        )
+        async def on_plug_in_callback_query_handler(event):
+            if event.query.user_id == uid:
+                buttons = paginate_help(0, dugmeler, "helpme")
+                text = f"\n**Bᴏᴛ ᴏꜰ {DEFAULTUSER}**\n\n◎› **Bᴏᴛ ᴠᴇʀ :** `v.{BOT_VER}`\n◎› **Pʟᴜɢɪɴꜱ :** `{len(plugins)}`\n\n**Kalo Lu Mau Liat Plugins Klik Aja Button Nya YA Ngentot**"
+                await event.edit(text,
+                    file=daplogo,
+                    buttons=buttons,
+                    link_preview=False,
+                )
+            else:
+                reply_pop_up_alert =  f"WOI NGENTOT!! JANGAN PAKE PUNYA {DEFAULTUSER} DONG BABI."
+                await event.answer(reply_pop_up_alert, cache_time=0, alert=True                
+
+                
         @tgbot.on(events.InlineQuery)  # pylint:disable=E0602
         async def inline_handler(event):
             builder = event.builder
