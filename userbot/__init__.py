@@ -524,7 +524,7 @@ with bot:
             query = event.text
             if event.query.user_id == uid and query.startswith("@Dapuserbot"):
                 buttons = [
-                    (Button.inline("Open Main Menu", data="mainmenu"),),
+                    (Button.inline("𝗢𝗣𝗘𝗡 𝗣𝗟𝗨𝗚𝗜𝗡𝗦", data="mainmenu"),),
                 ]
                 photo_bytesio = daplogo
                 result = builder.photo(photo_bytesio,
