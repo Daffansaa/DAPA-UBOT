@@ -523,14 +523,14 @@ with bot:
             result = None
             query = event.text
             if event.query.user_id == uid and query.startswith("@Dapuserbot"):
-                buttons = paginate_help(0, dugmeler, "helpme")
-                result = builder.photo(
-                    file=daplogo,
+                buttons = [
+                    (Button.inline("Open Main Menu", data="mainmenu"),),
+                ]
+                photo_bytesio = daplogo
+                result = builder.photo(photo_bytesio,
                     link_preview=False,
-                    text=f"{REPO_NAME}\n\n𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}\n\n🐯 𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 : `7.0`\n🐯 𝗠𝗢𝗗𝗨𝗟𝗘𝗦 : `{len(plugins)}`\n\n🔥 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : [{DEFAULTUSER}]({OWNER_BOT}) ".format(
-                        len(dugmeler),
-                    ),
-                    buttons=buttons,
+                    text=f"**Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\nLicense: Raphielscape Public License v1.d**",
+                    buttons=buttons
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
