@@ -530,7 +530,7 @@ with bot:
                 result = builder.photo(photo_bytesio,
                     link_preview=False,
                     text=f"**Copyright © 𝟤𝟢𝟤𝟣 Lynx-Userbot\nLicense: Raphielscape Public License v1.d**",
-                    buttons=buttons
+                    buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
                 result = builder.article(
