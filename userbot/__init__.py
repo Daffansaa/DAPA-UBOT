@@ -551,7 +551,7 @@ with bot:
                                 "Daffansaa",
                                 f"{OWNER_BOT}")] 
                     ],
-                    link_preview=True)
+                    link_preview=True,
                 )
             await event.answer([result] if result else None)
 
