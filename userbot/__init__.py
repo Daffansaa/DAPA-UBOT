@@ -524,7 +524,7 @@ with bot:
             query = event.text
             if event.query.user_id == uid and query.startswith("@Dapuserbot"):
                 buttons = [
-                    (Button.inline("𝗢𝗣𝗘𝗡 𝗣𝗟𝗨𝗚𝗜𝗡𝗦", data="mainmenu"),),
+                    (Button.inline("𝗢𝗣𝗘𝗡 𝗣𝗟𝗨𝗚𝗜𝗡𝗦", data="openplugins"),),
                 ]
                 photo_bytesio = daplogo
                 result = builder.photo(photo_bytesio,
@@ -557,7 +557,7 @@ with bot:
 
         @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
-                data=re.compile(rb"mainmenu")
+                data=re.compile(rb"openplugins")
             )
         )
         async def on_plug_in_callback_query_handler(event):
