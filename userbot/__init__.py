@@ -528,8 +528,8 @@ with bot:
                 ]
                 photo_bytesio = daplogo
                 result = builder.photo(photo_bytesio,
-                    link_preview=False,
                     text=f"{REPO_NAME}\n\n𝗣𝗘𝗠𝗜𝗟𝗜𝗞 𝗕𝗢𝗧 : {DEFAULTUSER}\n\n🐯 𝗩𝗘𝗥𝗦𝗜 𝗕𝗢𝗧 : `7.0`\n🐯 𝗠𝗢𝗗𝗨𝗟𝗘𝗦 : `{len(plugins)}`\n\n🔥 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 : [{DEFAULTUSER}]({OWNER_BOT}) ",
+                    link_preview=True)                   
                     buttons=buttons,
                 )
             elif query.startswith("tb_btn"):
@@ -551,7 +551,7 @@ with bot:
                                 "Daffansaa",
                                 f"{OWNER_BOT}")] 
                     ],
-                    link_preview=True,
+                    link_preview=True)
                 )
             await event.answer([result] if result else None)
 
