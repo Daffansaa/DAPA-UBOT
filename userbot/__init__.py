@@ -587,7 +587,7 @@ with bot:
                 link_preview=False,
             )
 
-       @tgbot.on(
+        @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"helpme_next\((.+?)\)")
             )
