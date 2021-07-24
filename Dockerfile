@@ -1,8 +1,6 @@
 # Using Python Slim-Buster
-FROM xluxz/geezproject:buster
-# ramubot minta wkwk
-# Geez-UserBot
-#
+FROM daffansaa/docks:buster
+
 RUN git clone -b DAPA-UBOT https://github.com/Daffansaa/DAPA-UBOT /root/userbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
