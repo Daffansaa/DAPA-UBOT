@@ -555,7 +555,7 @@ with bot:
                 )
             await event.answer([result] if result else None)
 
-        @tgbot.on(
+       @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"openplugins")
             )
@@ -587,7 +587,7 @@ with bot:
                 link_preview=False,
             )
 
-        @tgbot.on(
+       @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"helpme_next\((.+?)\)")
             )
@@ -605,7 +605,7 @@ with bot:
                 await event.answer(reply_pop_up_alert, cache_time=0, alert=True)
 
 
-        @tgbot.on(
+       @tgbot.on(
             events.callbackquery.CallbackQuery(  # pylint:disable=E0602
                 data=re.compile(rb"helpme_close\((.+?)\)")
             )
