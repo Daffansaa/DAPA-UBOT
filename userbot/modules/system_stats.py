@@ -222,7 +222,7 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`Perkenalan diri...`")
+    await alive.edit("`introducing yourself...`")
     await asyncio.sleep(1)
     await alive.edit("⭐")
     await asyncio.sleep(3)
@@ -306,9 +306,9 @@ async def amireallyalive(alive):
 async def amireallyalive(alive):
     user = await bot.get_me()
     await get_readable_time((time.time() - StartTime))
-    await alive.edit("`Perkenalan diri...⭐`")
+    await alive.edit("`introduce yourself..⭐`")
     await asyncio.sleep(1)
-    await alive.edit("✨")
+    await alive.edit("🔥")
     await asyncio.sleep(3)
     output = (
         f"**✠╼━━━━━━❖━━━━━━━✠ ** \n"
