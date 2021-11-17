@@ -15,17 +15,16 @@ async def typewriter(typew):
 # Create by myself @localheart
 
 
-@register(outgoing=True, pattern='^.punten(?: |$)(.*)')
+@register(outgoing=True, pattern='^.abisha(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("`\n┻┳|―-∩`"
-                     "`\n┳┻|     ヽ`"
-                     "`\n┻┳|    ● |`"
-                     "`\n┳┻|▼) _ノ`"
-                     "`\n┻┳|￣  )`"
-                     "`\n┳ﾐ(￣ ／`"
-                     "`\n┻┳T￣|`"
-                     "\n**Permisi Aku mau nimbrung Kk..**")
+    await typew.edit("**A**")
+    sleep(1)
+    await typew.edit("**BI**")
+    sleep(1)
+    await typew.edit("**SHA**")
+    sleep(2)
+    await typew.edit("**ABISHA GANTENG BANGET HEHE**")
 
 
 @register(outgoing=True, pattern='^.404(?: |$)(.*)')
