@@ -62,34 +62,116 @@ async def _(Dapa):
     await Dapa.reply(random.choice(tes))
 
 
-@register(outgoing=True, pattern="^.ping$")
-@register(incoming=True, from_users=1655517185, pattern=r"^\.cping$")
+@register(outgoing=True, pattern="^Sping$")
+async def redis(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("__Sabar.__")
+    await pong.edit("__Sabar..__")
+    await pong.edit("__Sabar...__")
+    await pong.edit("__Sabar....__")
+    await pong.edit("__Bentar.__")
+    await pong.edit("__Bentar..__")
+    await pong.edit("__Bentar...__")
+    await pong.edit("__Bentar....__")
+    await pong.edit("__Nah!!__")
+    await pong.edit("💫")
+    await asyncio.sleep(3)
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**╭━━━━━━━━━━━━━━━━━╮** \n"
+                    f"**       🐯 𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧 🐯** \n"
+                    f"**  ✠╼━━━━━━❖━━━━━━━✠** \n"
+                    f"**        • sɪɢɴᴀʟ  :** `%sms` \n"
+                    f"**        • ᴏᴡɴᴇʀ   :** `{ALIVE_NAME}` \n"
+                    f"**        • ʙᴏᴛ ᴠᴇʀ  :** `7.0` \n"
+                    f"**╰━━━━━━━━━━━━━━━━━╯** \n" % (duration))
+
+
+@register(outgoing=True, pattern="^Lping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
     start = datetime.now()
-    await pong.edit("Assalamualaikum..")
+    await pong.edit("`Sabar Ngentot...`")
+    await asyncio.sleep(2)
+    await pong.edit("😈")
+    await asyncio.sleep(3)
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**`{ALIVE_NAME}`**\n"
+                    f"✧ **-ꜱɪɢɴᴀʟ- :** "
+                    f"`%sms` \n"
+                    f"✧ **-ᴜᴘᴛɪᴍᴇ- :** "
+                    f"`{uptime}` \n" % (duration))
+
+
+@register(outgoing=True, pattern="^Xping$")
+async def redis(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("__Mohon menunggu.__")
+    await pong.edit("__Mohon menunggu..__")
+    await pong.edit("__Mohon menunggu...__")
+    await pong.edit("__Mohon menunggu.__")
+    await pong.edit("__Mohon menunggu..__")
+    await pong.edit("__Mohon menunggu...__")
+    await pong.edit("__Mohon menunggu.__")
+    await pong.edit("__Mohon menunggu..__")
+    await pong.edit("__Mohon menunggu...__")
+    await pong.edit("💀")
+    await asyncio.sleep(2)
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"╭✠╼━━━━━━❖━━━━━━━✠╮\n"
+                    f"┣[•**PONG!!**\n"
+                    f"┣[•__Signal__    __:__ "
+                    f"`%sms` \n"
+                    f"┣[•__Uptime__ __:__ "
+                    f"`{uptime}` \n"
+                    f"╰✠╼━━━━━━❖━━━━━━━✠╯\n" % (duration))
+
+
+@register(outgoing=True, pattern="^Ping$")
+async def redis(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("__Ping.__")
+    await pong.edit("__Pong..__")
+    await pong.edit("__Ping...__")
+    await pong.edit("__Pong....__")
+    await pong.edit("__Ping.__")
+    await pong.edit("__Pong..__")
+    await pong.edit("__Ping...__")
+    await pong.edit("__Pong....__")
+    await pong.edit("🔥")
+    await asyncio.sleep(2)
+    end = datetime.now()
+    duration = (end - start).microseconds / 1000
+    await pong.edit(f"**╭✠╼━━━━━━❖━━━━━━━✠╮**\n"
+                    f"**       🔥𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧🔥**\n"
+                    f"**╰✠╼━━━━━━❖━━━━━━━✠╯**\n"
+                    f"** •  Sɪɢɴᴀʟ   :** "
+                    f"`%sms` \n"
+                    f"** •  Uᴘᴛɪᴍᴇ  :** "
+                    f"`{uptime}` \n"
+                    f"** •  Oᴡɴᴇʀ   :** `{ALIVE_NAME}` \n" 
+                    f"** •  ʙᴏᴛ ᴠᴇʀ  :** `7.0` \n" % (duration))
+
+
+@register(outgoing=True, pattern="^.ping$")
+async def redis(pong):
+    """ For .ping command, ping the userbot from any chat.  """
+    uptime = await get_readable_time((time.time() - StartTime))
+    start = datetime.now()
+    await pong.edit("NGENTOT!")
     await asyncio.sleep(1)
     end = datetime.now()
     duration = (end - start).microseconds / 1000
     await pong.edit(f"**KONTOOLLLL!!**\n**KEKUATAN KONTOL** : `%sms`\n**DURASI KONTOL** : `{uptime}🕛`" % (duration))
-
-
-@register(outgoing=True, pattern="^Ping$")
-@register(incoming=True, from_users=1655517185, pattern=r"^\.cpi$")
-async def redis(pong):
-    """ For .ping command, ping the userbot from any chat.  """
-    uptime = await get_readable_time((time.time() - StartTime))
-    start = datetime.now()
-    await pong.edit("PONG!!")
-    await asyncio.sleep(2)
-    await pong.edit(f"{REPO_NAME}")
-    await asyncio.sleep(3)
-    end = datetime.now()
-    duration = (end - start).microseconds / 1000
-    await pong.edit(f"{REPO_NAME}!!\n"
-                    f"OWNER : {ALIVE_NAME}\n `%sms`\n"
-                    f"`{uptime}` \n" % (duration))
 
 
 @register(outgoing=True, pattern="^Speed$")
@@ -116,7 +198,7 @@ async def speedtst(spd):
                    f"`{result['ping']}` \n"
                    "✧ **ISP:** "
                    f"`{result['client']['isp']}` \n"
-                   f"✧ **BOT:** {REPO_NAME}")
+                   "✧ **BOT:** 🐯𝗗𝗔𝗣𝗔-𝗨𝗕𝗢𝗧🐯")
 
 
 def speed_convert(size):
@@ -146,7 +228,7 @@ async def pingme(pong):
 
 
 CMD_HELP.update({
-    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `.ping` or `.pings`\
+    "ping": "𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Ping` | `Lping` | `Xping` | `.ping` | `Sping`\
          \n↳ : Untuk Menunjukkan Ping Bot Anda.\
          \n\n𝘾𝙤𝙢𝙢𝙖𝙣𝙙: `Speed`\
          \n↳ : Untuk Menunjukkan Kecepatan Jaringan Anda.\
