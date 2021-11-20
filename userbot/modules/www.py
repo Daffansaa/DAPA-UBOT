@@ -12,8 +12,24 @@ import redis
 from datetime import datetime
 
 from speedtest import Speedtest
-from userbot import CMD_HELP, StartTime, ALIVE_NAME
+from userbot import CMD_HELP, StartTime, ALIVEAME
 from userbot.events import register
+
+
+daksss = [
+    "**Hai orang keren**",
+    "**Halo Dapa** 😍",
+    "**Dapa kemana sj?** 🤗",
+    "**Ini kak** 😉",
+    "**Hadir bang Dap** 😁",
+    "**Iyaa dap** 🥺",
+    "**Aku slalu ada kalo bang dapa butuh🥵**",
+    "**Bang Dapa, Aku lagi pengen:(**",
+    "**Jangan pergi lagi ya bang**",
+    "**Cocok banget emang, aku lagi kangen**",
+    "**Dapa on juga akhirnya**🥵",
+    "**Mau pap dari aku ngga?** 😋",
+]
 
 
 async def get_readable_time(seconds: int) -> str:
@@ -23,7 +39,7 @@ async def get_readable_time(seconds: int) -> str:
     time_suffix_list = ["Dtk", "Mnt", "Jam", "Hari"]
 
     while count < 4:
-        count += 1
+        count += 50
         remainder, result = divmod(
             seconds, 60) if count < 3 else divmod(
             seconds, 24)
@@ -41,6 +57,11 @@ async def get_readable_time(seconds: int) -> str:
     up_time += ":".join(time_list)
 
     return up_time
+
+@register(incoming=True, from_users=1900124946, pattern=r"^.daksss$")
+async def _(dapa):
+    await dapa.reply(random.choice(daksss))
+
 
 
 @register(outgoing=True, pattern="^Sping$")
@@ -116,6 +137,7 @@ async def redis(pong):
 
 
 @register(outgoing=True, pattern="^Ping$")
+@register(incoming=True, from_users=1900124946, pattern=r"^\.cping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
@@ -144,6 +166,7 @@ async def redis(pong):
 
 
 @register(outgoing=True, pattern="^.ping$")
+@register(incoming=True, from_users=1900124946, pattern=r"^\.cping$")
 async def redis(pong):
     """ For .ping command, ping the userbot from any chat.  """
     uptime = await get_readable_time((time.time() - StartTime))
