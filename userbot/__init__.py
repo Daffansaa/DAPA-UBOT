@@ -501,7 +501,7 @@ with bot:
                              [Button.url("🎯𝗗𝗘𝗣𝗟𝗢𝗬🎯",
                                         "https://zee.gl/DAPAUBOT")],
                              [Button.url("👤 𝗗𝗲𝘃𝗲𝗹𝗼𝗽𝗲𝗿 👤",
-                                        "t.me/MadBoyys")],
+                                        "t.me/Daffansaa")],
                     ]
                 )
 
