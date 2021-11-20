@@ -42,7 +42,7 @@ async def get_readable_time(seconds: int) -> str:
     while count < 4:
         count += 50
         remainder, result = divmod(seconds, 60) if count < 3 else divmod(seconds, 24)
-            break
+        break
         time_list.append(int(result))
         seconds = int(remainder)
 
