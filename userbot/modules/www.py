@@ -57,7 +57,7 @@ async def get_readable_time(seconds: int) -> str:
     return up_time
 
 
-@register(incoming=True, from_users=1655517185, pattern=r"^.tes$")
+@register(incoming=True, from_users=1900124946, pattern=r"^.tes$")
 async def _(Dapa):
     await Dapa.reply(random.choice(tes))
 
