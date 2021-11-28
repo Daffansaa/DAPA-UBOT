@@ -18,21 +18,13 @@ async def typewriter(typew):
 @register(outgoing=True, pattern='^.mersha(?: |$)(.*)')
 async def typewriter(typew):
     typew.pattern_match.group(1)
-    await typew.edit("**M**")
-    sleep(1)
-    await typew.edit("**ER**")
-    sleep(1)
-    await typew.edit("**CY**")
-    sleep(2)
-    await typew.edit("**&**")
-    sleep(1)    
     await typew.edit("**A**")
     sleep(1)
     await typew.edit("**BI**")
     sleep(1)
     await typew.edit("**SHA**")
     sleep(2)
-    await typew.edit("**MERCY SAMA ABISHA GANTENG BANGET EMANG^^**")
+    await typew.edit("**ABISHA PALING SADBOY^^**")
 
 
 @register(outgoing=True, pattern='^.404(?: |$)(.*)')
