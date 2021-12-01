@@ -1,8 +1,6 @@
 # Thanks Full To Team Ultroid
-# Ported By Vcky @VckyouuBitch
-# Copyright (c) 2021 Geez - Projects
-# Geez - Projects https://github.com/Vckyou/Geez-UserBot
-# Ini Belum Ke Fix Ya Bg :')
+# Ported By Vcky @Daffansaa
+# Copyright (c) 2021 DAPA - UBOT
 
 from telethon.tl.functions.channels import GetFullChannelRequest as getchat
 from telethon.tl.functions.phone import CreateGroupCallRequest as startvc
@@ -49,6 +47,7 @@ async def _(e):
     chat = await e.get_chat()
     admin = chat.admin_rights
     creator = chat.creator
+
     if not admin and not creator:
         return await e.edit(NO_ADMIN)
     new_rights = ChatAdminRights(invite_users=True)
