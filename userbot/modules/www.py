@@ -17,18 +17,17 @@ from userbot import ALIVE_NAME, CMD_HELP, StartTime, REPO_NAME
 from userbot.events import register
 
 tes = [
-    "**Hai orang keren**",
-    "**Halo Dapa** 😍",
-    "**Dapa kemana sj?** 🤗",
-    "**Ini kak** 😉",
-    "**Hadir bang Dap** 😁",
-    "**Iyaa dap** 🥺",
-    "**Aku slalu ada kalo bang dapa butuh🥵**",
-    "**Bang Dapa, Aku lagi pengen:(**",
-    "**Jangan pergi lagi ya bang**",
-    "**Cocok banget emang, aku lagi kangen**",
-    "**Dapa on juga akhirnya**🥵",
-    "**Mau pap dari aku ngga?** 😋",
+    "**hai orang ganteng**",
+    "**halo Dapa** 😍",
+    "**hai bang dap** 🤗",
+    "**bang Dap lagi ange ya?** 😁",
+    "**bang dap ange ga?** 🥺",
+    "**aku ange bang dap🥵**",
+    "**bang Dapa, Aku lagi pengen:(**",
+    "**jangan pergi lagi ya bang**",
+    "**cocok banget emang, aku lagi ange**",
+    "**dapa on juga akhirnya**🥵",
+    "**mau pap tt dari aku ngga?** 😋",
 ]
 
 
