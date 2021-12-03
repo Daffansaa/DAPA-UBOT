@@ -25,19 +25,19 @@ from userbot.events import register
 
 # ========================= CONSTANTS ============================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-
+#port by: @DAPA-UBOT
 DEF_UNAPPROVED_MSG = (
-    f"**╭━━━━━━━━━━━━━━━━━╮**\n    **SELAMAT DATANG**\n"
-    "**╰━━━━━━━━━━━━━━━━━╯**\n"
-    "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-    f"**ANAK KONTOL ANAK NGENTOT,KALO NGECHAT MAJIKAN {DEFAULTUSER} ITU SALAM,\nHABIS ITU SABAR TUNGGU MAJIKAN GUA BALES,\nKALO GA DI BALES - BALES, LU JANGAN NYEPAM KONTOL, APA LAGI LU NGECHAT NYA CUMA MINTA VCS, BISA GUA BLOKIR!! KALO NYEPAM JUGA TAR GUA BLOKIR!!!! TUNGGU SI {DEFAULTUSER} NERIMA PESAN LU**\n"
-    "▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰▰\n"
-    "╭✠╼━━━━━━❖━━━━━━━✠╮\n"
-    "┣[• MASUK AJA KE @GroupTidakDiketahui\n"
-    "┣[• SUBS DULU YU @dapsxzz\n"
-    "┣[• PESAN OTOMATIS\n"
-    "┣[• BY DAPA-UBOT\n"
-    "╰✠╼━━━━━━❖━━━━━━━✠╯")
+    "◄┈─╼━━━━━━━━━━━━━━━━━━╾─┈╮\n"
+    "ㅤ  “𝐖𝐞𝐥𝐜𝐨𝐦𝐞 𝐭𝐨 𝐓𝐡𝐞 𝐏𝐫𝐢𝐯𝐚𝐜𝐲 𝐌𝐞𝐬𝐬𝐚𝐠𝐞.”\n"
+    "╭┈─╼━━━━━━━━━━━━━━━━━━╾─┈╯\n"
+    "│❗𝘿𝙄𝙇𝘼𝙍𝘼𝙉𝙂 𝙈𝙀𝙇𝘼𝙆𝙐𝙆𝘼𝙉 𝙎𝙋𝘼𝙈❗\n│\n"
+    f"│Karena Saya Akan Otomatis Memblokir\n│Anda, Tunggu Sampai {DEFAULTUSER}\n│Menerima Pesan Anda, Terimakasih.\n"
+    "╰┈─────────────────────┈─➤\n"
+    "▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n"
+    "┣[○› `PESAN OTOMATIS`\n"
+    "┣[○›  Subs Dulu @dapsxxz\n"
+    f"┣[○› `BY` © DAPA-UBOT\n"
+    "▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱")
 # =================================================================
 
 
@@ -235,7 +235,7 @@ async def approvepm(apprvpm):
     try:
         approve(uid)
     except IntegrityError:
-        return await apprvpm.edit("`Pesan Di terima ya ngentot!`")
+        return await apprvpm.edit("`Pesan Di terima ya ngontol!`")
 
     await apprvpm.edit(f"`Baik` [{name0}](tg://user?id={uid}) `, Pesan mu sudah diterima.`")
     await apprvpm.delete(getmsg)
@@ -403,7 +403,7 @@ async def permitpm(event):
             pm_permit_sql.approve(
                 chats.id, "`Boss Saya Mengirim Pesan Untuk anda😱`")
             await borg.send_message(
-                chats, "**Menerima Pesan!, Pengguna Terdeteksi Adalah Bos Rama**"
+                chats, "**Menerima Pesan!, Pengguna Terdeteksi Adalah Bos Dapa**"
             )
 
 CMD_HELP.update(
