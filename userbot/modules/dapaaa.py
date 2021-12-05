@@ -24,7 +24,7 @@ async def typewriter(typew):
     sleep(1)
     await typew.edit("**SHA**")
     sleep(2)
-    await typew.edit("**ABISHA PALING SADBOY^^**")
+    await typew.edit("**ABISHA PALING GANTENG**")
 
 
 @register(outgoing=True, pattern='^.404(?: |$)(.*)')
